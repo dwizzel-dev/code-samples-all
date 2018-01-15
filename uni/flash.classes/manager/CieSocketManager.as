@@ -1,0 +1,676 @@
+/*
+
+The socket manager 
+
+:: rajout de USER_INFOS
+
+*/
+import comm.CieSocket;
+import messages.CieTextMessages;
+
+dynamic class manager.CieSocketManager{
+
+	static private var __className = 'CieSocketManager';
+	static private var __instance:CieSocketManager;
+	
+	private var __socket:CieSocket;
+	//interval
+	private var __treatStackListing:Number;
+	private var __treatStackMessages:Number;
+	private var __treatStackUpdate:Number;
+	//status
+	private var __stackMessageWasTreated:Boolean;
+	//stack
+	private var __stackListing:Array;
+	private var __stackUpdate:Array;
+	private var __stackMessages:Array;
+	private var __stackOnline:Array;
+	//register
+	private var __registeredObject:Array;
+	//timer
+	private var __maxMsgBeforeCallAlert:Number;
+	//flasgs
+	private var __bStackListingTreated:Boolean;
+	
+	private var __cmptPLIST:Number;
+	
+	//array de ceux qui ont passe dans les derniers cinquante pour eviter de remontrer l'alerte sur un refresh xcontinue de browser
+	private var __arrLastAlertSalon:Array;
+	private var __maxArrAlertSalon:Number;
+	
+	//for record
+	private var __cbFuncRec:Function;
+	private var __cbObjectRec:Object;
+	
+	//for user infos
+	private var __cbFuncUserInfos:Function;
+	private var __cbObjectUserInfos:Object;
+	
+		
+	private function CieSocketManager(Void){
+		this.__cmptPLIST = 0;
+		this.__maxArrAlertSalon = 20;
+		this.__arrLastAlertSalon = new Array();
+		this.__registeredObject = new Array();	
+		this.__stackMessageWasTreated = false;
+		this.__stackOnline = new Array();
+		this.__stackListing = new Array();
+		this.__stackUpdate = new Array();
+		this.__stackMessages = new Array();
+		this.__maxMsgBeforeCallAlert = 10;
+		this.__socket = new CieSocket(this);
+		};
+		
+	static public function getInstance(Void):CieSocketManager{
+		if(__instance == undefined) {
+			__instance = new CieSocketManager();
+			}
+		return __instance;
+		};	
+	
+	/**************************************************************************************************************/
+	
+	public function isConnected(Void):Boolean{
+		return this.__socket.isConnected();
+		};
+		
+	public function isStackListingTreated(Void):Boolean{
+		return this.__bStackListingTreated;
+		};
+
+	/**************************************************************************************************************/		
+	
+	public function reset(Void):Void{
+		//clear cronjob
+		clearInterval(this.__treatStackListing);
+		clearInterval(this.__treatStackMessages);
+		clearInterval(this.__treatStackUpdate);
+		this.__arrLastAlertSalon = new Array();
+		//this.__cmptIntervalNewMessage = 0;	
+		this.__stackMessageWasTreated = false;
+		this.__stackOnline = new Array();
+		this.__stackListing = new Array();
+		this.__stackUpdate = new Array();
+		this.__stackMessages = new Array();
+		this.__registeredObject = new Array();	
+		this.__bStackListingTreated = false;
+		this.__cmptPLIST = 0;
+		};
+	
+	public function closeConnection(Void):Void{
+		//close the conn
+		this.socketSend("VOUT:" + BC.__user.__nopub);
+		this.__socket.closeSocket();
+		this.reset();
+		};	
+	
+	public function setConnection(Void):Void{
+		this.__bStackListingTreated = false;
+		this.__socket.setConnection(BC.__server.__ip, BC.__server.__port, BC.__user.__sessionID);
+		};
+		
+	public function registerObjectForOnlineNotification(obj:Object):Void{
+		this.__registeredObject.push(obj);
+		};	
+		
+	public function notifyRegisterObject(nopub:String, state:String):Void{
+		for(o in this.__registeredObject){
+			if(!this.__registeredObject[o].updateObject(nopub, state)){
+				//if it dont returned true then the method attach to the object doesnt exist anymore
+				delete this.__registeredObject[o];
+				}
+			}	
+		};	
+		
+	/**************************************************************************************************************/
+
+	public function socketSend(str:String):Void{
+		this.__socket.sendToServer(str);
+		};
+	
+	public function socketClose(Void):Void{
+		//tell to relogin with autoreconnect
+		cFunc.openLogout(true);
+		};
+	
+	public function getOnlineStatus(nopub:String):String{
+		if(this.__stackOnline[nopub] == undefined){
+			return '3';
+			}
+		return this.__stackOnline[nopub];
+		};
+		
+	public function setOnlineStatus(noPub:String, strStatus:String):Void{
+		if(strStatus == '3'){
+			delete this.__stackOnline[noPub];
+		}else{
+			this.__stackOnline[noPub] = strStatus;
+			}
+		};	
+	
+	public function socketCommand(strCommand:String, strData:String):Void{
+		
+		if(BC.__user.__debugsocket){
+			Debug('CMD_' + strCommand + ': ' + strData);
+			}
+		
+		if(strCommand == 'PLIST'){
+			//liste de personne dans la liste des connecte
+			this.__cmptPLIST++;
+			this.__stackListing.push(strData.split(','));
+		
+		}else if(strCommand == 'PLIST_END'){
+			//fin de la loste des connecte
+			this.treatStackListing();
+			//new CieTextMessages('MB_OK', 'salon loaded with ' + this.__stackListing.length + ' members', 'debug');
+			//Debug('PLIST_END');
+			
+		}else if(strCommand == 'PMISSINGLIST_END'){
+			//fin de la loste des connecte
+			this.treatStackListing();
+			//new CieTextMessages('MB_OK', 'salon loaded with ' + this.__stackListing.length + ' members', 'debug');
+			//Debug('PLIST_END');	
+		
+		}else if(strCommand == 'P'){
+			//une personne se connecte
+			this.__stackMessages.push(strData.split(','));
+				
+		}else if(strCommand == 'PO'){
+			//quelqu'un se deconnecte
+			//PO et PSTATUS=3 sont la meme chose
+			//la difference est que PO est une personne vraiment deconnecte
+			//tandis qu'un PSTATUS peut-etre simplement un changement de staut par l'usager et non une fermeture complete
+			//nous allons recevoir les deux si quelqu'un deconnecte vraiment sa socket alors nous ferons ici qu'une fermeture de chat
+			cFunc.closeChatWindow(strData);
+			//key will be the pseudo
+			this.__stackUpdate[strData] = '4';
+		
+		}else if(strCommand == 'PSTATUS'){
+			//quelqueun modifie son status
+			var arrData = strData.split(',');
+			if(arrData[1] == '3'){
+				delete this.__stackOnline[arrData[0]];
+				this.notifyRegisterObject(arrData[0], arrData[1]);	
+			}else{
+				this.__stackOnline[arrData[0]] = arrData[1];
+				this.notifyRegisterObject(arrData[0], arrData[1]);
+				}
+			//key will be no_publique
+			this.__stackUpdate[arrData[0]] = arrData[1];
+		
+		}else if(strCommand == 'REQUESTSENT'){
+			/*
+			if(BC.__user.__debugsocket){
+				Debug('CMD_' + strCommand + ': ' + strData);
+				}
+			*/	
+			//la demande de chat a bien ete envoye a args
+			cFunc.chatRequestSentOk(strData);
+		
+		}else if(strCommand == 'AUTHQ'){
+			/*
+			if(BC.__user.__debugsocket){
+				Debug('CMD_' + strCommand + ': ' + strData);
+				}
+			*/	
+			//demande de chat de la part de quelqu'un d'autre
+			var arrData = strData.split(',');
+			//0 = pseudo, 1 = no_publique
+			cFunc.askingForVideoChat(arrData[0], arrData[1]);
+		
+		}else if(strCommand == 'AUTHRN'){
+			/*
+			if(BC.__user.__debugsocket){
+				Debug('CMD_' + strCommand + ': ' + strData);
+				}
+			*/	
+			//la demande de chat a ete refuse
+			cFunc.refuseVideoChat(strData);
+			
+		}else if(strCommand == 'AUTHRA'){
+			/*
+			if(BC.__user.__debugsocket){
+				Debug('CMD_' + strCommand + ': ' + strData);
+				}
+			*/	
+			//la demande de chat a ete refuse
+			cFunc.timeoutVideoChat(strData);	
+		
+		}else if(strCommand == 'AVAIL'){
+			/*
+			if(BC.__user.__debugsocket){
+				Debug('CMD_' + strCommand + ': ' + strData);
+				}
+			*/	
+			//la demande de chat a ete refuse
+			cFunc.refuseVideoChat(strData);	
+		
+		}else if(strCommand == 'INSC'){
+			/*
+			if(BC.__user.__debugsocket){
+				Debug('CMD_' + strCommand + ': ' + strData);
+				}
+			*/	
+			//la demande de chat a ete refuse, car il faut etre abonne
+			cFunc.chatAbonnement();		
+		
+		}else if(strCommand == 'CAM_ROOMNUMBER'){
+			/*
+			if(BC.__user.__debugsocket){
+				Debug('CMD_' + strCommand + ': ' + strData);
+				}
+			*/	
+			// ONLY FOR V.2, FOR V.1its 'AUTHRY'
+			//on a recu une room pour aller chatter
+			//EX: CAM_ROOMNUMBER:sanglote,1173913121007_sanglote_sanglote,1173913121007	
+			var arrData = strData.split(',');
+			cFunc.openVideoChatRoom(arrData[0], arrData[1], arrData[2]);
+		
+		}else if(strCommand == 'IM'){
+			/*
+			if(BC.__user.__debugsocket){
+				Debug('CMD_' + strCommand + ': ' + strData);
+				}
+			*/	
+			//info sur l'usager connecte
+			var arrData = strData.split(',');
+			BC.__user.__membership = arrData[0];
+			BC.__user.__nopub = arrData[1];
+			BC.__user.__encpsw = arrData[2];
+			BC.__server.__site = 'http://' + arrData[3] + '/';
+			BC.__user.__sexe = arrData[4];
+			//banner manager dependoi gon membership
+			//if(BC.__user.__membership == '2'){
+				//cBannerManager.startBannerManager();
+				//}
+			
+		}else if(strCommand == 'CHAT'){ 
+			//redirection des chats
+			var arrData:Array = strData.split('=');
+			var strUser:String = arrData[0];
+			var strMsg:String = '';		
+			for(var i=1; i<arrData.length;i++){
+				strMsg += arrData[i];
+				}
+			cFunc.updateChatWindowMsg(strUser, strMsg);	
+		
+		}else if(strCommand == 'CLOSED'){ 
+			//fermeture du chat
+			cFunc.closeChatWindow(strData);
+		
+		}else if(strCommand == 'MSG'){ //c'est une commande admin 
+			/*
+			if(BC.__user.__debugsocket){
+				Debug('CMD_' + strCommand + ': ' + strData);
+				}
+			*/	
+			if(strData == 'LOGOUT' || strData == 'DECRISSECALISSE'){ //force logout
+				cFunc.openLogout(false);
+			}else if(strData == 'RELOGIN' || strData == 'DWIZZELFORCELOGIN'){ //force relogin
+				cFunc.openLogout(true);
+			}else if(strData == 'REBOOT' || strData == 'DWIZZELFORCEREBOOT'){ //force restart
+				cFunc.restartApplication();	
+			}else if(strData == 'UPDATES' || strData == 'DWIZZELFORCEUPDATES'){ //force updates
+				BC.__user.__autoupdate = true; //change the flag temporary so no question will be asked
+				cFunc.checkForUpdates();		
+			}else{ //c'est un message de popup admin
+				new CieTextMessages('MB_OK', unescape(strData), 'admin message');
+				}
+
+		}else if(strCommand == 'NM'){ 
+			/*
+			if(BC.__user.__debugsocket){
+				Debug('CMD_' + strCommand + ': ' + strData);
+				}
+			*/	
+			//on vient de recevoir un message
+			//faire l'update dans la bd et communiquer avec la fenetre d'alert comme quoi on a recu de quoi
+			
+			//IMPORTANT: devrait utilise le thread car proble de replication
+			//cFunc.receiveNewMessage(strData);
+			cThreadManager.newThread(20000, this, 'tNewMessageDelay', {__args: strData});	
+			//Debug("\nNM_COMMAND: " + strData + "\n");
+			
+		}else if(strCommand == 'NC'){ 
+			/*
+			if(BC.__user.__debugsocket){
+				Debug('CMD_' + strCommand + ': ' + strData);
+				}
+			*/	
+			//on vient de consulte notre profil
+			//faire l'update dans la bd et communiquer avec la fenetre d'alert comme quoi on a recu de quoi
+			cFunc.receiveNewConsulte(strData);
+		
+		}else if(strCommand == 'UPDATE_DB'){
+			/*
+			if(BC.__user.__debugsocket){
+				Debug('CMD_' + strCommand + ': ' + strData);
+				}
+			*/	
+			//needed for sync between action on the web when application is opened
+			//split the params | pipe seperated
+			//0 = type of msg
+			//1 = method
+			//2 = args
+			var arrParam:Array = strData.split('|');
+			//call the func for sync with thread because have to wait for replication
+			cThreadManager.newThread(20000, cFunc, 'dbSync', {__type:arrParam[0], __method:arrParam[1], __args:arrParam[2].split(',')});
+			//cFunc.dbSync(arrParam[0], arrParam[1], arrParam[2].split(','));
+		
+		}else if(strCommand == 'RECORD_ROOMNUMBER'){
+			//call from a previous RECORDAUTH
+			if(this.__cbFuncRec != undefined){
+				this.__cbFuncRec(this.__cbObjectRec, strData);
+				delete this.__cbFuncRec;
+				delete this.__cbObjectRec;
+				}
+		
+		}else if(strCommand == 'USER_INFOS'){ //when somebdy is not in the salon and we need the info on NM CHAT and NC
+			//call from a previous USERINFOSAUTH
+			if(this.__cbFuncUserInfos != undefined){
+				this.__cbFuncUserInfos(this.__cbObjectUserInfos, strData);
+				delete this.__cbFuncUserInfos;
+				delete this.__cbObjectUserInfos;
+				}
+			}
+		};
+		
+	/**************************************************************************************************************/
+	//delay the request for new messages
+	public function tNewMessageDelay(obj:Object):Boolean{
+		//Debug("\ntNewMessageDelay: " + obj.__args + "\n");
+		cFunc.receiveNewMessage(obj.__args);
+		return false;
+		};
+		
+	
+	/**************************************************************************************************************/
+	
+	//function treat the messages that are staked when receiving the PLIST command-- also on criteres changes since salon will be filtered by the server
+	public function treatStackListing(Void):Void{
+		clearInterval(this.__treatStackListing);
+		if(this.__stackListing.length){
+			var arrData = this.__stackListing.shift();
+			if(gDbKey[arrData[0]] != undefined){
+				this.__stackUpdate[arrData[0]] =  arrData[15];
+			}else{
+				var strQuery = "INSERT INTO members (no_publique, pseudo, age, album, photo, vocal, membership, orientation, sexe, relation, code_pays, region_id, ville_id, etat_civil, titre, active, msg_salon) VALUES(" + arrData[0] + ",'" + arrData[1] + "','" + arrData[2] + "','" + arrData[3] + "','" + arrData[4] + "','" + arrData[5] + "','" + arrData[6] + "','" + arrData[7] + "','" + arrData[8] + "','" + arrData[9] + "','" + arrData[10] + "','" + arrData[11] + "','" + arrData[12] + "','" + arrData[13] + "','" + arrData[14] + "','" + arrData[15] + "','1');";
+				cDbManager.queryDB(strQuery);
+				//DBKEY
+				gDbKey[arrData[0]] = true;
+				}
+			
+			if(arrData[15] == '3'){
+				delete this.__stackOnline[arrData[0]];
+			}else{
+				this.__stackOnline[arrData[0]] = arrData[15];
+				}
+			//bar
+			//replace the loader by the tollLoaderIcon when it's the firt run not an update of the salon
+			if(!this.__bStackListingTreated){
+				cToolManager.getTool('messages', 'salon').setLoaderProgress(((this.__cmptPLIST - this.__stackListing.length) / this.__cmptPLIST));	
+			}else{
+				//when it'a an update we change the loader progreess from the textMessageBox
+				if(secSalon != undefined){
+					secSalon.setLoadingProgressBox((this.__cmptPLIST - this.__stackListing.length), this.__cmptPLIST);	
+					}
+				}
+			//continue
+			this.__treatStackListing = setInterval(this, 'treatStackListing', 1);
+		}else{
+			//put the old icon back
+			cToolManager.getTool('messages', 'salon').setLoaderIcon(false);
+			//cron
+			if(!this.__bStackListingTreated){ //since it can be on load or when criteres of salon changes //NEW 14-10-2008
+				//
+				this.__cmptPLIST = 0;
+				this.__bStackListingTreated = true;
+				this.__treatStackMessages = setInterval(this, 'treatStackMessages', 5);
+				this.__treatStackUpdate = setInterval(this, 'treatStackUpdate', 5000);
+			}else{
+				//on remove le message et on load le salon //NEW 14-10-2008 car ca vient d'un changement de critere
+				if(secSalon != undefined){
+					secSalon.changeCritere();
+					}
+				}
+			}
+		};	
+		
+	//function treat the messages that are staked when there is a place for docking them-----------------------------------------------------------------------------------------------------------
+	public function treatStackMessages(Void):Void{
+		clearInterval(this.__treatStackMessages);
+		if(this.__stackMessages.length){
+			var arrData = this.__stackMessages.shift();
+			if(gDbKey[arrData[0]] != undefined){
+				this.__stackUpdate[arrData[0]] =  arrData[15];
+			}else{
+				/*
+					0 p.getNoPublique() + "," +
+					1 p.getPseudo() + "," +
+					2 p.getAge() + "," +
+					3 p.getAlbum() + "," +
+					4 p.getPhoto() + "," +	
+					5 p.getVocal() + "," +
+					6 p.getMemberShip() + "," +
+					7 p.getOrientation() + "," +
+					8 p.getSexe() + "," +		
+					9 p.getRelation() + "," +
+					10 p.getCodePays() + "," +
+					11 p.getIdRegion() + "," +
+					12 p.getIdVille() + "," +
+					13 p.getEtatCivil() + "," +
+					14 p.getTitre() + "," +
+					15 p.getStatus();
+				*/
+				
+				//insert into DB
+				var strQuery = "INSERT INTO members (no_publique, pseudo, age, album, photo, vocal, membership, orientation, sexe, relation, code_pays, region_id, ville_id, etat_civil, titre, active, msg_salon) VALUES(" + arrData[0] + ",'" + arrData[1] + "','" + arrData[2] + "','" + arrData[3] + "','" + arrData[4] + "','" + arrData[5] + "','" + arrData[6] + "','" + arrData[7] + "','" + arrData[8] + "','" + arrData[9] + "','" + arrData[10] + "','" + arrData[11] + "','" + arrData[12] + "','" + arrData[13] + "','" + arrData[14] + "','" + arrData[15] + "','1');";
+				cDbManager.queryDB(strQuery);
+				//DBKEY
+				gDbKey[arrData[0]] = true;
+				}
+			//online flag		
+			if(arrData[15] == '3'){
+				//if offline
+				delete this.__stackOnline[arrData[0]];
+			}else{
+				this.__stackOnline[arrData[0]] = arrData[15];
+				
+				//START evite derepeter les alerte	
+				var bShowAlert:Boolean = false;
+				if(BC.__user.__showAlert && BC.__user.__loaded){
+					bShowAlert = true;
+					for(var k in this.__arrLastAlertSalon){
+						if(this.__arrLastAlertSalon[k] == arrData[0]){
+							bShowAlert = false;
+							break;
+							}
+						}
+					this.__arrLastAlertSalon.push(arrData[0]);
+					if(this.__arrLastAlertSalon.length > this.__maxArrAlertSalon){
+						this.__arrLastAlertSalon.shift();
+						}
+					}
+				//END evite derepeter les alerte
+				
+				
+				//alert window	
+				if(bShowAlert){
+					if(gDbCarnet[arrData[0]] != undefined){
+						cFunc.updateAlertWindow(arrData[0], 'newconn');
+					}else if(BC.__alert.__newcrit){
+						
+						var bFoundMatch:Boolean = false;
+						
+						//need to have parameter to do theperfect match thing 
+						//both critere perfectly corresponding to each other
+						
+						//match salon criteria
+						
+						//SEXE		
+						bFoundMatch = false;
+						var arrSexe:Array = BC.__user.__critere['sexe'].split(','); //separation
+						if(arrSexe[Number(arrData[8])-1] == '1'){
+							bFoundMatch = true;
+							}
+												
+						//AGE	
+						if(bFoundMatch){
+							bFoundMatch = false;	
+							var arrAge:Array = BC.__user.__critere['age'].split(','); //separation	
+							if(Number(arrData[2]) > Number(arrAge[0]) && Number(arrData[2]) < Number(arrAge[1]) ){
+								bFoundMatch = true;
+								}
+							}	
+						
+						//ORIENTATION
+						if(bFoundMatch){
+							bFoundMatch = false;	
+							var arrOrientation:Array = BC.__user.__critere['orientation'].split(','); //separation	
+							for(var i = 0; i <= arrOrientation.length; i++){
+								if(arrOrientation[i] == '1'){
+									if((i + 1) == Number(arrData[7])){
+										bFoundMatch = true;
+										break;
+										}
+									}
+								}
+							}	
+													
+						//RELATION	
+						if(bFoundMatch){
+							bFoundMatch = false;
+							var arrRelation:Array = BC.__user.__critere['relation'].split(','); //separation	
+							for(var i = 0; i <= arrRelation.length; i++){
+								if(arrRelation[i] == arrData[9].substr(i,1)){
+									bFoundMatch = true;
+									break;
+									}
+								}
+							}	
+						
+						//COUNTRY
+						if(bFoundMatch){	
+							bFoundMatch = false;
+							if(BC.__user.__critere['code_pays'] == '00'){
+								cFunc.updateAlertWindowSalon(arrData);
+								bFoundMatch = false;
+							}else{
+								var arrCountry:Array = BC.__user.__critere['code_pays'].split(','); //separation
+								for(var i in arrCountry){
+									if(arrCountry[i] == arrData[10]){
+										bFoundMatch = true;
+										if(BC.__user.__critere['region_id'] == '0'){
+											cFunc.updateAlertWindowSalon(arrData);
+											bFoundMatch = false;
+											}
+										break;
+										}
+									}
+								}		
+							}	
+
+						//REGION			
+						if(bFoundMatch){
+							bFoundMatch = false;
+							var arrRegion:Array = BC.__user.__critere['region_id'].split(','); //separation
+							for(var i in arrRegion){
+								if(arrRegion[i] == arrData[11]){
+									bFoundMatch = true;
+									if(BC.__user.__critere['ville_id'] == '0'){
+										cFunc.updateAlertWindowSalon(arrData);
+										bFoundMatch = false;
+										}
+									break;
+									}
+								}
+							}		
+
+						//VILLE	
+						if(bFoundMatch){	
+							var arrVille:Array = BC.__user.__critere['ville_id'].split(','); //separation
+							for(var i in arrVille){
+								if(arrVille[i] == arrData[12]){
+									cFunc.updateAlertWindowSalon(arrData);
+									break;
+									}
+								}
+							}	
+
+						
+						}
+					}
+				}
+			//notify	
+			this.notifyRegisterObject(arrData[0], arrData[15]);	
+			//thread	
+			this.__treatStackMessages = setInterval(this, 'treatStackMessages', 1);	
+		}else{
+			if(!this.__stackMessageWasTreated){
+				cFunc.changeStatus(BC.__user.__status);
+				this.__stackMessageWasTreated = true;
+				}
+			this.__treatStackMessages = setInterval(this, 'treatStackMessages', 2500);
+			}
+		};	
+		
+	//function treat the messages that are staked when receiving the P and PO command-----------------------------------------------------------------------------------------------------------
+	public function treatStackUpdate(Void):Void{
+		clearInterval(this.__treatStackUpdate);
+		var arrType = new Array(false, false, false, false, false);
+		var arrSQL = new Array();
+		arrSQL[0] = "UPDATE members SET active = '0', msg_salon = '1' WHERE";
+		arrSQL[1] = "UPDATE members SET active = '1', msg_salon = '1' WHERE";
+		arrSQL[2] = "UPDATE members SET active = '2', msg_salon = '1' WHERE";
+		arrSQL[3] = "UPDATE members SET active = '3', msg_salon = '0' WHERE";
+		arrSQL[4] = "UPDATE members SET active = '4', msg_salon = '0' WHERE";
+			
+		for(var val in this.__stackUpdate){
+			if(this.__stackUpdate[val] != '4'){ //by nopublique
+				arrSQL[this.__stackUpdate[val]] += " no_publique = " + val + " OR";
+			}else{ //by pseudo because it came from a PO:
+				arrSQL[this.__stackUpdate[val]] += " pseudo = '" + val + "' OR";
+				}
+			arrType[this.__stackUpdate[val]] = true;
+			delete this.__stackUpdate[val];
+			}
+			
+		for(var i=0; i<5; i++){
+			if(arrType[i]){
+				arrSQL[i] = arrSQL[i].substring(0, (arrSQL[i].length - 2)) + ";";
+				cDbManager.queryDB(arrSQL[i]);
+				}
+			}
+		this.__treatStackUpdate = setInterval(this, 'treatStackUpdate', 5000);
+		};	
+		
+	/**************************************************************************************************************/	
+		
+	public function registerForRecordRoomCallBack(cbFunc:Function, cbObject:Object):Void{
+		this.__cbFuncRec = cbFunc;
+		this.__cbObjectRec = cbObject;
+		this.socketSend("RECORDAUTH:demande");
+		};	
+		
+	/**************************************************************************************************************/	
+	//when ewe dont have the infos from salon because of the filters	
+	public function registerForUserInfosCallBack(cbFunc:Function, cbObject:Object, strNoPub:String):Void{
+		Debug("registerForUserInfosCallBack(" + strNoPub + ")");
+		this.__cbFuncUserInfos = cbFunc;
+		this.__cbObjectUserInfos = cbObject;
+		this.socketSend("USERINFOSAUTH:" + strNoPub);
+		};	
+		
+		
+	/**************************************************************************************************************/	
+		
+	public function getClassName(Void):String{
+		return __className;
+		};
+	
+	public function getClass(Void):CieSocketManager{
+		return this;
+		};	
+	
+
+	}	

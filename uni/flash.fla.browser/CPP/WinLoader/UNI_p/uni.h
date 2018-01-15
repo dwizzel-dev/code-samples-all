@@ -1,0 +1,3 @@
+//#define IDI_UNIICON	205
+#define TXTMSG 105
+#define ARRLENGHT 10

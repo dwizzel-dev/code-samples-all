@@ -1,0 +1,1 @@
+bcc32 -W -e"SS.exe" ss.cpp

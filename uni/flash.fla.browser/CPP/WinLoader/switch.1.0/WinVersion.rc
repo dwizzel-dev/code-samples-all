@@ -1,0 +1,32 @@
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 3,0,0,0
+PRODUCTVERSION 3,0,0,0
+FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+  FILEFLAGS 0x1L
+#else
+  FILEFLAGS 0x0L
+#endif
+FILEOS 0x4L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "080904e4"
+		BEGIN
+			VALUE "CompanyName", "Copyright 2010 VoxTel"
+			VALUE "LegalCopyright", "Copyright 2010 VoxTel, RNIS Télécommunications Inc."
+			VALUE "FileDescription", "Uni Switch V.3"
+			VALUE "FileVersion", "3.0.0.0"
+			VALUE "InternalName", "Uni Switch V.3 (DwiZZel)"
+			VALUE "OriginalFilename", "switchversion.exe"
+			VALUE "ProductName", "Uni Switch V.3"
+			VALUE "ProductVersion", "3.0.0.0"
+		END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x809, 1252
+	END
+END
