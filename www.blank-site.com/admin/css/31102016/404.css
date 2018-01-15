@@ -1,0 +1,41 @@
+﻿@charset "UTF-8";
+
+
+body {
+	color: #ccc;
+	background:#000;
+	}
+
+#menu ul > li > a{
+	background-color:#222;
+	color:#ccc;
+	}
+#menu ul > li > a:hover{
+	background-color:#fff;
+	color:#000;
+	}	
+.thick-border-t {
+	border-top: 1px dotted #333;
+	}
+.thick-border-b {
+	border-bottom: 40px dotted #111;
+	}	
+.thick-border-l {
+	border-left: 3px dotted #333;
+	}	
+.thick-border-t2 {
+	border-top: 1px dotted #444;
+	}
+.thick-border-r {
+	border-right: 6px dotted #666;
+	}
+#content > div > h2 {
+	color:#666;
+	}	
+.top-color{
+	background-color:#333;
+	}	
+.bottom-color{
+	background-color:#333;
+	}		
+	

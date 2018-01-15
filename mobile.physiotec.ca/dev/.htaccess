@@ -1,0 +1,20 @@
+BrowserMatch "^(?=.*Safari)(?=.*Macintosh)(?!.*Chrome).*" nokeepalive
+BrowserMatch "^(?=.*iPad)(?=.*Mobile).*" nokeepalive
+BrowserMatch "^(?=.*iPhone)(?=.*Mobile).*" nokeepalive
+
+#AuthUserFile "/var/www/mobile....@physiotec.ca/dev/.htpasswd"
+#AuthType Basic
+#AuthName "Physiotec Mobile"
+#Require valid-user
+
+
+
+#IPAD INTEL XDK	: "Mozilla/5.0 (iPad; CPU OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13C75 (5760958736)"
+#IPAD SAFARI	: "Mozilla/5.0 (iPad; CPU OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1"
+#IPHONE SAFARI	: "Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1"
+#MAC SAFARI		: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9"
+#S4 CHROME		: "Mozilla/5.0 (Linux; Android 5.0.1; SGH-I337M Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36"
+#S4 INTEL XDK	: "Mozilla/5.0 (Linux; Android 5.0.1; SGH-I337M Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Crosswalk/15.44.384.13 Mobile Safari/537.36"
+#PC FIREFOX		: "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0"
+#PC CHROME		: "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36" 
+#PC IE10+		: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586"

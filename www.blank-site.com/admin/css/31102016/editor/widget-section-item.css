@@ -1,0 +1,132 @@
+﻿@charset "UTF-8";
+
+/*----------- OVERWRITE FOR EDITOR ----------*/
+
+.directphp {
+    font-size: 14px !important;
+    border: 1px dotted #000 !important;
+    padding: 10px !important;
+    margin: 10px 0 !important;
+    color: #000 !important;
+	}
+
+/*DIV.section-block H1 {*/
+H2{
+	font-size: 300%;
+	line-height: 100%;
+	color: #aaa;
+	margin-bottom: 0;
+	font-weight: 900;
+	}
+H2.mb1{
+	margin-bottom: 30px;
+	}		
+H2.mb2{
+	margin-bottom: 40px;
+	}	
+/*DIV.section-block DIV.cbutton {*/
+DIV.cbutton {
+    font-size: 85%;
+	line-height: 100%;
+	color: #fff;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	float: left;
+	padding: 8px 8px;
+	margin-top: 30px;
+	min-width: 160px;
+	text-align: center;
+	font-weight: 600;
+	}
+/*DIV.section-block DIV.cbutton A {*/
+DIV.cbutton A {
+    color: #fff;
+	}
+/*DIV.section-block DIV.cbutton A:hover {*/
+DIV.cbutton A:hover {
+    text-decoration: none;
+    color: #888 !important;
+	}
+/*DIV.section-block DIV.cbutton.second {*/
+DIV.cbutton.second {
+    margin-left: 20px;
+	}
+
+/*DIV.section-block P {*/
+P {
+	font-size: 140%;
+	line-height: 300%;
+	margin-bottom: 0;
+	}
+/*DIV.section-block P.smaller {*/
+P.smaller1{
+	font-size: 100%;
+	line-height: 180%;
+	margin-bottom: 0;
+	margin-top: 0;
+	}	
+P.smaller2{
+	font-size: 70%;
+    line-height: 110%;
+	margin-bottom: 0;
+	margin-top: 0;
+	}
+/*DIV.section-block P.small {*/
+P.small {
+    font-size: 140%;
+    line-height: 300%;
+    margin-bottom: 0;
+}
+P.pwidth1{	
+	width:50%;	
+	}
+P.pwidth2{	
+	width:75%;	
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	

@@ -1,0 +1,107 @@
+#
+#
+# C (chained with next rule)
+# CO=cookie (set specified cookie)
+# E=var:value (set environment variable var to value)
+# F (forbidden - sends a 403 header to the user)
+# G (gone - no longer exists)
+# H=handler (set handler)
+# L (last - stop processing rules)
+# Last rule: instructs the server to stop rewriting after the preceding directive is processed.
+# N (next - continue processing rules)
+# NC (case insensitive)
+# NE (do not escape special URL characters in output)
+# NS (ignore this rule if the request is a subrequest)
+# P (proxy - i.e., apache should grab the remote content specified in the substitution section and return it)
+# PT (pass through - use when processing URLs with additional handlers, e.g., mod_alias)
+# R (temporary redirect to new URL)
+# R=301 (permanent redirect to new URL)
+# QSA (append query string from request to substituted URL)
+# S=x (skip next x rules)
+# T=mime-type (force specified mime type)
+# OR = ou
+#
+#
+#
+
+##################################################
+
+ErrorDocument 404 /index.php?&path=404
+DirectoryIndex index.php
+
+##################################################
+
+Options +FollowSymlinks
+RewriteEngine On
+
+##################################################
+
+#URL HTTPS
+#RewriteCond %{HTTP_HOST} !^www.blank-site.com$ [NC]
+#RewriteRule ^(.*)$ http://www.blank-site.com/$1 [L,R=301]
+
+##################################################
+
+# URL REWRITING ADMIN PAGES
+RewriteRule ^admin/$ admin/index.php?lang=fr_CA&path=$1&%{QUERY_STRING} [NC,L]
+RewriteRule ^fr/admin/(.*)$ admin/index.php?lang=fr_CA&path=$1&%{QUERY_STRING} [NC,L]
+RewriteRule ^en/admin/(.*)$ admin/index.php?lang=en_US&path=$1&%{QUERY_STRING} [NC,L]
+
+##################################################
+
+# URL EXERCISE SEARCH http://www.blank-site.com/?q=allo
+RewriteCond %{REQUEST_URI} ^(/|/en/)$ [NC]
+RewriteCond %{QUERY_STRING} ^[&]{0,1}q=(.*)$
+RewriteRule ^(.*)$ /en/exercises/search/%1/? [NC,R,L] # avec le en/exercises/search/xxxx/ en redirect
+
+#	RewriteRule ^(.*)$ /en/exercises/search/ [NC,QSA,L] # sans le R pour continuer sans redirection
+#	RewriteRule ^(.*)$ /en/exercises/search/ [NC,QSA,R,L] # avec le ?q=xxxx
+
+
+RewriteCond %{REQUEST_URI} ^(/fr/|/es/)$ [NC]
+RewriteCond %{QUERY_STRING} ^[&]{0,1}q=.*$ [NC]
+RewriteRule ^(.*)$ /fr/exercices/recherche/%1/? [NC,R,L] # avec le en/exercises/search/xxxx/ en redirect
+
+##################################################
+
+# URL REWRITING LANGUAGES
+RewriteRule ^fr/(.*)$ $1?lang=fr_CA [QSA,L]
+RewriteRule ^en/(.*)$ $1?lang=en_US [QSA,L]
+RewriteRule ^es/(.*)$ $1?lang=es_MX [QSA,L]
+
+##################################################
+
+# URL SITE OFFLINE
+RewriteRule ^offline/$ offline.php [NC,L]
+
+##################################################
+
+# URL SITE PROCESS-FORM
+RewriteRule ^process/$ process-form.php?&%{QUERY_STRING} [NC,L]
+
+##################################################
+
+# URL SITE 404
+RewriteRule ^404/$ index.php?&path=404/&%{QUERY_STRING} [NC,L]
+
+##################################################
+
+# URL REWRITING QUERY STRING AND PATH FOR STANDARD PAGES
+RewriteRule ^(.*)/$ index.php?&path=$1&%{QUERY_STRING} [NC]
+
+##################################################
+
+# URL REWRITING PATH QUI NE FINISSENT PAS AVEC UN SLASH /
+#RewriteCond %{REQUEST_URI} ^/index.php$ [NC]
+#RewriteCond %{QUERY_STRING} ^.*path=(.*)&.*$ [NC]
+#RewriteRule ^(.*)$ $1/?&path=%1/ [QSA,NC,L]
+
+#
+#
+# THE END
+#
+#
+
+
+
+

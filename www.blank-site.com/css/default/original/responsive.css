@@ -1,0 +1,75 @@
+﻿@charset "UTF-8";
+
+/*
+
+ NOTES:
+ 
+ regex for changes
+ 
+ width:
+	768px
+ colors: 
+	#EBF2F6
+	#2668A9
+	#FF9300
+	#009EFF
+	#2668A9
+	#FF00FF
+	#1076BB
+	#F1F8FC
+	#FFF
+	#000
+	#333
+
+*/
+
+
+/*----------- MEDIA ---------------*/
+
+@media(min-width:320px){
+	BODY{
+		background-color: #ff00ff;
+		}
+	}
+
+@media(min-width:420px){
+	BODY{
+		background-color: #444;
+		}
+	}
+
+@media(min-width:576px){
+	BODY{
+		background-color: #666;
+		}	
+	}
+
+@media(min-width:768px){
+	BODY{
+		background-color: #888;
+		}
+	}
+
+@media(min-width:992px){
+	BODY{
+		background-color: #efefef;
+		}	
+	}
+
+@media(min-width:1200px){
+	BODY{
+		background-color: #ccc;
+		}	
+	}
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	

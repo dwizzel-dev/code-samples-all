@@ -1,0 +1,229 @@
+﻿@charset "UTF-8";
+
+/* Version: 3.1.0 BUILD 1.0 */
+
+
+.settingpanel{
+	position:relative;
+	float:left;
+	width:100%;
+	}
+.settingpanel> div.bar:first-child{
+	margin-top:0px;
+	}
+.settingpanel> div.bar:last-child{
+	/*border-bottom:0;*/
+	}		
+
+.settingpanel .bar{
+	position:relative;
+	float:left;
+	width:100%;
+	height:36px;
+	border-bottom:1px dotted #555;
+	/*margin-top:5px;*/
+	}
+.settingpanel .bar .mask{
+	position: absolute;
+	top: 2px;
+	bottom: 2px;
+	right: 0px;
+	/* left: -10px; */
+	left: 52px;
+	/*background-color: #342F32;*/
+	/*background-color: #2D2F31;*/
+	background-color: #050B12;
+	opacity: 0.8;
+	border-radius: 4px;
+	}
+.settingpanel .bar .mask .text{
+	font-size: 78%;
+	margin-top: 11px;
+	margin-left: 10px;
+	color: #bbb;
+
+	}
+.settingpanel .bar .title{
+	position:relative;
+	float:left;
+	width:55px;
+	height:40px;
+	cursor:pointer;
+	}
+.settingpanel .bar .title .text{
+	position:relative;
+	float:left;
+	font-size:78%;
+	margin-top:13px;
+	text-transform: uppercase;
+	}	
+.settingpanel .bar .title .hitpoint{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 100%;
+	}	
+.settingpanel .bar .spinner{
+	position:relative;
+	float:left;
+	min-width:140px;
+	height:25px;
+	border:1px solid #ccc;
+	margin-top:5px;
+	border-radius: 4px;
+	}
+.settingpanel .bar .spinner .down{
+	position:relative;
+	float:left;
+	width:35px;
+	height:100%;
+	border-right:1px solid #ddd;
+	background-color:#ccc;
+	}
+.settingpanel .bar .spinner .val{
+	position:relative;
+	float:left;
+	width:80px;
+	height:100%;
+	border:0;
+	background-color:#eee;
+	}	
+.settingpanel .bar .spinner .up{
+	position:relative;
+	float:right;
+	width:35px;
+	height:100%;
+	border-left:1px solid #ddd;
+	background-color:#ccc;
+	}
+.settingpanel .bar .spinner .hitdown{
+	position: absolute;
+	top: 0;
+	left: -10px;
+	width: 75px;
+	height: 25px;
+	cursor:pointer;
+	}
+.settingpanel .bar .spinner .hitup{
+	position: absolute;
+	top: 0;
+	right: -10px;
+	width: 75px;
+	height: 25px;
+	cursor:pointer;
+	}
+.settingpanel .bar .spinner .down .text{
+	position:relative;
+	float:left;
+	font-size:171%;
+	margin-top:-5px;
+	width: 100%;
+	text-align: center;
+	color:#000;
+	}	
+.settingpanel .bar .spinner .up .text{
+	position:relative;
+	float:left;
+	font-size:128%;
+	margin-top:0px;
+	width: 100%;
+	text-align: center;
+	color:#000;
+	}	
+.settingpanel .bar .spinner .val .text{
+	position: relative;
+	float: left;
+	font-size: 100%;
+	margin-top: 4px;
+	width: 100%;
+	text-align: center;
+	color:#000;
+	}	
+.settingpanel .bar .icon{
+	position: relative;
+	float: right;
+	width:25px;
+	height:25px;
+	margin-top: 10px;
+	opacity:0.5;
+	cursor:pointer;
+	}
+.settingpanel .bar .selectlink{
+	position:relative;
+	float:left;
+	min-width: 50px;
+	height:25px;
+	margin-top:5px;
+	margin-left: 14px;
+	cursor:pointer;
+	}
+.settingpanel .bar .selectlink .text{
+	position: relative;
+	float: left;
+	margin-top: 0px;
+	/* text-decoration: underline; */
+	text-transform: uppercase;
+	font-size: 85%;
+	color: #fff;
+	/* border: 1px solid #aaa; */
+	border-radius: 5px;
+	padding: 6px;
+	background-color: #666;
+	}
+.settingpanel .bar .selectbox{
+	position:relative;
+	float:left;
+	min-width:212px;
+	max-width:252px;
+	height:25px;
+	margin-top:5px;
+	}
+.settingpanel .bar .selectbox .box{
+	position:relative;
+	float:left;
+	width:100%;
+	}
+.settingpanel .bar .selectbox .box > select{
+	-webkit-appearance: none;	
+	border-radius:4px;
+	font-size:85%;
+	height:27px;
+	width:90%;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	color: #000;
+	}	
+	
+
+.settingpanel .bar .textbox{
+	position: relative;
+	float: left;
+	min-width: 210px;
+	max-width: 250px;
+	height: 25px;
+	margin-top: 5px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #eee;
+	}
+.settingpanel .bar .textbox .box{
+	position:relative;
+	float:left;
+	width:100%;
+	}
+.settingpanel .bar .textbox .box .text{
+	font-size: 85%;
+	width: 100%;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: #000;
+	overflow: hidden;
+    white-space: nowrap;
+	}	
+	
+	
+	
+/* END OF CSS */	
+	
+	

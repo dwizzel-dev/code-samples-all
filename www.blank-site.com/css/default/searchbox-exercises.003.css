@@ -1,0 +1,379 @@
+@charset "UTF-8";
+
+/*
+
+ NOTES:
+
+*/
+
+DIV.content-searchbox-exercises,
+DIV.widget-searchbox-exercises,
+DIV.section-searchbox-exercises{
+	float:left;
+	position: relative;
+	margin:0;
+	border-radius: 0;	
+	border:0;
+	}
+DIV.content-searchbox-exercises{
+	border: 1px solid #ccc;
+	}
+DIV.content-searchbox-exercises DIV.nobg-fix,
+DIV.widget-searchbox-exercises DIV.nobg-fix,
+DIV.section-searchbox-exercises	DIV.nobg-fix{
+	margin: 0;
+	padding: 0;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	height: 0;
+	overflow:hidden;
+	}
+DIV.content-searchbox-exercises DIV.nobg-fix > IMG,
+DIV.widget-searchbox-exercises DIV.nobg-fix > IMG,
+DIV.section-searchbox-exercises	DIV.nobg-fix > IMG{
+	height:1px;
+	width:100%;
+	}
+DIV.content-searchbox-exercises DIV.searchbox,
+DIV.widget-searchbox-exercises DIV.searchbox,
+DIV.section-searchbox-exercises DIV.searchbox{
+	float:left;
+	margin:0;
+	margin-top:0px;
+	padding:0;
+	width:100%;
+	}	
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox,	
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox{
+	position: relative;
+	float: left;
+	padding: 0;
+	border-radius: 5px;
+	height: 100%;
+	width: 100%;
+	border: 0px solid #bbb;
+	}
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV,
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV{
+	float: inherit;
+	width: 100%;
+	padding: 0;
+	height: 100px;
+	}
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result,
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result{
+	display: none;
+	color: #000;
+	padding: 0;
+	position: absolute;
+	top: 90px;
+	left: 0px;
+	right: 0px;	
+	border: 0px solid #ccc;	
+	border-radius: 0 0 10px 10px;
+	box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 0.25);
+	background: #fff none repeat scroll 0% 0%;
+	/*background: rgba(255, 255, 255, 0.90) none repeat scroll 0% 0%;*/
+	z-index: 10;
+	margin:0
+	}
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result{
+	left: -1px;
+	right: -1px;	
+	border: 1px solid #ccc;	
+	border-top:0;	
+	}
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing,
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing{
+	list-style-type: none;
+	margin: 0;
+	padding: 20px;
+	}
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI,
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI{
+	text-align: left;
+	overflow: hidden;
+	padding: 0;
+	}
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI SPAN.hint,
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI SPAN.hint,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI SPAN.hint{
+	color: #009EFF;
+	font-weight: 500;	
+	}
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result,
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result{
+	cursor: pointer;
+	padding: 5px 10px;
+	background: none;
+	border-radius: 5px;
+	font-size: 120%;
+	cursor: pointer;
+	color: #888;
+	text-transform: capitalize;	
+	}	
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result:hover,
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result:hover,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result:hover{
+	background: #333;
+	color: #fff;
+	}
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result.focus,	
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result:focus,	
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result.focus,	
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result:focus,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result.focus,	
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result:focus{
+	font-weight: normal !important;
+	background: #333;
+	color: #fff;
+	}	
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result-msg,
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result-msg,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result-msg{
+	padding: 12px 12px;
+	background: #fff;
+	border-radius: 0;
+	font-size: 160%;
+	cursor: pointer;
+	color: #666;
+	margin:0;
+	font-weight: normal;
+	}
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result-title,
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result-title,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result-title{
+	padding: 12px 12px;
+	background: #f0f0f0;
+	border-radius: 5px;
+	font-size: 125%;
+	cursor: pointer;
+	color: #666;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	}	
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-hint,
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-hint,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-hint{
+	padding: 5px 10px;
+	background: #eee;
+	border-radius: 5px;
+	font-size: 115%;
+	cursor: pointer;
+	color: #009EFF;
+	margin: 10px 10px;
+	font-weight: normal;
+	text-transform: capitalize;	
+	}	
+DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV .input,
+DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV .input,
+DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV .input{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;	
+	}
+DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT],
+DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT],
+DIV.section-searchbox-exercises DIV.searchbox INPUT[type=TEXT]{
+	padding:0 0 0 60px;	
+	position: relative;
+	float:inherit;
+	border:0;
+	color:#666;
+	/*color:#1076bb;*/
+	background:none;
+	outline-color: rgba(0, 0, 0, 0.0);
+	margin:0;
+	width:100%;
+	margin-top: 0px;
+	font-size:250%;
+	text-transform: lowercase;
+	font-weight: 800;
+	height: 100px;	
+	opacity: 0.5;
+	}
+DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:focus,
+DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:focus,
+DIV.section-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:focus{
+	outline-color: rgba(0, 0, 0, 0.0);
+	}
+DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide,
+DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide,
+DIV.section-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide{
+	border:0;	
+	opacity: 1.0;
+	background-image: url(/images/default/loupe-grey.png);
+	background-repeat: no-repeat;
+	background-position: 0;
+	background-size: 50px;
+	}
+DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide{	
+	background-size: 50px;
+	background-position-x: 20px;	
+	}
+DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT]{
+	padding:0 0 0 80px;	
+	}
+	
+	
+/* les rows de widget avec fond dark ou light */
+.search-box-dark DIV.content-searchbox-exercises{
+	border-color:#fff;
+	}
+.search-box-dark DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT],
+.search-box-dark DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT],
+.search-box-dark DIV.section-searchbox-exercises DIV.searchbox INPUT[type=TEXT]{
+	color:#fff;
+	}
+.search-box-dark DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide,
+.search-box-dark DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide,
+.search-box-dark DIV.section-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide{
+	background-image: url(/images/default/loupe-white.png);
+	}
+.search-box-light DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT],
+.search-box-light DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT],
+.search-box-light DIV.section-searchbox-exercises DIV.searchbox INPUT[type=TEXT]{
+	color:#fff;
+	}
+.search-box-light DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide,
+.search-box-light DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide,
+.search-box-light DIV.section-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide{
+	background-image: url(/images/default/loupe-black.png);
+	}	
+
+/* le place holder*/	
+.search-box-dark DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide::-webkit-input-placeholder,
+.search-box-dark DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide::-webkit-input-placeholder{
+	color:#fff;
+	}
+.search-box-dark DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:-moz-placeholder,
+.search-box-dark DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:-moz-placeholder{
+	color:#fff;
+	}
+.search-box-dark DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:-ms-input-placeholder,
+.search-box-dark DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:-ms-input-placeholder{
+	color:#fff;
+	}
+.search-box-dark DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:-moz-placeholder,
+.search-box-dark DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:-moz-placeholder{
+	color:#fff;
+	}
+	
+.search-box-light DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide::-webkit-input-placeholder,	
+.search-box-light DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide::-webkit-input-placeholder{
+	color:#000;
+	}
+.search-box-light DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:-moz-placeholder,	
+.search-box-light DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:-moz-placeholder{
+	color:#000;
+	}
+.search-box-light DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:-ms-input-placeholder,
+.search-box-light DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:-ms-input-placeholder{
+	color:#000;
+	}
+.search-box-light DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:-moz-placeholder,	
+.search-box-light DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide:-moz-placeholder{
+	color:#000;
+	}	
+		
+
+	
+	
+	
+@media(max-width:767px){
+	DIV.content-searchbox-exercises DIV.searchbox INPUT[type=TEXT],	
+	DIV.section-searchbox-exercises DIV.searchbox INPUT[type=TEXT],	
+	DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT] {
+		font-size: 150%;
+		}
+	DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result,	
+	DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result,	
+	DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result {
+		top:80px;
+    	}
+	DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing,	
+	DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing,	
+	DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing {
+		padding: 10px;
+		}
+	DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result, 
+	DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result, 
+	DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result {
+		font-size: 100%;
+		}
+	DIV.content-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result-msg, 
+	DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result-msg, 
+	DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result UL.listing LI.single-result-msg {
+		font-size: 120%;
+		}	
+	}
+	
+	
+@media(min-width:1024px) and (max-width:1279px){
+	DIV.widget-searchbox-exercises,
+	DIV.section-searchbox-exercises{
+		height: 152px;
+    	}
+	DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT],
+	DIV.section-searchbox-exercises DIV.searchbox INPUT[type=TEXT]{
+		font-size:400%;
+		height: 152px;
+		padding:0 0 0 80px;	
+		}
+	DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide,
+	DIV.section-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide{	
+		background-size: 70px;
+		}
+	DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV,
+	DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV {
+		height:152px;
+		}
+	DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result,
+	DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result {
+		top: 120px;
+    	}
+	
+	}
+	
+@media(min-width:1280px){
+	DIV.widget-searchbox-exercises,
+	DIV.section-searchbox-exercises{
+		height: 152px;
+    	}
+	DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV,	
+	DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV {
+		height:152px;
+		}
+	DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result,	
+	DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV > .kw-content-result {
+		top: 120px;
+    	}
+	DIV.section-searchbox-exercises DIV.searchbox INPUT[type=TEXT],	
+	DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT] {
+		font-size:400%;
+		height: 152px;
+		padding:0 0 0 90px;	
+		}
+	DIV.widget-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide,
+	DIV.section-searchbox-exercises DIV.searchbox INPUT[type=TEXT].translucide{	
+		background-size: 80px;
+		}
+	DIV.widget-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV,		
+	DIV.section-searchbox-exercises DIV.searchbox DIV.kw-searchbox > DIV {
+		height:152px;
+		}
+		
+	}	
+	
+@media(max-width:360px){
+	}	
+		

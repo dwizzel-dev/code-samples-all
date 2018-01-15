@@ -1,0 +1,5816 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-02 16:52-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "en"
+msgstr "fr"
+
+msgid "You have %s unfinished exercise(s)."
+msgstr "Vous avez %s exercice(s) en construction"
+
+msgid "Text"
+msgstr "Texte"
+
+msgid "Modules"
+msgstr "Modules"
+
+msgid "Media"
+msgstr "M&eacute;dia"
+
+msgid "Fields marked with a <span class=\"red\">*</span> are mandatory"
+msgstr "Les champs identifi&eacute;s par un <span class=\"red\">*</span> sont obligatoires"
+
+msgid "Short Title"
+msgstr "Titre Court"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Keywords"
+msgstr "Mots cl&eacute;s"
+
+msgid "Photos"
+msgstr "Photos"
+
+msgid "Line Drawings"
+msgstr "Dessins"
+
+msgid "Video"
+msgstr "Vid&eacute;o"
+
+msgid "Start"
+msgstr "D&eacute;but"
+
+msgid "upload"
+msgstr "t&eacute;l&eacute;charger"
+
+msgid "Upload"
+msgstr "T&eacute;l&eacute;charger"
+
+msgid "Select an image to upload"
+msgstr "Choisir une image &agrave; t&eacute;l&eacute;charger"
+
+msgid "End"
+msgstr "Fin"
+
+msgid "Select a video to upload"
+msgstr "Choisir une vid&eacute;o &agrave; t&eacute;l&eacute;charger"
+
+msgid "Clone the exercise"
+msgstr "Cloner l'exercice"
+
+msgid "Save the exercise"
+msgstr "Sauvegarder l'exercice"
+
+msgid "Share the exercise"
+msgstr "Partager l'exercice"
+
+msgid "Error!!"
+msgstr "Erreur!!"
+
+msgid "Please select an image to upload"
+msgstr "Veuillez choisir une image &agrave; t&eacute;l&eacute;charger"
+
+msgid ""
+"Invalid format. Please select an image with one of the following format: "
+"png, jpg, jpeg, bmp, gif, tif, tiff."
+msgstr ""
+"Format invalide. Veuillez s&eacute;lectionner une image d'un des formats suivants: "
+"png, jpg, jpeg, bmp, gif, tif, tiff."
+
+msgid "Maximal file size accepted is %s MB"
+msgstr "La taille maximale accept&eacute;e est de %s MO"
+
+msgid "Please select an video to upload"
+msgstr "Veuillez choiris une vid&eacute;o &agrave; t&eacute;l&eacute;charger"
+
+msgid ""
+"Invalid format. Please select a video with one of the following format: "
+"mp4, wmv, ogv, gif, mov."
+msgstr ""
+"Format invalide. Veuillez s&eacute;lectionner une vid&eacute; d'un des formats suivants: "
+"mp4, wmv, ogv, gif, mov."
+
+msgid "You must select a module!"
+msgstr "Vous devez choisir un module!"
+
+msgid "Untitled"
+msgstr "Sans titre"
+
+msgid "All"
+msgstr "Tous"
+
+msgid "Search by..."
+msgstr "Rechercher par..."
+
+msgid "Extended Search"
+msgstr "Recherche &Eacute;tendue"
+
+msgid "Select all/none"
+msgstr "S&eacute;lectionner tous/aucun"
+
+msgid "Sort by"
+msgstr "Classer par"
+
+msgid "Movement"
+msgstr "Mouvement"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Assign to Program"
+msgstr "Assigner au Programme"
+
+msgid "%s Exercise(s)"
+msgstr "%s Exercice(s)"
+
+msgid "My Exercises"
+msgstr "Mes Exercices"
+
+msgid "Other Exercises"
+msgstr "Autres Exercices"
+
+msgid "Oops..."
+msgstr "Oops..."
+
+msgid "You must select one or more exercise(s)"
+msgstr "Vous devez s&eacute;lectionner un exercice ou plus"
+
+msgid "New Client"
+msgstr "Nouveau Client"
+
+msgid "First Name"
+msgstr "Pr&eacute;nom"
+
+msgid "Last Name"
+msgstr "Nom"
+
+msgid "Language"
+msgstr "Langue"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Search"
+msgstr "Recherche"
+
+msgid "Search..."
+msgstr "Recherche..."
+
+msgid "Something went wrong, We can't insert the user!"
+msgstr "Une erreur s'est produite. Nous ne pouvons pas sauvegarder l'utilisateur!"
+
+msgid "We are unable to update this client!"
+msgstr "Nous ne pouvons pas mettre-&agrave;-jour ce client!"
+
+msgid "Are you sure?"
+msgstr "&Ecirc;tes-vous certain?"
+
+msgid "Do you want to delete this client and all of his programs?"
+msgstr "Voulez-vous supprimer ce client et tous ses programmes?"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "You must enter the first name!"
+msgstr "Vous devez entrer le pr&eacute;nom!"
+
+msgid "You must enter the last name!"
+msgstr "Vous devez entrer le nom de famille"
+
+msgid "Invalid email address!"
+msgstr "Email invalide!"
+
+msgid "Do you want to delete those clients and all of their programs?"
+msgstr "Voulez-vous supprimer ces clients et tous leur programmes?"
+
+msgid "Success"
+msgstr "Succ&egrave;s"
+
+msgid "Your client and his files were deleted"
+msgstr "Votre client et ses fichiers ont &eacute;t&eacute; supprim&eacute;s"
+
+msgid "Prepared by"
+msgstr "Pr&eacute;par&eacute; par"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Notes"
+msgstr "Notes"
+
+msgid "Print type"
+msgstr "Format d'impression"
+
+msgid "Sets:"
+msgstr "S&eacute;ries:"
+
+msgid "Repetition:"
+msgstr "R&eacute;p&eacute;titions:"
+
+msgid "Weight:"
+msgstr "Poids:"
+
+msgid "Frequency:"
+msgstr "Fr&eacute;quence:"
+
+msgid "Hold:"
+msgstr "Tenir:"
+
+msgid "Tempo:"
+msgstr "Tempo:"
+
+msgid "Rest:"
+msgstr "Repos:"
+
+msgid "Step %s"
+msgstr "&Eacute;tape %s"
+
+msgid "Instructions"
+msgstr "Instructions"
+
+msgid "Expired programs"
+msgstr "Programmes expir&eacute;s"
+
+msgid "Clients Email"
+msgstr "Email du client"
+
+msgid "fr"
+msgstr "Fr"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "7105 St-Hubert, Suite 303"
+msgstr "7105, St-Hubert, Suite 303"
+
+msgid "Montreal, Quebec"
+msgstr "Montr&eacute;al, Qu&eacute;bec"
+
+msgid "Canada H1S 2N1"
+msgstr "Canada H1S 2N1"
+
+msgid "Toll Free"
+msgstr "Sans Frais"
+
+msgid "USA"
+msgstr "USA"
+
+msgid "Phone"
+msgstr "T&eacute;l&eacute;phone"
+
+msgid "UK"
+msgstr "UK"
+
+msgid "Search for..."
+msgstr "Rechercher..."
+
+msgid "Mine"
+msgstr "Les miens"
+
+msgid "Physiotec"
+msgstr "Physiotec"
+
+msgid "Body Parts"
+msgstr "Parties du Corps"
+
+msgid "Abdominals"
+msgstr "Abdominaux"
+
+msgid "Abductors"
+msgstr "Abducteurs"
+
+msgid "Ankle"
+msgstr "Cheville"
+
+msgid "Back"
+msgstr "Dos"
+
+msgid "Biceps"
+msgstr "Biceps"
+
+msgid "Calf"
+msgstr "Mollet"
+
+msgid "Elbow"
+msgstr "Coude"
+
+msgid "Feet"
+msgstr "Pieds"
+
+msgid "Forearm"
+msgstr "Avant bras"
+
+msgid "Glutes"
+msgstr "Fessiers"
+
+msgid "Hamstrings"
+msgstr "Ischio-jambiers"
+
+msgid "Hand"
+msgstr "Main"
+
+msgid "Hip"
+msgstr "Hanche"
+
+msgid "Knee"
+msgstr "Genou"
+
+msgid "Neck"
+msgstr "Coup"
+
+msgid "Objectives"
+msgstr "Objectifs"
+
+msgid "Specifications"
+msgstr "Caract&eacute;ristiques"
+
+msgid "Welcome to the Online Exercise and Education Software Service"
+msgstr "Bienvenue sur le Logiciel en Ligne de Programmes d'Exercices"
+
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Forgot your password?"
+msgstr "Mot de passe oubli&eacute;?"
+
+msgid "Login"
+msgstr "Entrer"
+
+msgid ""
+"Enter your email address below and we'll email you instructions on how to "
+"reset your password."
+msgstr ""
+"Entrez votre email ci-dessous et nous vous enverrons les instructions pour "
+"renouveller votre mot de passe."
+
+msgid "Enter your email"
+msgstr "Entrez votre email"
+
+#: index.php:125
+msgid "Submit"
+msgstr "Envoyer"
+
+#: index.php:193
+msgid "Your IP was blocked!"
+msgstr "Votre adresse IP a &eacute;t&eacute; bloqu&eacute;e!"
+
+#: index.php:196
+msgid "Your account was blocked!"
+msgstr "Votre compte a &eacute;t&eacute; bloqu&eacute;!"
+
+#: index.php:199
+msgid "Please enter your username!"
+msgstr "Veuillez entrer votre nom d'utilisateur!"
+
+#: index.php:202
+msgid "Invalid username!"
+msgstr "Nom d'utilisateur invalide!"
+
+#: index.php:205
+msgid "Please enter your password!"
+msgstr "Veuillez entrer votre mot de passe!"
+
+#: index.php:208
+msgid "You must enable cookies to use our services!"
+msgstr "Vous devez activer les cookies pour utiliser nos services!"
+
+#: index.php:211
+msgid "This user is inactive!"
+msgstr "Cet utilisateur a &eacute;t&eacute; d&eacute;sactiv&eacute;!"
+
+#: index.php:214
+msgid "Wrong password!"
+msgstr "Mauvais mot de passe!"
+
+#: index.php:217
+msgid "Too many attempts!"
+msgstr "Trop de tentatives!"
+
+#: license-agreement.php:42
+msgid "LICENSE AGREEMENT"
+msgstr "CONTRAT DE LICENCE"
+
+#: license-agreement.php:48
+msgid ""
+"<h4>Software</h4> This is a license for one or more users of Physiotec's web-based version of its proprietary"
+msgstr ""
+"<h4>Logiciel</h4> Ceci est un droit pour au moins une licence permettant d'utiliser la version Web du logiciel "
+"de la base de données d’exercice et d'éducation de marque déposée PhysiotecMD de Physiotec conçue à l'intention "
+"des professionnels de la santé (le \"Logiciel\")."
+
+msgid ""
+"&#8482; exercise & education database software for healthcare professionals (the \"Software\")."
+msgstr ""
+
+#: license-agreement.php:49
+msgid ""
+"<h4>Acceptance</h4> All usage of the software is subject to acceptance by "
+"Physiotec. Physiotec's acceptance shall only be evidenced by confirmation in writing "
+"or by actual performance."
+msgstr ""
+"<h4>Acceptation</h4> Tous les commandes sont émis sous réserve de l'acceptation de Physiotec. "
+"Seule la confirmation écrite ou l'exécution effective fait foi de l'acceptation de Physiotec."
+
+#: license-agreement.php:50
+msgid ""
+"<h4>Software License Agreement</h4> All clients are subject to and "
+"conditional upon the terms and conditions of the Software License Agreement "
+"(the \"Agreement\") which governs the use of the Software. Potential "
+"licensees are prompted to accept or decline the terms and conditions of the "
+"Agreement online. No license shall be granted to any potential licensee that "
+"declines to accept the terms and conditions of the Agreement."
+msgstr ""
+"<h4>Convention de licence de logiciel</h4> Les commandes sont émises sous réserve "
+"des modalités de la Convention de licence de logiciel (la \"Convention\") qui régit "
+"l'utilisation du Logiciel. Les éventuels titulaires de licence sont invités à accepter "
+"ou à refuser les modalités de la Convention en ligne. Aucune licence n'est accordée à "
+"l'éventuel titulaire de licence qui refuse d'accepter les modalités de la Convention."
+
+#: license-agreement.php:51
+msgid ""
+"<h4>License Fees</h4> The fees for the Software license and any extension or "
+"renewal thereof are those specified in Physiotec's fee list that is current at "
+"the time of Physiotec's acceptance of an order. Fees are subject to change "
+"without notice. Unless otherwise agreed to in writing by Physiotec, fees shall be "
+"exclusive of all applicable taxes, tariffs and duties, as the case may be."
+msgstr ""
+"<h4>Frais de licence</h4> Les frais de licence d'utilisation du Logiciel et toute "
+"extension ou tout renouvellement de cette licence sont indiqués sur la liste de frais "
+"de Physiotec en vigueur au moment où Physiotec accepte la commande. Ces frais sont "
+"susceptibles d'être modifiés sans préavis. Sauf si Physiotec en a convenu autrement "
+"par écrit, ces frais excluent les taxes, les tarifs et les droits applicables, le cas échéant."
+
+#: license-agreement.php:52
+msgid ""
+"<h4>Term</h4> Subject to the foregoing, the license is granted for a term of "
+"one (1) year from the date of Physiotec's acceptance of this Purchase Order. Any "
+"extension or renewal of the Term shall be subject to additional fees in "
+"accordance with the then current Physiotec fee list."
+msgstr ""
+"<h4>Durée</h4> Sous réserve de ce qui précède, la licence est accordée pour une durée "
+"d'une (1) année à compter de la date à laquelle Physiotec accepte le présent Bon de "
+"commande. L'extension ou le renouvellement de la Durée comporte les frais additionnels "
+"prévus à la liste de frais de Physiotec alors en vigueur."
+
+#: license-agreement.php:53
+msgid ""
+"<h4>Payment</h4> Payment by public healthcare institutions shall be due "
+"thirty (30) days after the date of the invoice unless otherwise specified by "
+"Physiotec in writing. In all other cases, the license shall become effective only "
+"upon reception of licensee's payment by Physiotec. Physiotec may invoice each Software "
+"license separately. All late payments shall be charged interest computed on "
+"a daily basis from the due date until paid in full at the rate of two "
+"percent (2%) per month or the maximum rate permitted by law, whichever is "
+"less."
+msgstr ""
+"<h4>Paiement</h4> Les  paiements faits par les établissements publics de soins de "
+"santé sont exigibles trente (30) jours après la date de la facture, sauf stipulation "
+"contraire écrite de Physiotec. Dans tous les autres cas, la licence n'entre en vigueur "
+"qu'au moment où Physiotec reçoit le paiement du titulaire de licence. Il est loisible "
+"à Physiotec de facturer chaque licence d'utilisation du Logiciel séparément. Tous les "
+"retards de paiement entraînent l'imposition de frais d'intérêt quotidien calculés à "
+"compter de la date d'échéance jusqu'à leur paiement intégral à un taux équivalant au "
+"moindre de de deux pour cent (2%) par mois ou du taux maximum permis par la loi."
+
+#: license-agreement.php:54
+msgid ""
+"<h4>No Liability</h4> Notwithstanding anything contained herein or in any "
+"agreement or other writing between Physiotec and the licensee, the liability of "
+"Physiotec hereunder for all claims shall not exceed the sum of the licensee's "
+"payments for Software licenses which are the subject of dispute. The entire "
+"risk as to the results generated by the use of the Software is assumed by "
+"the licensee without qualification. In no event shall Physiotec be responsible or "
+"liable to the licensee or any agent, representative, employee or permitted "
+"sub-licensee of licensee for any damages of any nature whatsoever, however "
+"arising, whether foreseeable or not. Without limiting the generality of the "
+"foregoing, Physiotec shall not be liable for any death or injury of any nature "
+"whatsoever arising from any act or omission of the licensee, the use or "
+"inability to use the Software or any improper medical treatment or diagnosis "
+"of any patient or client of licensee."
+msgstr ""
+"<h4>Clause de non responsabilité</h4> Nonobstant les dispositions de la présente "
+"Convention, de toute entente ou de tout autre écrit intervenu entre Physiotec et "
+"le titulaire de licence, la responsabilité encourue par Physiotec à l'égard ou en "
+"raison de toute réclamation ne doit pas dépasser pas le montant total des paiements "
+"faits par le titulaire de licence pour les licences d'utilisation du Logiciel qui "
+"font l'objet du différend. Le titulaire de licence assume sans réserve la totalité "
+"du risque relatif aux résultats découlant de l'utilisation du Logiciel. Physiotec "
+"n'est en aucun cas responsable envers le titulaire de licence ou l'agent, le "
+"représentant, l'employé ou le sous-titulaire de licence autorisé du titulaire de "
+"licence, ni ne leur rend compte des damages de quelque nature que ce soit, quelle "
+"qu'en soit la cause, peu importe qu'ils aient été prévisibles ou imprévisibles. "
+"Sans limiter la portée de ce qui précède, Physiotec n'encourt aucune responsabilité à "
+"l'égard du décès, du dommage ou du préjudice de quelque nature que ce soit découlant "
+"de l'acte ou de l'omission du titulaire de licence, de l'utilisation ou de l'incapacité "
+"d'utiliser le Logiciel ou du traitement médical ou du diagnostic médical incorrect "
+"dont fait l'objet le patient ou le client du titulaire de licence."
+
+#: license-agreement.php:55
+msgid ""
+"<h4>Indemnification</h4> Licensee agrees to indemnify and hold Physiotec harmless "
+"from and against any and all claims, liabilities, losses, damages, costs, "
+"expenses (including reasonable attorneys' fees), judgments and penalties "
+"arising out of, resulting from, based upon or incurred as a consequence of "
+"any use or misuse or alteration of the Software by the licensee, its agents, "
+"representatives, employees and permitted sub-licensees."
+msgstr ""
+"<h4>Dédommagement</h4> le titulaire de licence s'engage à indemniser et à tenir "
+"Physiotec à couvert à l'égard de la réclamation, de la responsabilité, de la perte, "
+"du dommage, des frais, des dépenses (y compris les honoraires d'avocat raisonnables), "
+"du jugement et de la pénalité découlant, résultant, inspirés ou encourus en conséquence "
+"de l'utilisation, de l'utilisation abusive ou impropre ou de la modification du "
+"Logiciel faits par le titulaire de licence, ses agents, représentants, employés "
+"et par les sous-titulaires de licence autorisés."
+
+#: license-agreement.php:56
+msgid ""
+"<h4>Return Policy</h4> The licensee shall advise Physiotec of any defective, "
+"malfunctioning or incompatible Software within seven (7) days of the date on "
+"which the licensee first became aware of such defect, malfunction or "
+"incompatibility. The licensee shall furnish Physiotec with a written description "
+"of the claimed defect, malfunction or incompatibility by facsimile or e-mail "
+"transmission comprehensively describing such defect, malfunction or "
+"incompatibility. Physiotec's exclusive obligation, and the licensee's sole right "
+"and remedy, with respect to Software determined to be defective, "
+"malfunctioning or incompatible with the licensee's computer system shall be, "
+"at Physiotec's sole option: (i) to provide the licensee with replacement Software "
+"at no additional charge to licensee; or (ii) to refund to the licensee the "
+"license fees paid in connection therewith within thirty (30) business days "
+"of the date that licensee provides Physiotec with notice of such defect, "
+"malfunction or incompatibility. Physiotec shall have no obligation to replace the "
+"Software or refund the licensee fees if the Software has been altered, "
+"damaged or modified as a result of: (i) the negligent acts or omissions of "
+"the licensee; (ii) by the licensee's hardware malfunction; (iii) third party "
+"software not licensed through Physiotec; or (iv) any cause outside of Physiotec's "
+"reasonable control."
+msgstr ""
+"<h4>Politique en matière de retours</h4> Le titulaire de licence est tenu d'informer "
+"Physiotec de toute défectuosité, défaillance ou incompatibilité du Logiciel dans les "
+"sept (7) jours suivants le jour où le titulaire de licence s'est pour la première fois "
+"rendu compte de cette defectuosité, de cette défaillance ou de cette incompatibilité. "
+"Le titulaire de licence est tenu de remettre à Physiotec, soit par télécopie/fax ou par "
+"courriel, une description écrite de la prétendue défectuosité, défaillance ou "
+"incompatibilité en prenant soin de donner une description détaillée de ladite "
+"défectuosité, défaillance ou incompatibilité. Advenant qu'il soit établi que le "
+"Logiciel est défectueux, défaillant ou incompatible avec le système informatique "
+"du titulaire de licence, le seul droit et le seul recours dont jouit le titulaire "
+"de licence est d'exiger que Physiotec s'acquitte de son obligation exclusive, en ce "
+"qui concerne ledit Logiciel, à l'entière discrétion de Physiotec: (i) de fournir au "
+"titulaire de licence un Logiciel de remplacement sans que le titulaire de licence ait "
+"de supplément à payer; ou (ii) de rembourser au titulaire de licence les frais de "
+"licence payés s'y rapportant dans un délai de trente (30) jours ouvrables à compter "
+"de la date à laquelle le titulaire de licence avise Physiotec de cette défectuosité, "
+"de cette défaillance ou de cette incompatibilité, Physiotec n'étant pas tenue de "
+"remplacer le Logiciel ou de rembourser les frais de licence si le Logiciel a été "
+"altéré, endommagé ou modifié par suite: (i) des négligences ou des omissions "
+"du titulaire de licence; (ii) de la défaillance ou du dysfonctionnement du "
+"matériel du titulaire de licence; (iii) du fait que le logiciel de société "
+"indépendante n'est pas breveté ou n'est pas autorisé par l'entremise de Physiotec; "
+"ou (iv) de toute cause qui échappe au contrôle raisonnable de Physiotec."
+
+#: license-agreement.php:57
+msgid ""
+"<h4>Governing Law</h4> This Purchase Order shall be governed by and "
+"construed in accordance with the laws of the Province of Quebec and the "
+"federal laws of Canada applicable therein. Jurisdiction and venue in any "
+"action arising hereunder shall be in a court of competent jurisdiction "
+"located in the Judicial District of Montreal."
+msgstr ""
+"<h4>Droit applicable</h4> Le présent Bon de commande est régi par les lois "
+"de la Province de Québec et les lois fédérales du Canada qui s'y appliquent "
+"et est interprété conformément aux dispositions des lois de la Province de "
+"Québec et des lois fédérales du Canada qui s'y appliquent. Les actions qui "
+"résultent de la présente Convention relèvent de la juridiction et de la "
+"compétence territoriale du district judiciaire de Montréal."
+
+#: license-agreement.php:58
+msgid ""
+"<h4>Language</h4> The parties have agreed that these conditions be drafted "
+"in English. Les parties pr&eacute;sentes ont convenu &agrave; ce que ce "
+"document soit r&eacute;dig&eacute; en anglais."
+msgstr ""
+"<h4>Langue<h4> The parties have agreed that this document be drafted in English. "
+"Les parties présentes ont convenu que ce bon de commande soit rédigé en anglais."
+
+
+#: protocols.php:82
+msgid "Search a Standard Protocol"
+msgstr "Rechercher un Protocole Standard"
+
+msgid "Search a Standard Template"
+msgstr "Rechercher un Protocole Standard"
+
+#: protocols.php:96
+msgid "List of Protocols"
+msgstr "Liste des Protocoles"
+
+msgid "List of Templates"
+msgstr "Liste des Protocoles"
+
+#: protocols.php:97
+#, php-format
+msgid "The Search Yielded %s Protocol(s)"
+msgstr "La Recherche a retourn&eacute;e %s Protocole(s)"
+
+msgid "The Search Yielded %s Template(s)"
+msgstr "La Recherche a retourn&eacute;e %s Protocole(s)"
+
+#: protocols.php:133
+msgid "Protocol Name"
+msgstr "Nom du Protocole"
+
+msgid "Template Name"
+msgstr "Nom du Protocole"
+
+#: protocols.php:134 protocols.php:151 search-clients.php:144 users.php:296
+msgid "Creation Date"
+msgstr "Date de Cr&eacute;ation"
+
+#: protocols.php:135 search-archive.php:168
+msgid "Module"
+msgstr "Module"
+
+#: protocols.php:149
+msgid "Program Name"
+msgstr "Nom du Programme"
+
+#: protocols.php:152
+msgid "Expiration Date"
+msgstr "Date d'Expiration"
+
+#: protocols.php:333
+msgid "Do you want to delete this protocol?"
+msgstr "D&eacute;sirez-vous supprimer ce protocole?"
+
+#: protocols.php:364
+msgid "Do you want to delete those protocols?"
+msgstr "D&eacute;sirez-vous supprimer ces protocoles?"
+
+#: renew_password.php:63
+msgid "Please change your Password"
+msgstr "Veuillez modifier votre Mot de Passe"
+
+#: renew_password.php:65
+msgid "Our password must:"
+msgstr "Votre mot de passe doit:"
+
+#: renew_password.php:68
+msgid "Be over 8 characters long."
+msgstr "Contenir plus de 8 caract&egrave;res"
+
+#: renew_password.php:69
+msgid "Use a combination of upper and lower case letters."
+msgstr "Utiliser une combinaison de lettres majuscules et minuscules"
+
+#: renew_password.php:70
+msgid ""
+"Include at least one numeric and/or special character (& or ? or @, etc)."
+msgstr ""
+"Inclure au moins un caract&egrave;re num&eacute;que et/ou un caract&egrave; sp&eacute;cial (& ou ? ou @, etc)"
+
+#: renew_password.php:72
+msgid "Example of password: <strong>Anderson01@</strong>"
+msgstr "Exemple de mot de passe: <strong>Tremblay01@</strong>"
+
+#: renew_password.php:77 users.php:183 users.php:292
+msgid "User Name"
+msgstr "Nom d'utilisateur"
+
+#: renew_password.php:85
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: renew_password.php:93
+msgid "Confirm new password"
+msgstr "Confirmez votre nouveau mot de passe"
+
+#: renew_password.php:124
+msgid "Password is too short!"
+msgstr "Le mot de passe est trop court!"
+
+#: renew_password.php:125
+msgid "Password must contain a combination of upper and lower case letters!"
+msgstr "Le mot de passe doit contenir une combinaison de lettres majuscules et minuscules!"
+
+#: renew_password.php:126
+msgid "Password must include at least one numeric and/or special character!"
+msgstr "Le mot de passe doit inclure au moins un caract&egrave;re num&eacute;rique et/ou un caract&egrave;re sp&eacute;cial!"
+
+#: renew_password.php:127
+msgid "Passwords does not match!"
+msgstr "Les mots de passes ne sont pas identiques!"
+
+#: search-archive.php:75 search-archive.php:279
+msgid "Select a Module"
+msgstr "S&eacute;lectionnez un Module"
+
+#: search-archive.php:112
+msgid "Add Exercises"
+msgstr "Ajouter des Exercices"
+
+#: search-archive.php:120
+msgid "List Exercises"
+msgstr "Liste d'Exercices"
+
+#: search-archive.php:123
+#, php-format
+msgid "The Search Yielded %s Exercise(s)"
+msgstr "La Recherche a Retourn&eacute;e %s Exercice(s)"
+
+#: search-archive.php:148
+msgid "Unfinished"
+msgstr "Non compl&eacute;t&eacute;"
+
+#: search-archive.php:165
+msgid "Code"
+msgstr "Code"
+
+#: search-archive.php:197
+msgid "No Code Yet"
+msgstr "Pas encore de Code"
+
+#: search-archive.php:281
+msgid "No Data Available"
+msgstr "Pas de Donn&eacute;es Disponibles"
+
+#: search-archive.php:317
+msgid "Do you want to delete this exercise?"
+msgstr "D&eacute;sirez-vous supprimer cet exercice?"
+
+#: search-archive.php:319
+msgid "Do you want to delete those exercises?"
+msgstr "D&eacute;sirez-vous supprimer ces exercices?"
+
+#: search-clients.php:140 view-client.php:106
+msgid "File Number"
+msgstr "Num&eacute;ro du Dossier"
+
+#: search-clients.php:141 view-client.php:113
+msgid "Department"
+msgstr "D&eacute;partement"
+
+#: show-exercise.php:420
+msgid "switch"
+msgstr "changer l'ordre"
+
+#: show-exercise.php:423
+msgid "Mirror"
+msgstr "Mirroir"
+
+#: show-exercise.php:439
+msgid "My instructions"
+msgstr "Mes instructions"
+
+#: show-exercise.php:446
+msgid "Original instructions"
+msgstr "Instructions Originales"
+
+#: show-exercise.php:453
+msgid "Program's instructions"
+msgstr "Instructions du Programme"
+
+#: show-exercise.php:481
+msgid "Exercise Name"
+msgstr "Nom de l'Exercice"
+
+#: show-exercise.php:583
+msgid "Set as my instructions"
+msgstr "D&eacute;finir comme mes instructions"
+
+#: show-exercise.php:596
+msgid "Back to program"
+msgstr "Retour au programme"
+
+#: show-exercise.php:598
+msgid "Back to protocol"
+msgstr "Retour au protocole"
+
+#: show-exercise.php:603
+msgid "Assign to program"
+msgstr "Assigner au programme"
+
+#: users.php:82
+msgid "Add/View/Edit a User"
+msgstr "Ajouter/Voir/&Eacute;diter un Utilisateur"
+
+#: users.php:88 users.php:91
+msgid "Status:"
+msgstr "Statut:"
+
+#: users.php:88 users.php:297
+msgid "Active"
+msgstr "Actif"
+
+#: users.php:91
+msgid "Inactive"
+msgstr "Inactif"
+
+#: users.php:110
+msgid "Coordinates"
+msgstr "Coordonn&eacute;es"
+
+#: users.php:113
+msgid "Clinic"
+msgstr "Clinique"
+
+#: users.php:123
+msgid "City"
+msgstr "Ville"
+
+#: users.php:129
+msgid "State/Province"
+msgstr "&Eacute;tat/Province"
+
+#: users.php:133
+msgid "Country"
+msgstr "Pays"
+
+#: users.php:137
+msgid "Zip/Postal Code"
+msgstr "Code Postal"
+
+#: users.php:143
+msgid "Always use this location when sending out reports"
+msgstr "Toujours utiliser cet endroit lors de l'envois des programmes"
+
+#: users.php:152
+msgid "Primary Email"
+msgstr "Email Primaire"
+
+#: users.php:159
+msgid "Secondary Email"
+msgstr "Email Secondaire"
+
+#: users.php:174
+msgid "Extension"
+msgstr "Extension"
+
+#: users.php:179
+msgid "Web Access"
+msgstr "Acc&egrave;s Web"
+
+#: users.php:204
+msgid "Access Level"
+msgstr "Niveau d'Acc&egrave;s"
+
+#: users.php:218 users.php:236
+msgid "Save the User"
+msgstr "Sauvegarder l'Utilisateur"
+
+#: users.php:225
+msgid "Inactivate the User"
+msgstr "D&eacute;sactiver l'Utilisateur"
+
+#: users.php:227 users.php:239
+msgid "Activate the User"
+msgstr "Activer l'Utilisateur"
+
+#: users.php:245
+msgid "Password required"
+msgstr "Mot de passe requis"
+
+#: users.php:251
+msgid "2 = Level 2 allows access to all patient files."
+msgstr "2 = Niveau 2 permet l'acc&egrave;s &agrave; tous les fichiers des patients."
+
+#: users.php:252
+msgid "3 = Level 3 allows access only to the user's patient files."
+msgstr "3 = Niveau 3 permet seulement d'acc&eacute;der au fichiers d'un patient"
+
+#: users.php:261
+msgid "Users List"
+msgstr "Liste des Utilisateurs"
+
+#: users.php:280
+msgid "Show Deleted Users"
+msgstr "Afficher les Utilisateurs Supprim&eacute;s"
+
+#: view-client.php:63
+msgid "Client Profile"
+msgstr "Profile du Client"
+
+#: view-client.php:122
+msgid "Delete this client"
+msgstr "Supprimer ce client"
+
+#: view-client.php:137
+msgid "New program"
+msgstr "Nouveau programme"
+
+#: view-client.php:157
+msgid "Program Date"
+msgstr "Date du programme"
+
+#: view-client.php:158
+msgid "Program online expiration date"
+msgstr "Date d'expiration du programme en ligne"
+
+#: view-client.php:278
+msgid "Do you want to delete those programs?"
+msgstr "D&eacute;sirez-vous supprimer ces programmes?"
+
+#: view-client.php:279
+msgid "Yes, delete them!"
+msgstr "Oui, supprimez!"
+
+#: view-client.php:281
+msgid "Do you want to delete this program?"
+msgstr "D&eacute;sirez-vous supprimer ce programme?"
+
+#: view-client.php:282
+msgid "Yes, delete it!"
+msgstr "Oui, supprimez!"
+
+#: delete_client.ajax.php:99 delete_client.ajax.php:102
+msgid "We could not delete your client"
+msgstr "Nous n'avons pas pu supprimer votre client"
+
+#: lost_password.ajax.php:99
+msgid "Client unavailable!"
+msgstr "Client non disponible!"
+
+#: lost_password.ajax.php:152
+msgid "We could not find this email address!"
+msgstr "Nous n'avons pas trouv&eacute; cette adresse email!"
+
+#: lost_password.ajax.php:195 send_program_by_mail.ajax.php:69
+msgid "We could not send the email!"
+msgstr "Nous n'avons pas pu envoyer le email!"
+
+#: lost_password.ajax.php:203 save_password.ajax.php:35
+#: save_password.ajax.php:48 send_program_by_mail.ajax.php:77
+msgid "Success!"
+msgstr "Succ&egrave;s!"
+
+#: lost_password.ajax.php:204 send_program_by_mail.ajax.php:78
+msgid "Email sent!"
+msgstr "Email envoy&eacute;!"
+
+#: save_new_exercise.ajax.php:468
+msgid "Your exercise was saved"
+msgstr "Votre exercice a &eacute;t&eacute; sauvegard&eacute;"
+
+#: save_password.ajax.php:10 save_setting.ajax.php:48
+msgid "Password must be over 8 characters long"
+msgstr "Le mot de passe doit avoir plus de 8 caract&egrave;res"
+
+#: save_password.ajax.php:18 save_setting.ajax.php:56
+msgid "Invalid password!"
+msgstr "Mot de passe invalide!"
+
+#: save_password.ajax.php:36 save_password.ajax.php:49
+msgid "Password changed!"
+msgstr "Mot de passe modifi&eacute;!"
+
+#: save_program.ajax.php:374
+msgid "Template added"
+msgstr "Protocole ajout&eacute;"
+
+#: save_setting.ajax.php:36
+msgid "Username must contain at least 8 characters!"
+msgstr "Le nom d'utilisateur doit contenir au moins 8 caract&egrave;res!"
+
+#: save_setting.ajax.php:39
+msgid "Username must be alpha-numeric!"
+msgstr "Le nom d'utilisateur doit &ecirc;tre alpha-num&eacute;rique!"
+
+#: save_setting.ajax.php:67 save_setting.ajax.php:88
+msgid "Primary email address invalid!"
+msgstr "Adresse email primaire invalide!"
+
+#: save_setting.ajax.php:75 save_setting.ajax.php:96
+msgid "Secondary email address invalid!"
+msgstr "Adresse email secondaire invalide!"
+
+#: send_program_by_mail.ajax.php:88
+msgid "This client has an invalid email address"
+msgstr "Ce client a une adresse email invalide"
+
+#: update_program.ajax.php:47
+msgid "Program updated"
+msgstr "Programme mis &agrave; jour"
+
+#: validate_username.ajax.php:8
+#, php-format
+msgid "Username <b>%s</b> already exist!"
+msgstr "Le nom d'utilisateur <b>%s</b> existe d&eacute;j&agrave;!"
+
+msgid "Replace"
+msgstr "Remplacer"
+
+msgid "You must add one or more exercise(s)"
+msgstr "Vous devez ajouter un exercice ou plus"
+
+msgid "This program already exists, you must rename or replace it."
+msgstr "Ce programme existe d&eacute;j&agrave;, vous devez le renommer ou le remplacer."
+
+msgid "This client already has a program with this title"
+msgstr "Ce client a d&eacute;j&agrave; un programme avec ce titre"
+
+msgid "Your program does not have a title"
+msgstr "Votre programme n'a pas de titre"
+
+msgid "Horizontal abduction"
+msgstr "Abduction horizontale"
+
+msgid "Horizontal adduction"
+msgstr "Adduction horizontale"
+
+msgid "Adduction"
+msgstr "Adduction"
+
+msgid "Bicycling Forelimb"
+msgstr ""
+
+msgid "Bicycling Rearlimb"
+msgstr ""
+
+msgid "Catch"
+msgstr "Catch"
+
+msgid "Curl"
+msgstr "Curl"
+
+msgid "Deviation"
+msgstr "Déviation"
+
+msgid "Radial deviation"
+msgstr "Déviation radiale"
+
+msgid "Ulnar deviation"
+msgstr "Déviation ulnaire"
+
+msgid "Dorsiflexion"
+msgstr "Flexion dorsale"
+
+msgid "Fly"
+msgstr ""
+
+msgid "Plantarflexion"
+msgstr "Flexion plantaire"
+
+msgid "Extension with radial deviation"
+msgstr ""
+
+msgid "Flexion with ulnar deviation"
+msgstr ""
+
+msgid "Hyperextension"
+msgstr "Hyperextension"
+
+msgid "Supination"
+msgstr "Supination"
+
+msgid "Tenodesis"
+msgstr ""
+
+msgid "Shoulder: Rotator Cuff"
+msgstr "Shoulder: Rotartor Cuff "
+
+msgid "Shoulder: Scapula"
+msgstr "Shoulder: Scapula"
+
+msgid "Elbow/Forearm"
+msgstr "Elbow/Forearm"
+
+msgid "Lumbar Spine"
+msgstr "Lumbar Spine"
+
+msgid "Hip: Medial Muscles"
+msgstr "Hip: Medial Muscles"
+
+msgid "Abdominals: Ext Obliques"
+msgstr "Abdominals: Ext Obliques"
+
+msgid "Abdominals: Int Obliques"
+msgstr "Abdominals: Int Obliques"
+
+msgid "Abdominals: Transverse"
+msgstr "Abdominals: Transverse"
+
+msgid "Shoulder: Clavical "
+msgstr "Shoulder: Clavical "
+
+msgid "Pelvis: Sacrum "
+msgstr "Pelvis: Sacrum "
+
+msgid "Hip: Lateral Muscles"
+msgstr "Hip: Lateral Muscles"
+
+msgid "Hip: Anterior Muscles"
+msgstr "Hip: Anterior Muscles"
+
+msgid "Wrist/Hand"
+msgstr "Poignet/main"
+
+msgid "Cervical Spine: Upper"
+msgstr "Cervical Spine: Upper"
+
+msgid "Thoracic Area: Ribs"
+msgstr "Thoracic Area: Ribs"
+
+msgid "Pelvis: Innominate"
+msgstr "Pelvis: Innominate"
+
+msgid "Ankle/Foot"
+msgstr "Cheville/pied"
+
+msgid "Cervical Spine: Middle"
+msgstr "Cervical Spine: Middle"
+
+msgid "Cervical Spine: Lower"
+msgstr "Cervical Spine: Lower"
+
+msgid "Thoracic Area: Spinal Segments"
+msgstr "Thoracic Area: Spinal Segments"
+
+msgid "Hip: Posterior Muscles"
+msgstr "Hip: Posterior Muscles"
+
+msgid "Shoulder: Gleno Humeral"
+msgstr "Shoulder: Gleno Humeral"
+
+msgid "Hop"
+msgstr ""
+
+msgid "Bone/Joint Health"
+msgstr "Bone/Joint Health"
+
+msgid "Desensitization"
+msgstr "Desensitization"
+
+msgid "Remapping CNS"
+msgstr "Remapping CNS"
+
+msgid "Swelling Control"
+msgstr "Swelling Control"
+
+msgid "Tissue Healing"
+msgstr "Tissue Healing"
+
+msgid "Tissue Remodeling"
+msgstr "Tissue Remodeling"
+
+msgid "Lateral flexion"
+msgstr "Inclinaison"
+
+msgid "Jump"
+msgstr ""
+
+msgid "Lateral rotation"
+msgstr "Lateral rotation"
+
+msgid "Leap"
+msgstr "Saut en mouvement"
+
+msgid "Lift"
+msgstr "Soulever"
+
+msgid "Lunge"
+msgstr "Fente"
+
+msgid "Plantarflex./Dor."
+msgstr ""
+
+msgid "Pivot"
+msgstr "Pivot"
+
+msgid "Press"
+msgstr "Pousser"
+
+msgid "Pull"
+msgstr "Tirer"
+
+msgid "Push up"
+msgstr "Pompe"
+
+msgid "Crawl"
+msgstr "Ramper"
+
+msgid "Reverse curl"
+msgstr ""
+
+msgid "Reach"
+msgstr "Atteindre"
+
+msgid "Internal rotation"
+msgstr "Rotation interne"
+
+msgid "Rotation"
+msgstr "Rotation"
+
+msgid "Run"
+msgstr "Courir"
+
+msgid "Shuffle"
+msgstr ""
+
+msgid "Sidebending"
+msgstr "Flexion latérale"
+
+msgid "Squat thrust"
+msgstr ""
+
+msgid "1.03  BallSit Circle"
+msgstr "1.03  BallSit Circle"
+
+msgid "1.05  BallSit Square"
+msgstr "1.05  BallSit Square"
+
+msgid "1.1    BallTilt"
+msgstr "1.1    BallTilt"
+
+msgid "1.19  BallSquat"
+msgstr "1.19  BallSquat"
+
+msgid "1. Balance"
+msgstr "Balance"
+
+msgid "2. Alignment"
+msgstr "Alignment"
+
+msgid "3. Motion"
+msgstr "Motion"
+
+msgid "4. All"
+msgstr ".All"
+
+msgid "Step up"
+msgstr ""
+
+msgid "Arms swing"
+msgstr ""
+
+msgid "Swing"
+msgstr ""
+
+msgid "Throw"
+msgstr "Lancer"
+
+msgid "Translation"
+msgstr "Translation"
+
+msgid "Walk"
+msgstr "Marcher"
+
+msgid "Core strengthening and stability"
+msgstr ""
+
+msgid "Standing and balance poses"
+msgstr ""
+
+msgid "Forward and backward bends"
+msgstr "Flexions et extensions"
+
+msgid "Twists"
+msgstr "Rotations"
+
+msgid "Deep relaxing stretches and inversions"
+msgstr ""
+
+msgid "Machine"
+msgstr "Appareil"
+
+msgid "Balance disc"
+msgstr "Balance disc"
+
+msgid "Stability ball"
+msgstr "Ballon suisse"
+
+msgid "Medicine ball"
+msgstr ""
+
+msgid "Bench"
+msgstr "Banc"
+
+msgid "Bar"
+msgstr "Barre"
+
+msgid "Barbell"
+msgstr ""
+
+msgid "Stick/Cane"
+msgstr "Baton/Canne"
+
+msgid "Body Blade"
+msgstr "Body Blade"
+
+msgid "Balance board"
+msgstr "Balance board"
+
+msgid "Blanket"
+msgstr "Converture"
+
+msgid "Board"
+msgstr "Board"
+
+msgid "Heavy ball"
+msgstr "Ballon lourd"
+
+msgid "Bolster"
+msgstr "Coussin rond"
+
+msgid "Bosu"
+msgstr "Bosu"
+
+msgid "Box"
+msgstr "Boite"
+
+msgid "Backpack"
+msgstr ""
+
+msgid "Body weight"
+msgstr "Poids"
+
+msgid "Cable Column"
+msgstr ""
+
+msgid "Cable Station"
+msgstr "Cable Station"
+
+msgid "Cavaletti"
+msgstr "Cavaletti"
+
+msgid "Commode"
+msgstr "Commode"
+
+msgid "Belt"
+msgstr "Ceinture"
+
+msgid "Chair"
+msgstr "Chaise"
+
+msgid "Corner"
+msgstr "Coin"
+
+msgid "Cones"
+msgstr ""
+
+msgid "Cuff weights"
+msgstr "Poids de chevilles "
+
+msgid "Curl bar"
+msgstr ""
+
+msgid "Declined bench"
+msgstr ""
+
+msgid "Dilator"
+msgstr "Dilator"
+
+msgid "Sliding disc"
+msgstr "Disque glissant"
+
+msgid "Declines"
+msgstr ""
+
+msgid "Limb weight"
+msgstr "Limb weight"
+
+msgid "Harness/Sling"
+msgstr "Harness/Sling"
+
+msgid "Therapy ball"
+msgstr "Therapy ball"
+
+msgid "Cavaletti rails"
+msgstr "Cavaletti rails"
+
+msgid "Dumbbell"
+msgstr "Dumbbell"
+
+msgid "Glass of water"
+msgstr "Verre d'eau"
+
+msgid "Elastic"
+msgstr "Élastique"
+
+msgid "Elevated surface"
+msgstr ""
+
+msgid "Shoulder carry"
+msgstr ""
+
+msgid "Stepper"
+msgstr "Stepper"
+
+msgid "Stairs"
+msgstr "Escalier"
+
+msgid "Wheelchair"
+msgstr "Fauteuil roulant"
+
+msgid "Floor"
+msgstr "Sol"
+
+msgid "Foam roller"
+msgstr "Foam roller"
+
+msgid "Gray cook band"
+msgstr "Gray cook band"
+
+msgid "Gym ball"
+msgstr "Ballon de gymnastique"
+
+msgid "Sponge or soft ball"
+msgstr ""
+
+msgid "Sponge pieces"
+msgstr ""
+
+msgid "Dried beans in a bowl"
+msgstr "Haricots secs dans un bol"
+
+msgid "Dried beans in a bowl with objects"
+msgstr "Haricots secs dans un bol avec des objets"
+
+msgid "Dice"
+msgstr ""
+
+msgid "Pen / Marker"
+msgstr "Crayon / Marqueur"
+
+msgid "Golf balls"
+msgstr "Balle de golf"
+
+msgid "Deck of cards"
+msgstr "Jeu de cartes"
+
+msgid "Therapy putty"
+msgstr "Theraputty"
+
+msgid "Container with marbles"
+msgstr "Contenant avec des billes"
+
+msgid "Hurdle"
+msgstr "Haie"
+
+msgid "Handling"
+msgstr "Manutention"
+
+msgid "BP Cuff"
+msgstr "BP Cuff"
+
+msgid "Reflex Hammer"
+msgstr "Reflex Hammer"
+
+msgid "Dynometer"
+msgstr "Dynometer"
+
+msgid "Scales"
+msgstr "Scales"
+
+msgid "Measuring Tape"
+msgstr "Measuring Tape"
+
+msgid "Bubble Inclinometer"
+msgstr "Bubble Inclinometer"
+
+msgid "Manual Therapy Belt"
+msgstr "Manual Therapy Belt"
+
+msgid "Other"
+msgstr "Autre"
+
+msgid "Peanut Ball"
+msgstr "Peanut Ball"
+
+msgid "Pulley System"
+msgstr "Pulley System"
+
+msgid "Thera Band"
+msgstr "Thera Band"
+
+msgid "Thera Tube"
+msgstr "Thera Tube"
+
+msgid "Vigor Equipment"
+msgstr "Vigor Equipment"
+
+msgid "Weight(s)"
+msgstr "Weight(s)"
+
+msgid "BAPS Board"
+msgstr "BAPS Board"
+
+msgid "Belt (Manual Therapy Belt)"
+msgstr "Belt (Manual Therapy Belt)"
+
+msgid "Bosu Ball / Balance Pads"
+msgstr "Bosu Ball / Balance Pads"
+
+msgid "Elastic Band/Tube"
+msgstr "Elastic Band/Tube"
+
+msgid "Foam Roller"
+msgstr "Foam Roller"
+
+msgid "Pie Roller"
+msgstr "Pie Roller"
+
+msgid "Step / Stair"
+msgstr "Step / Stair"
+
+msgid "High threshold"
+msgstr "High threshold"
+
+msgid "Inclined bench"
+msgstr ""
+
+msgid "Inclines"
+msgstr ""
+
+msgid "Mat"
+msgstr "Mat"
+
+msgid "Trap Table"
+msgstr ""
+
+msgid "Barrel"
+msgstr "Demi-tonneau"
+
+msgid "Reformer"
+msgstr "Reformer"
+
+msgid "Kettle bell"
+msgstr "Kettle bell"
+
+msgid "Ladder"
+msgstr ""
+
+msgid "Leg weights"
+msgstr "Poids"
+
+msgid "Free"
+msgstr "Libre"
+
+msgid "Low threshold"
+msgstr "Low threshold"
+
+msgid "Step/Stair"
+msgstr "Marche/Escalier"
+
+msgid "Walker"
+msgstr "Marchette"
+
+msgid "Mattress"
+msgstr "Matelas"
+
+msgid "Misc"
+msgstr "Divers"
+
+msgid "Mini Loops"
+msgstr "Mini Loops"
+
+msgid "Wall"
+msgstr "Mur"
+
+msgid "MVP Shuttle"
+msgstr "MVP Shuttle"
+
+msgid "Fixed object"
+msgstr "Objet fixe"
+
+msgid "Pillow"
+msgstr "Oreiller"
+
+msgid "Air Pads"
+msgstr "Air Pads"
+
+msgid "Peanut ball"
+msgstr "Ballon peanut"
+
+msgid "Partner"
+msgstr "Partenaire"
+
+msgid "Balance cushion"
+msgstr "Balance cushion"
+
+msgid "Bounceable ball"
+msgstr "Bounceable ball"
+
+msgid "Chair (with arms)"
+msgstr "Chair (with arms)"
+
+msgid "Chair (without arms)"
+msgstr "Chair (without arms)"
+
+msgid "Inspiratory muscle trainer"
+msgstr "Inspiratory muscle trainer"
+
+msgid "Inhaler"
+msgstr "Inhaler"
+
+msgid "Moderate"
+msgstr "Moderate"
+
+msgid "Ball"
+msgstr "Balle/Petit ballon"
+
+msgid "Pilates ring"
+msgstr "Pilates ring"
+
+msgid "Wobble board"
+msgstr ""
+
+msgid "Plate"
+msgstr "Poids"
+
+msgid "Pulley"
+msgstr "Poulie"
+
+msgid "Weight"
+msgstr "Poids"
+
+msgid "Sanding"
+msgstr "Poncage"
+
+msgid "Overhead cable"
+msgstr "Resistance cable"
+
+msgid "Overhead pulley"
+msgstr "Poulie/Cable"
+
+msgid "Beam"
+msgstr "Poutre"
+
+msgid "Rebounder"
+msgstr "Rebounder"
+
+msgid "Resistance"
+msgstr ""
+
+msgid "RIP Trainer"
+msgstr "RIP Trainer"
+
+msgid "Ring, roller"
+msgstr "Anneau, rouleau"
+
+msgid "Roller board"
+msgstr ""
+
+msgid "Rotary"
+msgstr "Rotary"
+
+msgid "Roller"
+msgstr "Rouleau"
+
+msgid "Resistance band"
+msgstr "Élastique"
+
+msgid "Self application"
+msgstr "Self application"
+
+msgid "Towel"
+msgstr "Serviette"
+
+msgid "Sling/Harness"
+msgstr "Laisse/Harnais"
+
+msgid "Sit Disc"
+msgstr "Sit Disc"
+
+msgid "Small Ball"
+msgstr "Petite balle"
+
+msgid "Speed ladder"
+msgstr ""
+
+msgid "Static"
+msgstr "Statique"
+
+msgid "Step"
+msgstr "Step"
+
+msgid "Smart Toner"
+msgstr "Smart Toner"
+
+msgid "Stool"
+msgstr "tabouret"
+
+msgid "Strap"
+msgstr "Courroie"
+
+msgid "Syringe Cap"
+msgstr "Syringe Cap"
+
+msgid "Therapist/Assisted application"
+msgstr "Therapist/Assisted application"
+
+msgid "Table"
+msgstr "Table"
+
+msgid "Yoga mat"
+msgstr "Tapis yoga"
+
+msgid "Thera-Bars"
+msgstr "Thera-Bars"
+
+msgid "Treadmill"
+msgstr "Tapis roulant"
+
+msgid "Tennis ball"
+msgstr "Balle de tennis"
+
+msgid "Theraband"
+msgstr "Theraband"
+
+msgid "Theracane"
+msgstr "Theracane"
+
+msgid "Tips"
+msgstr "Tips"
+
+msgid "Timer"
+msgstr "Timer"
+
+msgid "Tool usage"
+msgstr "Outil"
+
+msgid "Toy"
+msgstr "Jouet"
+
+msgid "TRX"
+msgstr "TRX"
+
+msgid "Upright row bar"
+msgstr "Upright row bar"
+
+msgid "Vibrator"
+msgstr "Vibrateur"
+
+msgid "Wate-Bar"
+msgstr "Wate-Bar"
+
+msgid "Wagon / cart"
+msgstr "Wagon / cart"
+
+msgid "Wand"
+msgstr "Wand"
+
+msgid "Flow"
+msgstr "Flow"
+
+msgid "Static position"
+msgstr "Position statique"
+
+msgid "Series"
+msgstr ""
+
+msgid "Yoga block"
+msgstr "Yoga block"
+
+msgid "A.S.L.R"
+msgstr ""
+
+msgid "Chops/Lifts"
+msgstr ""
+
+msgid "Foam roll"
+msgstr ""
+
+msgid "Lower quad"
+msgstr ""
+
+msgid "Nerve flossing"
+msgstr ""
+
+msgid "RNT static"
+msgstr ""
+
+msgid "Rolling"
+msgstr ""
+
+msgid "Stick"
+msgstr ""
+
+msgid "Upper quad"
+msgstr ""
+
+msgid "Education/Stroke"
+msgstr "&Eacute;ducation/ACV"
+
+msgid "Airrosti Rehab"
+msgstr "Airrosti Rehab"
+
+msgid "ALL MODULES"
+msgstr "A TOUS LES MODULES"
+
+msgid "ambrogio"
+msgstr "ambrogio"
+
+msgid "Amputee / femoral"
+msgstr "Amputé / fémoral"
+
+msgid "Amputee / tibial"
+msgstr "Amputé / tibial"
+
+msgid "Education/Anatomy"
+msgstr "Éducation/Anatomie"
+
+msgid "APPI Pilates"
+msgstr "APPI Pilates"
+
+msgid "Aquatherapy"
+msgstr "Aquatherapie"
+
+msgid "Muscle relaxation"
+msgstr "Assouplissement musculaire"
+
+msgid "Accu-Stretch"
+msgstr "Accu-Stretch"
+
+msgid "Education/ADL"
+msgstr ""
+
+msgid "Back In Motion"
+msgstr "Back In Motion"
+
+msgid "Ball/Flexibilty"
+msgstr ""
+
+msgid "Bariatrics"
+msgstr "Bariatrie"
+
+msgid "Cardio Hop."
+msgstr "Cardio Hop."
+
+msgid "cardiopulmonary"
+msgstr "Cardiorespiratoire"
+
+msgid "Canine"
+msgstr "Canine"
+
+msgid "Equipment"
+msgstr ""
+
+msgid "Occupational Therapy"
+msgstr ""
+
+msgid "FF - Core Stabilisation"
+msgstr "FF - Core Stabilisation"
+
+msgid "FF - Game Official"
+msgstr "FF - Game Official"
+
+msgid "FF - Stability/Mobility"
+msgstr "FF - Stability/Mobility"
+
+msgid "FF - Tennis"
+msgstr "FF - Tennis"
+
+msgid "FMS"
+msgstr "MSH FMS"
+
+msgid "Orthopaedics"
+msgstr "Orthop&eacute;die"
+
+msgid "Geriatrics"
+msgstr "G&eacute;riatrie"
+
+msgid "GoldCoast"
+msgstr "GoldCoast"
+
+msgid "Gray Institute"
+msgstr "Gray Institute"
+
+msgid "Hand Therapy"
+msgstr "Mains"
+
+msgid "HCE Exercises"
+msgstr "HCE Exercises"
+
+msgid "HCE PT Techniques"
+msgstr "HCE PT Techniques"
+
+msgid "HCE Patient Tips"
+msgstr "HCE Patient Tips"
+
+msgid "HWO"
+msgstr "HWO"
+
+msgid "Korefit"
+msgstr "Korefit"
+
+msgid "Leader Fit"
+msgstr "Leader Fit"
+
+msgid "Matrix"
+msgstr "Matrix"
+
+msgid "mhs fms"
+msgstr "mhs fms"
+
+msgid "M.E.L.T."
+msgstr "Melt"
+
+msgid "SFMA"
+msgstr "MSHC Iblessure"
+
+msgid "Neurology"
+msgstr "Neurologie"
+
+msgid "New"
+msgstr "Nouveau"
+
+msgid "nonr"
+msgstr "nono"
+
+msgid "PhysioBREATHE"
+msgstr "PhysioBREATHE"
+
+msgid "Pediatrics"
+msgstr "P&eacute;diatrie"
+
+msgid "Movement Restoration B/C"
+msgstr "Movement Restoration B/C"
+
+msgid "Pelvicology"
+msgstr "Pelvis"
+
+msgid "Plyometrics"
+msgstr "Pliom&eacute;trie"
+
+msgid "Pregnancy"
+msgstr "Grossesse"
+
+msgid "Pediatric Speech "
+msgstr ""
+
+msgid "Pilates"
+msgstr "Pilates"
+
+msgid "PT Pros"
+msgstr "PT Pros"
+
+msgid "PWR"
+msgstr "PWR"
+
+msgid "Recumbent Patient"
+msgstr "Recumbent Patient"
+
+msgid "Resistance chair"
+msgstr "Resistance chair"
+
+msgid "Rehab in Motion"
+msgstr ""
+
+msgid "RockTape"
+msgstr "RockTape"
+
+msgid "Sherwood"
+msgstr "Sherwood"
+
+msgid "Simulation module"
+msgstr "Simulation module"
+
+msgid "Speech"
+msgstr "Parole"
+
+msgid "Speech Therapy"
+msgstr "Thérapie de la parole"
+
+msgid "test neu"
+msgstr "Test neuro"
+
+msgid "Vestibular"
+msgstr "Vestibulaire"
+
+msgid "Yoga - Not Ready"
+msgstr "Yoga - Not Ready"
+
+msgid "ZZZ Vestibular"
+msgstr "ZZ Vestibulaire"
+
+
+msgid "Abdominal/Core"
+msgstr "Abdominale/Core"
+
+msgid "Adaptation/Substitution"
+msgstr "Adaptation/Substitution"
+
+msgid "Agility/Coordination"
+msgstr ""
+
+msgid "Agility"
+msgstr ""
+
+msgid "Airways clearance"
+msgstr "Dégagement des voies respiratoires"
+
+msgid "Ambulation"
+msgstr ""
+
+msgid "Aerobic"
+msgstr ""
+
+msgid "AROM"
+msgstr "AA active"
+
+msgid "Articulation"
+msgstr "Articulation"
+
+msgid "Assisted walking"
+msgstr ""
+
+msgid "Backsroke"
+msgstr "Backsroke"
+
+msgid "Back pain core stabilization"
+msgstr "Back pain core stabilization"
+
+msgid "Cardio"
+msgstr "Cardiovasculaire"
+
+msgid "Circuit training"
+msgstr "Circuit training"
+
+msgid "Continence"
+msgstr "Continence"
+
+msgid "Core stability"
+msgstr ""
+
+msgid "Dynamic internal perterbation"
+msgstr ""
+
+msgid "Balance/Proprioception"
+msgstr "Balance/Proprioception"
+
+msgid "Weight Loss"
+msgstr "Perte de poids"
+
+msgid "Swelling Control/Cryotherapy"
+msgstr "Swelling Control/Cryotherapy"
+
+msgid "Drop"
+msgstr "Drop"
+
+msgid "Dynamic internal perterbations"
+msgstr "Dynamic internal perterbations"
+
+msgid "Dynamic external perterbations"
+msgstr "Dynamic external perterbations"
+
+msgid "Education/Safety"
+msgstr "Education/Safety"
+
+msgid "Arousal level"
+msgstr ""
+
+msgid "Elastic band"
+msgstr ""
+
+msgid "Elbow pain"
+msgstr "Coude douleur"
+
+msgid "Endurance"
+msgstr "Endurance"
+
+msgid "Self-correction/ERS"
+msgstr "Self-correction/ERS"
+
+msgid "Evacuation/Voiding"
+msgstr "Evacuation/voiding"
+
+msgid "Expressive language"
+msgstr "Langage expressif"
+
+msgid "External rotation"
+msgstr "Rotation externe"
+
+msgid "Falls prevention"
+msgstr "Chute - prevention"
+
+msgid "Flatback"
+msgstr ""
+
+msgid "Flexibility"
+msgstr "Flexibilit&eacute;"
+
+msgid "Fluency"
+msgstr "Fluency"
+
+msgid "Frozen shoulder"
+msgstr "Frozen shoulder"
+
+msgid "Self-correction/FRS"
+msgstr "Self-correction/FRS"
+
+msgid "Forward glide"
+msgstr "Forward glide"
+
+msgid "Concentric"
+msgstr "Concentrique"
+
+msgid "Eccentric"
+msgstr "Excentrique"
+
+msgid "Isotonic"
+msgstr "Isotonique"
+
+msgid "Proprioception"
+msgstr "Proprioception"
+
+msgid "Tendon gliding"
+msgstr "Glissement tendineux"
+
+msgid "sensory re-education"
+msgstr ""
+
+msgid "Closed chain"
+msgstr ""
+
+msgid "Edema Control"
+msgstr ""
+
+msgid "Assessment"
+msgstr "Assessment"
+
+msgid "Desensitizing"
+msgstr "Desensitizing"
+
+msgid "Discrimination"
+msgstr "Discrimination"
+
+msgid "Facilitation"
+msgstr "Facilitation"
+
+msgid "Joint Mobility/Stability"
+msgstr "Joint Mobility/Stability"
+
+msgid "Ligamentous Integrity"
+msgstr "Ligamentous Integrity"
+
+msgid "Mobilization"
+msgstr "Mobilization"
+
+msgid "Muscle Function"
+msgstr "Muscle Function"
+
+msgid "Nerve Mobility"
+msgstr "Nerve Mobility"
+
+msgid "Provocation"
+msgstr "Provocation"
+
+msgid "Soft Tissue Mobility"
+msgstr "Soft Tissue Mobility"
+
+msgid "Treatment"
+msgstr "Treatment"
+
+msgid "High level balance skills"
+msgstr "High level balance skills"
+
+msgid "Hitch/Elevation"
+msgstr "Hitch/Elevation"
+
+msgid "Holding"
+msgstr "Holding"
+
+msgid "AAROM"
+msgstr "AA active assistée"
+
+msgid "Contraction Type - Concentric"
+msgstr "Contraction Type - Concentric"
+
+msgid "Contraction Type - Eccentric"
+msgstr "Contraction Type - Eccentric"
+
+msgid "Contraction Type - Isometric"
+msgstr "Contraction Type - Isometric"
+
+msgid "Contraction Type - Mixed"
+msgstr "Contraction Type - Mixed"
+
+msgid "Endurance/Repetition"
+msgstr "Endurance/Repetition"
+
+msgid "GAIT/Ambulation"
+msgstr "GAIT/Ambulation"
+
+msgid "Mobility"
+msgstr "Mobilité"
+
+msgid "Neural Mobility"
+msgstr "Neural Mobility"
+
+msgid "Propulsion / Speed"
+msgstr "Propulsion / Speed"
+
+msgid "Soft Tissue Mobilization - Stretching / Lengt"
+msgstr "Soft Tissue Mobilization - Stretching / Lengt"
+
+msgid "Soft Tissue Mobilization - Multi-Directional"
+msgstr "Soft Tissue Mobilization - Multi-Directional"
+
+msgid "Stability - Inert (Isometric Holding)"
+msgstr "Stability - Inert (Isometric Holding)"
+
+msgid "Stability - Functional (With Movement)"
+msgstr "Stability - Functional (With Movement)"
+
+msgid "Integration"
+msgstr "Integration"
+
+msgid "Isometric"
+msgstr "Isométrique"
+
+msgid "Knee arthritis"
+msgstr "Genou arthrite"
+
+msgid "Kyphothosis"
+msgstr ""
+
+msgid "Abduction/Lat rotation"
+msgstr "Abduction/Lat rotation"
+
+msgid "Lordosis"
+msgstr ""
+
+msgid "Assisted"
+msgstr "Assistance/Supervisé"
+
+msgid "Auto-resisted/Assisted"
+msgstr "Auto-résistance/Assistance"
+
+msgid "Conditioning"
+msgstr "Conditionnement"
+
+msgid "Ambulation/Stairs"
+msgstr "Marche/Escaliers"
+
+msgid "Positioning"
+msgstr "Positionnement"
+
+msgid "Breathing/Coughing"
+msgstr "Respiration/Toux"
+
+msgid "Strength"
+msgstr "Force"
+
+msgid "Pelvic control"
+msgstr ""
+
+msgid "Inhibition"
+msgstr "Inhibition"
+
+msgid "Trunk control"
+msgstr ""
+
+msgid "Change of position"
+msgstr "Changement de position"
+
+msgid "Motor control"
+msgstr "Contrôle moteur"
+
+msgid "Weight shift"
+msgstr "Transfert de poids"
+
+msgid "Opposition"
+msgstr "Opposition"
+
+msgid "Postural control"
+msgstr "Contrôle posture"
+
+msgid "Gait/Walking"
+msgstr "Marche"
+
+msgid "Massage"
+msgstr "Massage"
+
+msgid "Medial rotation"
+msgstr "Medial rotation"
+
+msgid "Mobilisation"
+msgstr "Mobilisation"
+
+msgid "Mobility/Joint"
+msgstr "Mobility/Joint"
+
+msgid "Mobility/Nerve"
+msgstr "Mobility/Nerve"
+
+msgid "Mobility/Soft tissue"
+msgstr "Mobility/Soft tissue"
+
+msgid "Neural mobility"
+msgstr "Mobilité neurale"
+
+msgid "Passive movement"
+msgstr "Mobilisations passives"
+
+msgid "Muscle rehabilitation"
+msgstr ""
+
+msgid "Muscle building"
+msgstr "Renforcement musculaire"
+
+msgid "Music"
+msgstr "Musique"
+
+msgid "Resonance"
+msgstr "Resonance"
+
+msgid "Neural"
+msgstr "Neural"
+
+msgid "Oral motor"
+msgstr "Oral motor"
+
+msgid "Osteoporosis"
+msgstr "Osteoporosis"
+
+msgid "Oxygenation-ventilation"
+msgstr "Oxygénation-ventilation"
+
+msgid "Stretching and mobilizing"
+msgstr "Stretching and mobilizing"
+
+msgid "Diaphragm breathing"
+msgstr "Diaphragm breathing"
+
+msgid "Exercise tolerance"
+msgstr "Exercise tolerance"
+
+msgid "Functional strengthening"
+msgstr "Functional strengthening"
+
+msgid "Inhaler technique"
+msgstr "Inhaler technique"
+
+msgid "Trunk activation"
+msgstr "Trunk activation"
+
+msgid "Trunk mobility"
+msgstr "Trunk mobility"
+
+msgid "Walking"
+msgstr "Walking"
+
+msgid "Pushing and pulling"
+msgstr "Pushing and pulling"
+
+msgid "Activities of daily living"
+msgstr "Activities of daily living"
+
+msgid "Balance"
+msgstr "Balance"
+
+msgid "Breathlessness relief"
+msgstr "Breathlessness relief"
+
+msgid "Pelvic floor"
+msgstr "Plancher pelvien"
+
+msgid "Phonation"
+msgstr "Phonation"
+
+msgid "Jumps in place"
+msgstr "Sauts sur place"
+
+msgid "Multiples hops and bounds"
+msgstr "Sauts multiples et bonds"
+
+msgid "Box jumps &amp; depth jump"
+msgstr ""
+
+msgid "Upper body plyometric"
+msgstr ""
+
+msgid "Play"
+msgstr "Play"
+
+msgid "PNF"
+msgstr "Pnf"
+
+msgid "Postural relief"
+msgstr "Soulagement postural"
+
+msgid "Posture"
+msgstr "Posture"
+
+msgid "Power"
+msgstr "Power"
+
+msgid "Pragmatic language"
+msgstr "Langage pragmatique"
+
+msgid "PROM"
+msgstr "AA passive"
+
+msgid "Pronation"
+msgstr "Pronation"
+
+msgid "Propulsion"
+msgstr "Propulsion"
+
+msgid "Range of Motion"
+msgstr "Range of Motion"
+
+msgid "Warm ups"
+msgstr ""
+
+msgid "Receptive language"
+msgstr ""
+
+msgid "Relaxation"
+msgstr "Relaxation"
+
+msgid "Strengthening"
+msgstr "Renforcement"
+
+msgid "Repeated"
+msgstr "Répétée"
+
+msgid "Resisted"
+msgstr "Resisted"
+
+msgid "Retraining/Motor control"
+msgstr "Retraining/Motor control"
+
+msgid "Retraining/Stability"
+msgstr "Retraining/Stability"
+
+msgid "Return to sport"
+msgstr "Retour au Sport"
+
+msgid "Self-correction"
+msgstr "Self-correction"
+
+msgid "Sensory motor"
+msgstr "Sensory motor"
+
+msgid "Sequencing sounds/Apraxia"
+msgstr ""
+
+msgid "Sexual Participation"
+msgstr "Participation Sexuelle"
+
+msgid "Shoulder abduction"
+msgstr ""
+
+msgid "Shoulder pain"
+msgstr ""
+
+msgid "Sidebend"
+msgstr "Sidebend"
+
+msgid "Side flexion"
+msgstr "Flexion latérale"
+
+msgid "Sounds/Articulation"
+msgstr "Sounds/Articulation"
+
+msgid "0.8 Balance: Wall touch Stork"
+msgstr "0.8 Balance: Wall touch Stork"
+
+msgid "1.3 Balance: Stab trainer Stork"
+msgstr "1.3 Balance: Stab trainer Stork"
+
+msgid "Stability"
+msgstr "Stabilité"
+
+msgid "Static internal perterbation"
+msgstr "Static internal perterbation"
+
+msgid "Static external perterbations"
+msgstr "Static external perterbations"
+
+msgid "Stabilization"
+msgstr "Stabilisation"
+
+msgid "Swallowing"
+msgstr "Swallowing"
+
+msgid "Swayback"
+msgstr ""
+
+msgid "Clearance techniques"
+msgstr "Techniques de dégagement"
+
+msgid "Forward tilt"
+msgstr "Forward tilt"
+
+msgid "Transfers/Positioning"
+msgstr "Transfert/Positionnement"
+
+msgid "Transfers/Mobility"
+msgstr "Transfert/mobilité"
+
+msgid "Tunnel"
+msgstr "Tunnel"
+
+msgid "Gaze stability (vor)"
+msgstr ""
+
+msgid "Balance and gait (adaptation substitution)"
+msgstr ""
+
+msgid "Habituation (vertigo)"
+msgstr "Habituations (vertiges visuelles)"
+
+msgid "Habituation (dizziness)"
+msgstr ""
+
+msgid "Voice"
+msgstr "Voix"
+
+msgid "Warm up"
+msgstr "Renchauffement"
+
+msgid "Weight-bearing"
+msgstr "Mise en charge"
+
+msgid "Winging"
+msgstr "Winging"
+
+
+msgid "4-point"
+msgstr "Quattre pattes"
+
+msgid "Straddle on the pool noodle"
+msgstr "À cheval sur la frite"
+
+msgid "Crouching"
+msgstr "Accroupi"
+
+msgid "Bridge"
+msgstr ""
+
+msgid "Climb"
+msgstr "Grimper"
+
+msgid "Crawling"
+msgstr "Rampant"
+
+msgid "Crook lying"
+msgstr "DD genoux fléchis"
+
+msgid "Declined"
+msgstr ""
+
+msgid "Lateral recumbency/Side lying"
+msgstr "Lateral recumbency/Side lying"
+
+msgid "Sit on the pool noodle"
+msgstr "En balançoire sur la frite"
+
+msgid "Lader"
+msgstr ""
+
+msgid "Pool noodle under the arms from the back"
+msgstr "Frite derrière sous les aisselles"
+
+msgid "Pool noodle under the arms from the front"
+msgstr "Frite devant sous les aisselles"
+
+msgid "Half kneeling"
+msgstr "Génuflexion"
+
+msgid "Left kneeling"
+msgstr "Sur le genou gauche"
+
+msgid "Half kneel"
+msgstr "Half kneel"
+
+msgid "Hang"
+msgstr "Suspension"
+
+msgid "High sitting"
+msgstr "Assis en position haute"
+
+msgid "Abduction"
+msgstr "Abduction"
+
+msgid "Accessory Movements - Component Motions"
+msgstr "Accessory Movements - Component Motions"
+
+msgid "Accessory Movements - Joint Play"
+msgstr "Accessory Movements - Joint Play"
+
+msgid "Circumduction"
+msgstr "Circumduction"
+
+msgid "Depression"
+msgstr "Dépression"
+
+msgid "Deviation - Radiale"
+msgstr "Déviation - Radiale"
+
+msgid "Deviation - Ulnar"
+msgstr "Déviation - Ulnaire"
+
+msgid "Elevation"
+msgstr "Élévation"
+
+msgid "Eversion"
+msgstr "Éversion"
+
+msgid "Flexion"
+msgstr "Flexion"
+
+msgid "Functional Patterns"
+msgstr "Functional Patterns"
+
+msgid "Inversion"
+msgstr "Inversion"
+
+msgid "Lateral Flexion"
+msgstr "Lateral Flexion"
+
+msgid "Pronation/Supination"
+msgstr "Pronation/Supination"
+
+msgid "Protraction"
+msgstr "Protraction"
+
+msgid "Retraction"
+msgstr "Rétraction"
+
+msgid "Rotation - External Rotation"
+msgstr "Rotation - External Rotation"
+
+msgid "Rotation - Internal Rotation"
+msgstr "Rotation - Internal Rotation"
+
+msgid "Rotation - Trunk Rotation"
+msgstr "Rotation - Trunk Rotation"
+
+msgid "I want to exercise at the GYM"
+msgstr "I want to exercise at the GYM"
+
+msgid "Both"
+msgstr "Both"
+
+msgid "Immediate"
+msgstr ""
+
+msgid "Inclined"
+msgstr ""
+
+msgid "Inverted"
+msgstr ""
+
+msgid "Long sitting"
+msgstr "Assis jambes allongées"
+
+msgid "Right leg balance"
+msgstr "Sur jambe droite"
+
+msgid "Left leg balance"
+msgstr "Sur jambe gauche"
+
+msgid "Kneeling: half"
+msgstr ""
+
+msgid "Kneeling: tall"
+msgstr ""
+
+msgid "Side lying seated position"
+msgstr ""
+
+msgid "Supine, knees bent, head down"
+msgstr ""
+
+msgid "Long sit"
+msgstr "Long sit"
+
+msgid "On the knees"
+msgstr "Sur les genoux"
+
+msgid "Plank position"
+msgstr "En position de planche"
+
+msgid "Prone on elbows"
+msgstr ""
+
+msgid "Side lying on elbow"
+msgstr ""
+
+msgid "Sitting on ischium"
+msgstr "Assis sur les ischions"
+
+msgid "Left Stride Stance"
+msgstr "Jambe gauche devant"
+
+msgid "Supine on scapulas, head down"
+msgstr ""
+
+msgid "Lying: prone"
+msgstr ""
+
+msgid "Lying: supine"
+msgstr ""
+
+msgid "Neutral grip"
+msgstr "Neutre"
+
+msgid "Sitting"
+msgstr "Assis"
+
+msgid "Side lying"
+msgstr "Décubitus latéral"
+
+msgid "Standing"
+msgstr "Debout"
+
+msgid "All fours"
+msgstr "All fours"
+
+msgid "Standing (two feet)"
+msgstr "Standing (two feet)"
+
+msgid "Standing (one foot)"
+msgstr "Standing (one foot)"
+
+msgid "Standing (split stance)"
+msgstr "Standing (split stance)"
+
+msgid "Standing (with foot movements)"
+msgstr "Standing (with foot movements)"
+
+msgid "Supine (back)"
+msgstr "Supine (back)"
+
+msgid "Supine (side)"
+msgstr "Supine (side)"
+
+msgid "Breath control"
+msgstr "Breath control"
+
+msgid "Trunk strength and lumbopelvic stability"
+msgstr "Trunk strength and lumbopelvic stability"
+
+msgid "Dynamic trunk activation"
+msgstr "Dynamic trunk activation"
+
+msgid "Plank"
+msgstr ""
+
+msgid "Carry"
+msgstr "Porter"
+
+msgid "Pushing"
+msgstr "Poussant"
+
+msgid "Prone/Prone prop"
+msgstr "Prone/Prone prop"
+
+msgid "Pushup"
+msgstr ""
+
+msgid "Reaching"
+msgstr "Atteindre"
+
+msgid "Restorative"
+msgstr "Restorative"
+
+msgid "Wall supported"
+msgstr ""
+
+msgid "Right Stride Stance"
+msgstr "Jambe droite devant"
+
+msgid "On 1 foot"
+msgstr "Sur 1 pied"
+
+msgid "On 2 knees"
+msgstr "Sur 2 genoux"
+
+msgid "On 2 feet"
+msgstr "Sur 2 pieds"
+
+msgid "Scissors"
+msgstr ""
+
+msgid "Shovel"
+msgstr "Pelle"
+
+msgid "Single leg"
+msgstr "Single leg"
+
+msgid "Single leg supported"
+msgstr ""
+
+msgid "Single-leg standing"
+msgstr "Debout sur une jambe"
+
+msgid "Split leg supine"
+msgstr ""
+
+msgid "Split leg"
+msgstr ""
+
+msgid "Supination grip"
+msgstr "Supination"
+
+msgid "Squatting"
+msgstr "Squat"
+
+msgid "Alignment 1.0- WallTilt"
+msgstr "Alignment 1.0- WallTilt"
+
+msgid "Alignment 1.1- Wall C Retractions"
+msgstr "Alignment 1.1- Wall C Retractions"
+
+msgid "Split stance"
+msgstr ""
+
+msgid "Standing: loaded"
+msgstr ""
+
+msgid "On the back"
+msgstr "Sur le dos"
+
+msgid "Supine"
+msgstr "Décubitus dorsal"
+
+msgid "On the stomach"
+msgstr "Sur le ventre"
+
+msgid "Pulling"
+msgstr "Tirant"
+
+msgid "Toed in stance"
+msgstr ""
+
+msgid "Toilet"
+msgstr "Toilet"
+
+msgid "Teod out stance"
+msgstr ""
+
+msgid "On one knee"
+msgstr "Sur un genou"
+
+msgid "Standing balance"
+msgstr ""
+
+msgid "On all fours"
+msgstr "À quatre pattes"
+
+msgid "Seated"
+msgstr "Assis"
+
+
+msgid "Cervical spine"
+msgstr ""
+
+msgid "MS ROT: thoracic"
+msgstr ""
+
+msgid "MS FLEX: hip flexors"
+msgstr ""
+
+msgid "MS EXT"
+msgstr ""
+
+msgid "Shoulder"
+msgstr "Épaule"
+
+msgid "Squat"
+msgstr ""
+
+msgid "Advanced"
+msgstr "Avancé"
+
+msgid "Aquatic"
+msgstr "Aquatique"
+
+msgid "Avanzado"
+msgstr "Avanzado"
+
+msgid "Beginner"
+msgstr "Débutant"
+
+msgid "Body Awareness"
+msgstr "Body Awareness"
+
+msgid "Biofeedback"
+msgstr "Boifeedback"
+
+msgid "Breathing"
+msgstr "Respiration"
+
+msgid "Cool down"
+msgstr "Retour au calme"
+
+msgid "Cervicogenic Dizziness"
+msgstr "Cervicogenic Dizziness"
+
+msgid "Compensation"
+msgstr "Compensation"
+
+msgid "Coordination"
+msgstr "Coordination"
+
+msgid "Fine Dexterity"
+msgstr ""
+
+msgid "Dexterity coarse"
+msgstr ""
+
+msgid "Digiflex"
+msgstr "Digiflex"
+
+msgid "Dynamic"
+msgstr "Dynamique"
+
+msgid "Water at collar bone height"
+msgstr "Eau aux clavicules"
+
+msgid "Water at sternum height"
+msgstr "Eau au sternum"
+
+msgid "Water at umbilical height"
+msgstr "Eau à la taille"
+
+msgid "Education/demonstration"
+msgstr ""
+
+msgid "Electrical stimulation"
+msgstr ""
+
+msgid "Triggerpoint release"
+msgstr "Triggerpoint release"
+
+msgid "DIP - Distal Interphangeal joint"
+msgstr ""
+
+msgid "PIP - Proximal interphalangeal joint"
+msgstr ""
+
+msgid "MP - Metacarpophalangeal joint"
+msgstr ""
+
+msgid "Phalanx - Distal"
+msgstr "Phalange - Distale"
+
+msgid "Phalanx - Middle"
+msgstr "Phalange - Milieu"
+
+msgid "Phalanx - Proximal"
+msgstr "Phalange - Proximale"
+
+msgid "Habituation"
+msgstr "Habituation"
+
+msgid "Hook Lying"
+msgstr "Hook Lying"
+
+msgid "Kneeling"
+msgstr "À genoux"
+
+msgid "Long Sitting"
+msgstr "Long Sitting"
+
+msgid "Quadreped "
+msgstr "Quadreped "
+
+msgid "Side Lying"
+msgstr "Side Lying"
+
+msgid "On 1 Foot"
+msgstr "On 1 Foot"
+
+msgid "On All Fours"
+msgstr "On All Fours"
+
+msgid "Prone"
+msgstr "Décubitus ventral"
+
+msgid "Intermediate"
+msgstr "Intermediaire"
+
+msgid "Elite"
+msgstr ""
+
+msgid "Amputee Forelimb"
+msgstr ""
+
+msgid "Manual therapy"
+msgstr ""
+
+msgid "Matwork I"
+msgstr "Matwork I"
+
+msgid "Matwork II"
+msgstr "Matwork II"
+
+msgid "Matwork III"
+msgstr "Matwork III"
+
+msgid "Sports Medecine"
+msgstr ""
+
+msgid "Medical/Surgical"
+msgstr ""
+
+msgid "Amputee Rearlimb"
+msgstr ""
+
+msgid "Methods grip"
+msgstr ""
+
+msgid "Myofascial release"
+msgstr "Relâchement myofascial"
+
+msgid "Oedema Control Taping"
+msgstr "Oedema Control Taping"
+
+msgid "Oculomotor"
+msgstr "Oculomotor"
+
+msgid "Optokinetic / Visuo-Vestibular"
+msgstr "Optokinetic / Visuo-Vestibular"
+
+msgid "Easy"
+msgstr "Easy"
+
+msgid "Difficult"
+msgstr "Difficult"
+
+msgid "Postural Control Taping"
+msgstr "Postural Control Taping"
+
+msgid "Low intensity"
+msgstr ""
+
+msgid "Medium intensity"
+msgstr ""
+
+msgid "High intensity"
+msgstr ""
+
+msgid "Low positions"
+msgstr "Positions basses"
+
+msgid "Principiante"
+msgstr "Principiante"
+
+msgid "Power Taping Method"
+msgstr "Power Taping Method"
+
+msgid "Powerweb"
+msgstr "Powerweb"
+
+msgid "Anatomy - normal"
+msgstr "Anatomie - normale"
+
+msgid "Anatomy - abnormal"
+msgstr "Anatomie - anormale"
+
+msgid "Anatomy - conditions/procedures"
+msgstr "Anatomie - conditions/procédures"
+
+msgid "Body part - foot/ankle"
+msgstr "Partie du corps - pied/cheville"
+
+msgid "Body part - head"
+msgstr "Partie du corps - tête"
+
+msgid "Body part - hip/pelvis"
+msgstr "Partie du corps - hanche/bassin"
+
+msgid "Body part - hand/wrist/elbow"
+msgstr "Partie du corps - main/poignet/coude"
+
+msgid "Body part - shoulder"
+msgstr "Partie du corps - épaule"
+
+msgid "Body part - knee"
+msgstr "Partie du corps - genou"
+
+msgid "Body part - necks/backs"
+msgstr "Partie du corps - cou et dos"
+
+msgid "Skin care"
+msgstr "Soins de la peau"
+
+msgid "Bandaging/Wrapping"
+msgstr "Bandage"
+
+msgid "Do's and dont's"
+msgstr "Faire et ne pas faire"
+
+msgid "Phantom limb"
+msgstr ""
+
+msgid "Prostheses"
+msgstr ""
+
+msgid "Miscellaneous"
+msgstr "Divers"
+
+msgid "Family care"
+msgstr "Soins de famille"
+
+msgid "Edema control"
+msgstr "Contrôle de l'œdème"
+
+msgid "Braces/slings/splints"
+msgstr ""
+
+msgid "Walking aids"
+msgstr ""
+
+msgid "Equipment - general"
+msgstr ""
+
+msgid "Equipment - home"
+msgstr ""
+
+msgid "Equipment - work"
+msgstr ""
+
+msgid "Equipment - exercise"
+msgstr ""
+
+msgid "Equipment - miscellaneous"
+msgstr ""
+
+msgid "Wheelchair accessories"
+msgstr "Accessoires chaise roulante"
+
+msgid "Toiletting"
+msgstr "Toilette"
+
+msgid "Body mechanics"
+msgstr "Positionnement du corps"
+
+msgid "Famous back/Neck killers"
+msgstr ""
+
+msgid "Fall prevention"
+msgstr ""
+
+msgid "Clothing/Footwear"
+msgstr "Habits/Chaussures"
+
+msgid "Hot and cold"
+msgstr "Chaud et froid"
+
+msgid "Energy conservation"
+msgstr ""
+
+msgid "Household chores"
+msgstr ""
+
+msgid "Joint protection"
+msgstr "Protection des articulations"
+
+msgid "Notes 'n things"
+msgstr "Notes et divers"
+
+msgid "Hygiene"
+msgstr ""
+
+msgid "Errands"
+msgstr "Commissions"
+
+msgid "Feeding-kitchen"
+msgstr "Nourriture-cuisine"
+
+msgid "Gardening"
+msgstr "Jardinage"
+
+msgid "Deficits"
+msgstr ""
+
+msgid "Show all exercises"
+msgstr "Tous les exercices"
+
+msgid "Symptom Reduction Taping"
+msgstr ""
+
+msgid "Adaptation / Substitution"
+msgstr "Adaptation / Substitution"
+
+msgid "Aquatic therapy"
+msgstr ""
+
+msgid "Theraplast"
+msgstr "Theraplast"
+
+msgid "Tweak Taping"
+msgstr "Tweak Taping"
+
+msgid "Education (VEDA)"
+msgstr "Education (VEDA)"
+
+msgid "Visceral mobolization"
+msgstr "Mobilisation viscerale"
+
+msgid "Weight lifting"
+msgstr ""
+
+msgid "Vertigo (self treatment)"
+msgstr "Vertigo (self treatment)"
+
+msgid "Warm-up (mountain I)"
+msgstr ""
+
+msgid "Work phase (mountain II)"
+msgstr "Phase de travail (montagne II)"
+
+msgid "Cool-down/deep stretches (mountain III)"
+msgstr ""
+
+msgid "Yoga"
+msgstr "Yoga"
+
+msgid "Home Adaptation"
+msgstr "Adaptation domiciliaire"
+
+msgid "Amps"
+msgstr ""
+
+msgid "Others"
+msgstr "Autres"
+
+msgid "ADL / DSA"
+msgstr "AVQ/AVD"
+
+msgid "Burn"
+msgstr ""
+
+msgid "Leisure"
+msgstr "Loisirs"
+
+msgid "Muscle specific control"
+msgstr "Muscle specific control"
+
+msgid "Orthotics"
+msgstr ""
+
+msgid "Direction control retraining"
+msgstr "Direction control retraining"
+
+msgid "Therapy of lower limb"
+msgstr ""
+
+msgid "Upper member therapy"
+msgstr ""
+
+msgid "Transfers"
+msgstr "Transferts"
+
+
+msgid "Settings"
+msgstr "Options"
+
+msgid "Client"
+msgstr "Client"
+
+msgid "Logout"
+msgstr "Quitter"
+
+msgid "Logged as"
+msgstr "Connect&eacute; sous"
+
+msgid "Located at"
+msgstr "Situ&eacute; &agrave;"
+
+msgid "Clients"
+msgstr "Clients"
+
+msgid "Exercises"
+msgstr "Exercices"
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "Browse"
+msgstr "Examiner"
+
+msgid "Program"
+msgstr "Programme"
+
+msgid "Create exercise"
+msgstr "Cr&eacute;er un exercice"
+
+msgid "Programs"
+msgstr "Programmes"
+
+msgid "Protocols"
+msgstr "Protocoles"
+
+msgid "Archive"
+msgstr "Archive"
+
+msgid "Contact"
+msgstr "Aide"
+
+msgid "Copyright &copy; 1996-%s All Rights Reserved"
+msgstr "Copyright &copy; 1996-%s Tous Droits R&eacute;serv&eacute;s"
+
+msgid "Terms of Use"
+msgstr "Conditions d'utilisation"
+
+msgid "License Agreement"
+msgstr "Accord de Licence"
+
+msgid "Administration"
+msgstr "Administration"
+
+msgid "Users"
+msgstr "Utilisateurs"
+
+msgid "Maintenance"
+msgstr "Entretien"
+
+msgid "Communication"
+msgstr "Communication"
+
+msgid "Connected as"
+msgstr "Connect&eacute; sous"
+
+msgid "Protocol"
+msgstr "Protocole"
+
+msgid "Save Program"
+msgstr "Enregistrer le Programme"
+
+msgid "Save Protocol"
+msgstr "Sauvegarder le Protocole"
+
+msgid "Select"
+msgstr "Sélectionner"
+
+msgid "Save as..."
+msgstr "Enregistrer sous..."
+
+msgid "Send by email"
+msgstr "Envoyer par Email"
+
+msgid "Print"
+msgstr "Imprimer"
+
+msgid "Set as Template"
+msgstr "Définir comme Protocole"
+
+msgid "Done"
+msgstr "Terminé"
+
+msgid "Start date"
+msgstr "Date de début"
+
+msgid "End date"
+msgstr "Date de fin"
+
+msgid "Client email"
+msgstr "Email du Client"
+
+msgid "Print Set-up"
+msgstr "Paramètres d'impression"
+
+msgid "PDF"
+msgstr "PDF"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Images"
+msgstr "Images"
+
+msgid "Parameters"
+msgstr "Paramètres"
+
+msgid "Apply to"
+msgstr "Appliquer à"
+
+msgid "Selected"
+msgstr "Sélectionné"
+
+msgid "Unselected"
+msgstr "Non-sélectionné"
+
+msgid "Repetion"
+msgstr "Répétition"
+
+msgid "Remove Selected"
+msgstr "Retirer Sélectionné(s)"
+
+msgid "Remove Unselected"
+msgstr "Retirer Non-Sélectionné(s)"
+
+msgid "Add exercises"
+msgstr "Ajouter des exercices"
+
+msgid "Remove Exercise"
+msgstr "Retirer l'exercice"
+
+msgid "Search Client"
+msgstr "Chercher un Client"
+
+msgid "Created by"
+msgstr "Créé par"
+
+msgid "Standard Protocol"
+msgstr "Protocole Standard"
+
+msgid "You must select a client!"
+msgstr "Vous devez sélectionner un client!"
+
+msgid "You did not enter a title for that program.\\nDo you want to save it?"
+msgstr "Vous n'avez pas entré de titre pour ce programme.\\nDésirez-vous le sauvegarder?"
+
+msgid "Yes, save it!"
+msgstr "Oui, sauvegardez-le!"
+
+msgid ""
+"You have %s client(s) with the same name.\\nDo you want to save this client?"
+msgstr ""
+"Vous avez %s client(s) avec le même nom.\\nVoulez-vous sauvez ce client?"
+
+msgid "Yes, save him!"
+msgstr ""
+"Oui, sauvegardez-le!"
+
+msgid ""
+"Changing program will delete all parameters from the program you are "
+"currently building."
+msgstr ""
+"Changer de programme supprimera tous les paramètres du programme actuel."
+
+msgid "No"
+msgstr "Non"
+
+msgid ""
+"This action will delete all parameters from the program you are actually "
+"building.<br><br><input id=\"never_again\" onclick=\"isNeverAgain(this."
+"checked);\" type=\"checkbox\"> Don't ask again"
+msgstr ""
+
+msgid ""
+"The information is saved in real time as it is entered.<br>In order to "
+"modify a standard exercise, you have to click on the Clone the exercise "
+"Button.<br>Once you have uploaded the pictures, click the Save Exercise "
+"button (which appear after you have cloned the standard exercise if any)."
+"<br>You can save the exercise without pictures."
+msgstr ""
+
+msgid "Delete patients after"
+msgstr "Supprimer les clients après"
+
+msgid "6 Months"
+msgstr "7 Mois"
+
+msgid "1 Year"
+msgstr "1 An"
+
+msgid "3 Year"
+msgstr "3 Ans"
+
+msgid "5 Year"
+msgstr "5 Ans"
+
+msgid "Desactivate"
+msgstr "Désactiver"
+
+# pdf.class.php
+
+msgid "All rights reserved"
+msgstr "Tous droits r&eacute;serv&eacute;s" 
+
+msgid "Dates"
+msgstr "Dates"
+
+msgid "Seconds"
+msgstr "Secondes"
+
+msgid "Sets"
+msgstr "S&eacute;ries"
+
+msgid "Repetition"
+msgstr "R&eacute;p&eacute;tition"
+
+msgid "Frequency"
+msgstr "Fr&eacute;quence"
+
+msgid "Hold"
+msgstr "Tenir"
+
+msgid "Tempo"
+msgstr "Tempo"
+
+msgid "Rest"
+msgstr "Repos"
+
+msgid "Exercise"
+msgstr "Exercice"
+
+msgid "User"
+msgstr "Util"
+
+msgid "NAME"
+msgstr "NOM"
+
+msgid "Pswd"
+msgstr "MdP"
+
+msgid "START DATE"
+msgstr "DATE DE D&Eacute;BUT"
+
+msgid "Stretching"
+msgstr "&Eacute;tirement"
+
+msgid "Minute Cool Down"
+msgstr "Minutes de Ralentissement"
+
+msgid "Cool Down"
+msgstr "Ralentissement"
+
+msgid "Minute Warm-Up"
+msgstr "Minutes d'échauffement"
+
+msgid "Warm-Up"
+msgstr "&Eacute;chauffement"
+
+msgid "Warm-up"
+msgstr "&Eacute;chauffement"
+
+msgid "WEEK"
+msgstr "SEMAINE"
+
+msgid "You can change your Preferences"
+msgstr "Vous pouvez changer vos préférences"
+
+msgid "Print a summary"
+msgstr "Imprimer un sommaire"
+
+msgid "Email Client"
+msgstr "Type de Email"
+
+msgid "Outlook"
+msgstr ""
+
+msgid "Default module"
+msgstr "Module par défaut"
+
+msgid "Search by module only"
+msgstr "Recherche par module seulement"
+
+msgid "You can change your Login and Password"
+msgstr "Vous pouvez changer votre nom d'utilisateur et votre mot de passe"
+
+msgid "Username must be at least 8 characters long and alphanumeric!"
+msgstr "Votre nom d'utilisateur doit contenir au moins 8 caract&egrave;res alpha-num&eacute;riques!"
+
+msgid "SOFTWARE LICENSE AGREEMENT"
+msgstr "CONVENTION DE DROITS D'UTILISATION DE LOGICIEL"
+
+msgid ""
+"This Software may not be accessed unless or until you accept the terms of "
+"the applicable Software License Agreement (the \"Agreement&rdquo;)."
+"<br><br>IMPORTANT-READ CAREFULLY: This Agreement is a legal agreement "
+"between you (either an individual person or a single legal entity, who will "
+"be referred to in this Agreement as \"You\" or, in the possessive, \"Your\") "
+"and 9082-5902 QUEBEC Inc. (hereinafter \" current_brand_name&rdquo;). By installing, "
+"copying, downloading, accessing or otherwise using the Software, You agree "
+"to be bound by the terms of this Agreement. If You do not agree to the terms "
+"of this Agreement, current_brand_name is unwilling to license the Software. In such "
+"event, You may not use or copy the Software, and You should promptly contact "
+"current_brand_name for instructions on refunds in accordance with current_brand_name\"s return policy."
+msgstr ""
+"Il ne Vous est permis d'accéder au logiciel faisant l'objet de la présente Convention (\"le Logiciel\") "
+"qu'après Vous être engagé à Vous conformer aux dispositions de la Convention de droits d'utilisation "
+"de Logiciel applicable (\"la Convention\")."
+"<br><br>IMPORTANT- LIRE ATTENTIVEMENT: La présente Convention est une convention licite intervenue "
+"entre Vous (soit un particulier ou une personne morale agissant seule, ci-après désigné, dans "
+"la présente Convention, par le pronom \"Vous\" ou par le possessif \"Votre\") et 9082-5902 QUEBEC "
+"Inc. (ci-après désignée \"Visou\"). Lorsque Vous utilisez le Logiciel et notamment lorsque Vous "
+"l'installez, le copiez, ou téléchargez, ou y accédez, Vous acceptez d'être lié par les dispositions "
+"de la présente Convention. Si Vous ne convenez pas des dispositions de la présente Convention, "
+"Visou refuse d'octroyer une licence pour le Logiciel. Le cas échéant, il ne Vous est pas loisible "
+"d'utiliser ou de copier le Logiciel, et Vous devriez alors sans délai communiquer avec Visou pour "
+"obtenir des instructions au sujet des remboursements prévus aux termes de la politique de Visou "
+"en matière de retours."
+
+msgid ""
+"<h3>1. License</h3><strong>1.1</strong> current_brand_name hereby grants to You a non-"
+"exclusive, non-assignable, non-transferable license to use the Software in "
+"the Territory solely for the purposes contemplated by this Agreement."
+"<br><br><strong>1.2</strong> You shall not modify or merge the Software with "
+"any other software. This license does not permit the use of the Software for "
+"creation of new modules or products. However, You may modify or update Your "
+"database including the addition of content and photographs to such server in "
+"connection herewith.<br><br><strong>1.3</strong> This license entitles You "
+"to issue user names and passwords to that number of users set forth in the "
+"Purchase Order. Such user names and passwords permit unlimited use of the "
+"Software by such users during the Term set forth in the Purchase Order."
+"<br><br><strong>1.4</strong> You shall not permit third parties to use, "
+"download or otherwise access the Software from any computer outside Your "
+"direct and exclusive control without the prior written consent of current_brand_name, "
+"which consent may be withheld at current_brand_name\\'s sole and absolute discretion. You "
+"will employ means reasonably anticipated to prevent such unauthorized use. "
+"Any access to the Software via web browser must be password controlled."
+msgstr ""
+"<h3>1. Droits</h3><strong>1.1</strong> Visou Vous octroie par la présente une licence "
+"non-exclusive, incessible et non-négociable d'utiliser le Logiciel à l'intérieur du "
+"Territoire uniquement aux fins prévues par la présente Convention."
+"<br><br><strong>1.2</strong> Il Vous est interdit de modifier ou de fusionner le "
+"Logiciel à un autre logiciel. La présente licence ne donne pas le droit d'utiliser "
+"le Logiciel pour créer de nouveaux modules ou de nouveaux produits. Il Vous est "
+"cependant loisible de modifier ou de mettre Votre base de données à jour "
+"notamment en ajoutant des données et des photographies à ce serveur dans "
+"le cadre de la présente Convention."
+"<br><br><strong>1.3</strong> La présente licence Vous autorise à émettre leurs "
+"noms d'utilisateur et mots de passe au nombre d'utilisateurs indiqué dans le "
+"Bon de Commande. Ces noms d'utilisateur et mots de passe donnent à ces utilisateurs "
+"le droit de faire un usage illimité du Logiciel au cours de la durée prévue dans "
+"le Bon de Commande."
+"<br><br><strong>1.4</strong> Il Vous est interdit de permettre aux tiers d'accéder "
+"au Logiciel et notamment de l'utiliser ou de le télécharger depuis tout ordinateur "
+"qui échappe à Votre contrôle direct et exclusif sans en avoir au préalable obtenu "
+"la permission écrite de Visou, qui seule jouit du pouvoir discrétionnaire de refuser "
+"cette permission. Vous prendrez les moyens Vous permettant raisonnablement de prévoir "
+"empêcher qu'on en fasse ainsi une utilisation non autorisée ou illicite. L'accès au "
+"Logiciel au moyen du fureteur Web doit être contrôlé par un mot de passe."
+
+msgid ""
+"<h3>2. Limitations on License</h3><strong>2.1</strong> You shall not:"
+"<br><br><strong>a.</strong> Access or use any portion of the Software not "
+"expressly licensed and paid for by You;<br><br><strong>b.</strong> Invoke "
+"any Software, except through application program interfaces documented by "
+"current_brand_name;<br><br><strong>c.</strong> Cause or permit decompilation or reverse "
+"assembly of all or any portion of the Software, except as expressly provided "
+"by applicable law;<br><br><strong>d.</strong> Disclose or publish "
+"performance benchmark results for the Software (as delivered or subsequently "
+"modified) without current_brand_name\"s prior written consent;<br><br><strong>e.</strong> "
+"Use the Software in violation of any applicable laws and regulations;"
+"<br><br><strong>f.</strong> Authorize or permit the use of the Software "
+"except as explicitly permitted herein or for any purpose other than for the "
+"prescription of exercises by duly licensed professionals or for related "
+"educational purposes by such licensed professionals;<br><br><strong>g.</"
+"strong> Use Third Party Software except solely in conjunction with the "
+"Software;<br><br><strong>h.</strong> Delete, fail to reproduce or modify any "
+"copyright or other proprietary rights notices which appear on or in the "
+"Software;<br><br><strong>i.</strong> Directly or indirectly, sublicense, "
+"relicense, distribute, disclose, use, rent or lease the Software or any "
+"portion thereof, for third party use, training, facilities management, time-"
+"sharing, or service bureau use; or<br><br><strong>j.</strong> Permit the "
+"Software to be copied to any computer.<br><br><strong>2.2</strong> current_brand_name "
+"reserves all rights not expressly granted herein."
+msgstr ""
+"<h3>2. Restrictions relatives à la Licence</h3>"
+"<strong>2.1</strong> Il Vous est interdit:"
+"<br><br><strong>a.</strong> D'accéder au Logiciel ou d'en utiliser toute partie "
+"pour laquelle Vous n'êtes pas expressément autorisé et pour laquelle Vous n'avez pas payé;"
+"<br><br><strong>b.</strong> D'appeler tout Logiciel, sauf au moyen d'interfaces de "
+"programme d'application documentées par Visou;"
+"<br><br><strong>c.</strong> De causer ou de permettre la décompilation ou l'assemblage "
+"inverse de tout ou partie du Logiciel, sauf disposition expresse du droit applicable;"
+"<br><br><strong>d.</strong> De divulguer ou de publier les résultats des tests "
+"d'évaluation des performances pour le Logiciel (livrés ou subséquemment modifiés) "
+"sans que Visou y ait préalablement consenti par écrit;"
+"<br><br><strong>e.</strong> D'utiliser le Logiciel à l'encontre des lois et "
+"règlements applicables;"
+"<br><br><strong>f.</strong> D'autoriser ou de permettre l'utilisation du Logiciel, "
+"sous réserve des permissions expresses prévues aux présentes ou à toute fin, exception "
+"faite de la prescription d’exercises par les professionnels dûment autorisés ou pour "
+"des fins pédagogiques connexes par lesdits professionnels autorisés;"
+"<br><br><strong>g.</strong> D'utiliser le Logiciel de Société Indépendante à moins "
+"que cettte utilisation ne soit faite que concurremment avec le Logiciel;"
+"<br><br><strong>h.</strong> De supprimer, de ne pas reproduire ou de modifier "
+"les avis de droit de propriété et notamment tout avis de droit d’auteur apparaissant "
+"sur ou dans le Logiciel;"
+"<br><br><strong>i.</strong> D'accorder une sous-licence, d'accorder une nouvelle "
+"licence, de distribuer, de divulguer, d'utiliser ou de louer tout ou partie du "
+"Logiciel, soit directement ou indirectement, pour fins d'utilisation par un tiers "
+"ou pour fins de formation, de gestion d'équipements ou d'installations, en temps "
+"partagé, ou pour que le bureau de service l'utilise; ou"
+"<br><br><strong>j.</strong> De permettre que l'on transmette copie du Logiciel à un ordinateur."
+"<br><br><strong>2.2</strong> Visou se réserve tous les droits qui ne sont pas expressément "
+"octroyés dans la présente Convention."
+
+
+msgid ""
+"<h3>3. Title and Protection</h3><strong>3.1</strong> The Software contains "
+"valuable proprietary information. current_brand_name (or its licensors) retains title, "
+"copyright and other proprietary rights to all portions of the Software, and "
+"all modifications and alterations thereto, and all copies thereof. You do "
+"not acquire any rights, express or implied, in the Software, except as "
+"specified herein. No license, right, or interest in any current_brand_name trademark, "
+"trade name, or service mark is granted pursuant to this Agreement."
+msgstr ""
+"<h3>3. Propriété et Protection</h3>"
+"<strong>3.1</strong> Le Logiciel contient de précieux renseignements confidentiels. "
+"Visou (ou ses concédants de licence) conserve la propriété, les droits d'auteur "
+"et tous les autres droits droits de propriété afférents à toutes les parties "
+"du Logiciel, à toutes les modifications et à tous les changements qui y sont "
+"apportés et à toute copie qui en est faite. Vous n'acquérez que les droits "
+"explicites ou implicites grevant le Logiciel qui sont prévus aux présentes. "
+"La présente Convention n'a pour effet d'octroyer ni licence ni droit grevant, "
+"ni participation dans, la marque de commerce, l'appellation commerciale ou la "
+"marque déposée de Visou."
+
+msgid ""
+"<h3>4. Intellectual Property Indemnity</h3><strong>4.1</strong> current_brand_name shall "
+"indemnify You against any claims that the Software infringes upon any third "
+"party copyright or patent, provided that current_brand_name is given prompt notice of "
+"such claim and is given information, reasonable assistance, and sole "
+"authority to defend or settle the claim. In the event of any threatened "
+"claim, current_brand_name may, in its reasonable judgment and at its sole option and "
+"expense: (i) obtain for You the right to continue using the Software; (ii) "
+"replace or modify the Software so that it becomes non-infringing; or (iii) "
+"terminate the license for the allegedly infringing Software and return the "
+"fees paid by You for such Software. current_brand_name shall have no obligation to "
+"indemnify or defend You for any liability arising out of or relating to any "
+"allegations or claims of infringement, to the extent the alleged "
+"infringement is based on: (a) any modification of the Software; (b) use of "
+"the Software other than in accordance with the terms of this Agreement; (c) "
+"use of a release of the Software no longer supported by current_brand_name; (d) use of a "
+"release of the Software without having implemented all updates provided to "
+"You by current_brand_name; (e) any Third Party Software, unless otherwise specified "
+"herein; or (f) use of the Software in combination with any other hardware, "
+"software or other materials where, absent such combination, the Software "
+"would not be infringing. This Section entitled \"Intellectual Property "
+"Indemnity\" states current_brand_name\\'s entire liability for actual or alleged "
+"infringements and Your sole and exclusive remedy in relation thereto."
+msgstr ""
+"<h3>4. Indemnité relative à la propriété intellectuelle</h3>"
+"<strong>4.1</strong> Visou est tenue de Vous tenir indemne de toute réclamation "
+"alléguant que le Logiciel viole le droit d'auteur ou le brevet d'une tierce partie, "
+"à condition que Visou soit promptement avisée de cette réclamation et qu'on lui "
+"donne les renseignements, une aide raisonnable, et le pouvoir exclusif de "
+"la contester ou de réaliser un règlement. En cas de réclamation imminente, "
+"il est loisible à Visou, à son avis raisonnablement réfléchi, à son entière "
+"discrétion et entièrement à ses frais: (i) d'obtenir pour Vous le droit de "
+"continuer à utiliser le Logiciel; (ii) de remplacer ou de modifier le Logiciel "
+"pour le rendre conforme aux exigences; ou (iii) résilier la licence pour le "
+"Logiciel prétendument non autorisé et Vous remettre les frais que Vous "
+"avez payé pour ce Logiciel. Visou n'est pas tenue de Vous tenir indemne "
+"ni de contester en Votre nom la responsabilité découlant de l'allégation "
+"de contrefaçon ou s'y rapportant, dans la mesure où l'allégation de contrefaçon "
+"est fondée sur : (a) la modification du Logiciel; (b) l'utilisation faite du "
+"Logiciel à l'encontre des dispositions de la présente Convention; (c) "
+"l'utilisation faite d'une version du Logiciel qui n'est plus supportée "
+"par Visou; (d) l'utilisation faite d'une version du Logiciel sans avoir "
+"implanté toutes les mises à jour qui Vous sont fournies par Visou; "
+"(e) le Logiciel de Société Indépendante, sauf indication contraire "
+"dans la présente Convention; ou (f) l'utilisation faite du Logiciel "
+"combiné à tout autre matériel, logiciel ou autres matériaux si, en "
+"l'absence de cette combinaison, le Logiciel ne serait pas non autorisé. "
+"Le présent article intitulé \"Indemnité relative à la propriété intellectuelle\" "
+"prévoit la responsabilité absolue de Visou pour les violations effectives ou "
+"prétendues et le seul recours qui Vous est réservé à cet égard."
+
+
+msgid ""
+"<h3>5. Term and Termination</h3><strong>5.1</strong> This Agreement will "
+"remain in effect until expiration of the Term or unless and until terminated "
+"pursuant to this Section entitled \"Term and Termination\" or unless renewed "
+"and extended at current_brand_name\\'s discretion.<br><br><strong>5.2</strong> current_brand_name may "
+"terminate this Agreement in the event of the other\\'s failure to comply "
+"with any material term of this Agreement or with the terms and conditions "
+"set forth in the Purchase Order and such noncompliance remains uncured for "
+"more than five (5) days after notice thereof. Notwithstanding the foregoing, "
+"current_brand_name may terminate this Agreement immediately, by giving notice to You, in "
+"case of Insolvency or in case of a breach of Your obligations under the "
+"sections herein entitled \"Title and Protection\" or \"Assignment\"."
+"<br><br><strong>5.3</strong> Except as expressly provided otherwise in this "
+"Agreement, (i) all remedies available to current_brand_name are cumulative and not "
+"exclusive; and (ii) termination of this Agreement or any license shall not "
+"limit current_brand_name from pursuing other remedies available to it, including "
+"injunctive relief. Upon termination, all amounts owed under this Agreement "
+"shall immediately become due and payable."
+msgstr ""
+"<h3>5. Durée et résiliation<h3>"
+"<strong>5.1</strong> La présente Convention demeure en vigueur jusqu’à l'expiration "
+"de la Durée ou jusqu'à ce qu'elle soit résiliée aux termes du présent article "
+"intitulé \"Durée et résiliation\", sauf si elle est renouvelée et prolongée à "
+"la discrétion de Visou."
+"<br><br><strong>5.2</strong> Il est loisible à Visou de résilier la présente "
+"Convention si l'autre partie omet de se conformer à une disposition importante "
+"de la présente Convention ou aux modalités énoncées dans le Bon de Commande, "
+"s'il n’est pas remédié à cette inobservation plus de cinq (5) jours après "
+"qu'elle ait fait l'objet d’un avis. Nonobstant ce qui précède, il est loisible "
+"à Visou de résilier la présente Convention immédiatement, en Vous en donnant "
+"avis, en cas d'insolvabilité ou advenant Votre défaut de remplir Vos obligations "
+"prévues aux articles de la présente Convention intitulés \"Propriété et Protection\" "
+"ou \"Cession\"."
+"<br><br><strong>5.3</strong> Sauf indication expresse au contraire dans la présente "
+"Convention, (i) tous les recours dont Visou peut se prévaloir sont cumulatifs et "
+"non exclusifs; et (ii) la résiliation de la présente Convention ou de toute licence "
+"n'a pas pour effet d'empêcher Visou d'instituer les autres recours à sa disposition "
+"et notamment la demande d'injonction. Dès la résiliation de la présente Convention, "
+"toute somme due en vertu de ses dispositions devient immédiatement échue et exigible."
+
+msgid ""
+"<h3>6. No Warranty</h3><strong>6.1</strong> current_brand_name DOES NOT WARRANT THAT THE "
+"SOFTWARE IS ERROR-FREE OR THAT THE SOFTWARE WILL RUN UNINTERRUPTED, OR THAT "
+"ALL SOFTWARE ERRORS CAN OR WILL BE CORRECTED. THE SOFTWARE, ALL PRIOR AND "
+"SUBSEQUENT VERSIONS THEREOF AND ALL MATERIALS, ARE PROVIDED \"AS IS\" WITH "
+"NO EXPRESS OR IMPLIED WARRANTIES OR CONDITIONS OF ANY KIND."
+"<br><br><strong>6.2</strong> You accept sole responsibility for: (i) Your "
+"system configuration, design and requirements; and (ii) any unauthorized "
+"modifications, changes or alterations to the Software. You acknowledge that "
+"You understand the functionality of the Software.<br><br><strong>6.3</"
+"strong> ALL ERROR CORRECTIONS AND BUG FIXES PROVIDED TO YOU WHICH ARE NOT "
+"MADE GENERALLY COMMERCIALLY AVAILABLE AS PART OF AN UPDATE ARE PROVIDED \"AS "
+"IS\" WITHOUT WARRANTY OR CONDITION OF ANY KIND AND current_brand_name EXPRESSLY DISCLAIMS "
+"ALL WARRANTIES AND CONDITIONS IN RELATION THERETO.<br><br>THERE ARE NO "
+"WARRANTIES OR CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, WITH "
+"RESPECT TO THIS AGREEMENT, THE SOFTWARE, ANY RELATED DOCUMENTATION, OR ANY "
+"SERVICES (INCLUDING SUPPORT SERVICES) OR SOFTWARE PROVIDED BY current_brand_name TO YOU "
+"INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OR CONDITIONS OF "
+"MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, "
+"AND current_brand_name EXPRESSLY DISCLAIMS ANY SUCH WARRANTIES AND CONDITIONS.<br><br>THE "
+"SOFTWARE MAY ONLY BE USED WITH APPROPRIATE, CALIBRATED AND PROPERLY "
+"CONFIGURED HARDWARE AS WELL AS PROPERLY CALIBRATED PRODUCTS. UNDER NO "
+"CIRCUMSTANCES DOES current_brand_name WARRANT OR OTHERWISE GUARANTEE THE SOFTWARE IF YOU "
+"OR ANY THIRD PARTY USES THE SOFTWARE IN CONJUNCTION WITH INAPPROPRIATE OR "
+"IMPROPERLY CALIBRATED OR CONFIGURED HARDWARE OR FAIL TO CALIBRATE THE "
+"PRODUCTS ACCORDING TO current_brand_name\\'S PRESCRIBED METHODS, GUIDELINES AND "
+"PROTOCOLS. FAILURE TO USE PRESCRIBED OR PROPERLY CALIBRATED HARDWARE OR "
+"PRODUCTS SHALL RENDER ANY APPLICABLE WARRANTIES NULL AND VOID. CALIBRATION "
+"AND CONFIGURATION OF HARDWARE AND PRODUCTS MUST BE CONDUCTED IN STRICT "
+"ACCORDANCE WITH current_brand_name\\'S INSTRUCTIONS AND SPECIFICATIONS."
+msgstr ""
+"<h3>6. Aucune garantie</h3>"
+"<strong>6.1</strong> VISOU NE GARANTIT PAS QUE LE LOGICIEL NE COMPORTE AUCUNE ERREUR, "
+"NI QUE LE LOGICIEL FONCTIONNERA SANS INTERRUPTION, NI QUE TOUTES LES ERREURS DE "
+"LOGICIEL PEUVENT ÊTRE CORRIGÉES, NI QU'ELLES LE SERONT. LE LOGICIEL, TOUTES LES "
+"VERSIONS PRÉCÉDENTES ET SUBSÉQUENTES QUI EN SONT FAITES ET TOUS LES MATÉRIAUX "
+"SONT FOURNIS \"TEL QUELS\", SANS GARANTIE EXPLICITE OU LÉGALE ET SANS CONDITION "
+"DE QUELQUE SORTE QUE CE SOIT."
+"<br><br><strong>6.2</strong> Vous acceptez d'être seul responsable: (i) de la "
+"configuration, de la conception et des besoins de Votre système; et (ii) des "
+"modifications, des altérations ou des changements non autorisés qui sont apportés "
+"au Logiciel. Vous reconnaissez que Vous comprenez la fonctionnalité(sic) du Logiciel."
+"<br><br><trong>6.3</strong> TOUTES LES CORRECTIONS D'ERREUR ET TOUTES LES RÉPARATIONS "
+"DE BOGUE ET RUSTINES (BUG FIXES) QUI VOUS SONT FOURNIES ET QUI NE SONT PAS "
+"GÉNÉRALEMENT DISPONIBLES DANS LE COMMERCE DANS LA CADRE D'UNE MISE À JOUR LE "
+"SONT \"TELS QUELS\", SANS GARANTIE NI CONDITION DE QUELQUE SORTE QUE CE SOIT, "
+"ET VISOU RENONCE EXPRESSÉMENT À TOUTE GARANTIE ET À TOUTE CONDITION S’Y RAPPORTANT."
+"<br><br>IL N'EXISTE AUCUNE GARANTIE OU CONDITION DE QUELQUE SORTE QUE CE SOIT, "
+"NI EXPLICITE NI IMPLICITE SE RAPPORTANT À LA PRÉSENTE CONVENTION, AU LOGICIEL, "
+"À TOUTE DOCUMENTATION S'Y RAPPORTANT, OU AUX SERVICES (Y COMPRIS LES SERVICES "
+"D'ASSISTANCE TECHNIQUE) OU AU LOGICIEL QUE VISOU VOUS FOURNIT Y COMPRIS SANS "
+"RESTRICTION LES GARANTIES IMPLICITES OU LES CONDITIONS DE QUALITÉ MARCHANDE "
+"OU D'APTITUDE À UNE FIN PARTICULIÈRE ET D'ABSENCE DE CONTREFAÇON, ET VISOU "
+"NIE ET REJÈTE EXPRESSÉMENT LESDITES GARANTIES ET CONDITIONS."
+"<br><br>LE LOGICIEL NE PEUT ÊTRE UTILISÉ QU’À L'AIDE DU MATÉRIEL APPROPRIÉ, "
+"CALIBRÉ ET BIEN CONFIGURÉ DE MÊME QUE DE PRODUITS BIEN CALIBRÉS. VISOU NE "
+"GARANTIT AUCUNEMENT LE LOGICIEL, NOTAMMENT PAR VOIE DE CERTIFICATION, "
+"SI VOUS OU UNE TIERCE PARTIE UTILISEZ LE LOGICIEL CONCURREMMENT AVEC DU "
+"MATÉRIEL INAPPROPRIÉ OU MAL CALIBRÉ OU MAL CONFIGURÉ OU NÉGLIGEZ DE CALIBRER "
+"LES PRODUITS CONFORMÉMENT AUX MÉTHODES, AUX INDICATIONS ET AUX PROTOCOLES "
+"PRESCRITS PAR VISOU. L'OMISSION D’UTILISER LE MATÉRIEL OU LES PRODUITS "
+"INDIQUÉS OU BIEN CALIBRÉS ANNULE LES GARANTIES APPLICABLES. LA CALIBRATION "
+"ET LA CONFIGURATION DU MATÉRIEL ET DES PRODUITS DOIVENT ÊTRE EFFECTUÉES DE "
+"FAÇON STRICTEMENT CONFORME AUX INSTRUCTIONS ET AUX SPÉCIFICATIONS DE VISOU."
+
+msgid ""
+"<h3>7. No Liability</h3><strong>7.1</strong> current_brand_name SHALL NOT BE LIABLE FOR "
+"ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, "
+"INCLUDING WITHOUT LIMITATION, LOST DATA OR LOST PROFITS, OR COSTS OF "
+"PROCURING SUBSTITUTE GOODS, SOFTWARE OR SERVICES, HOWEVER ARISING, EVEN IF "
+"IT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.<br><br><strong>7.2</"
+"strong> EXCEPT AS OTHERWISE EXPRESSLY PROVIDED FOR IN THE SOFTWARE LICENSE "
+"AGREEMENT, current_brand_name SHALL NOT BE LIABLE FOR ANY DEATH, DAMAGE OR INJURY OF ANY "
+"NATURE WHATSOEVER, WHETHER DIRECT OR INDIRECT, ACTUAL, SPECIAL, INCIDENTAL, "
+"CONSEQUENTIAL, PUNITIVE OR EXEMPLARY, WHETHER FORESEEABLE OR NOT, ARISING "
+"FROM ANY ACT OR OMISSION OF EITHER LICENSEE, LICENSEE\\'S AGENTS, EMPLOYEES, "
+"REPRESENTATIVES OR PATIENTS, THE USE OR INABILITY TO USE THE SOFTWARE BY "
+"LICENSEE, ITS EMPLOYEES OR REPRESENTATIVES, THE RESULTS GENERATED FROM THE "
+"USE OF THE SOFTWARE, LOSS OF GOODWILL OR PROFITS, BUSINESS INTERRUPTION OR "
+"LOST BUSINESS HOWEVER CHARACTERIZED AND/OR FROM ANY OTHER CAUSE WHATSOEVER, "
+"EVEN IF current_brand_name IS ADVISED OF THE LIKELIHOOD OR POSSIBILITY OF SAME AND "
+"WHETHER SUCH CLAIM IS BASED ON WARRANTY, CONTRACT, TORT, NEGLIGENCE OR "
+"STRICT LIABILITY.<br><br><strong>7.2</strong> Notwithstanding anything "
+"contained in this Agreement, current_brand_name\\'s aggregate liability under this "
+"Agreement, at law or in equity, shall not exceed: (i) for any particular use "
+"of the Software, the licensee fees paid by the licensee in connection with "
+"such use; and (ii) for any other default, the amounts recovered by current_brand_name "
+"under the scope and limits of current_brand_name\\'s insurance coverage."
+msgstr ""
+"<h3>7. Aucune responsabilité</h3>"
+"<strong>7.1</strong> VISOU N'EST PAS RESPONSABLE DES DOMMAGES DIRECTS, INDIRECTS, "
+"ACCESSOIRES OU SPÉCIFIQUES, Y COMPRIS SANS RESTRICTION DE LA PERTE DE DONNÉES, "
+"DU MANQUE À GAGNER OU DES FRAIS ENCOURUS POUR SE PROCURER DES MARCHANDISES, "
+"DES ARTICLES, DU LOGICIEL OU DES SERVICES DE REMPLACEMENT, QUELLE QU'EN SOIT "
+"LA PROVENANCE, MÊME LORSQU'ELLE A ÉTÉ AVISÉE DE L’ÉVENTUALITÉ DESDITS DOMMAGES."
+"<br><br><strong>7.2</strong> SAUF INDICATION EXPRESSE AU CONTRAIRE DANS LA "
+"CONVENTION DE DROITS D'UTILISATION DE LOGICIEL, VISOU N'EST RESPONSABLE NI "
+"DES DOMMAGES, NI DE L'AVARIE, NI DU DÉCÈS DE QUELQUE NATURE QUE CE SOIT, "
+"DIRECT, INDIRECT, RÉEL, SPÉCIAL, ACCESSOIRE, PUNITIF OU EXEMPLAIRE, PRÉVISIBLE "
+"OU IMPRÉVISIBLE, DÉCOULANT DE L'ACTE OU DE L'OMISSION SOIT DU TITULAIRE DE "
+"LICENCE, OU DES AGENTS, DES EMPLOYÉS, DES REPRÉSENTANTS OU DES PATIENTS DU "
+"TITULAIRE DE LICENCE, DE L'UTILISATION OU DE L'INCAPACITÉ DU TITULAIRE DE "
+"LICENCE, DE SES EMPLOYÉS OU DE SES REPRÉSENTANTS D'UTILISER LE LOGICIEL, "
+"DES RÉSULTATS DÉCOULANT DE L'UTILISATION DU LOGICIEL, DE LA PERTE D'ACHALANDAGE "
+"OU DU MANQUE À GAGNER, DE L'INTERRUPTION DES AFFAIRES OU DES PERTES D'EXPLOITATION, "
+"QUELLE QU'EN SOIT LA DÉSIGNATION, ET/OU DE TOUTE AUTRE CAUSE QUE CE SOIT, MÊME "
+"SI VISOU EST INFORMÉE QU'ILS SONT PROBABLES OU POSSIBLES ET QUE LADITE RÉCLAMATION "
+"SOIT FONDÉE SUR LA GARANTIE, LE CONTRAT, LA RESPONSABILITÉ DÉLICTUELLE, LA "
+"NÉGLIGENCE OU LA RESPONSABILITÉ STRICTE OU OBJECTIVE."
+"<br><br><strong>7.2</strong> Nonobstant les dispositions de la présente Convention, "
+"la responsabilité globale de Visou aux termes de la présente Convention, en justice "
+"ou selon l'équité, ne doit pas dépasser: (i) pour toute utilisation particulière "
+"du Logiciel, les frais d'utilisation payés par le titulaire de licence relativement "
+"à cette utilisation; et (ii) pour tout autre défaut, les montants récupérés "
+"par Visou, sous réserve de l'étendue et des limites de l'assurance de Visou."
+
+msgid ""
+"<h3>8. Indemnification</h3><strong>8.1</strong> Licensee hereby agrees to "
+"indemnify and hold current_brand_name, its representatives, agents, successors, assigns, "
+"licensees, officers, directors, shareholders and employees harmless from and "
+"against any and all claims, liabilities, losses, damages, costs, expenses "
+"(including but not limited to reasonable attorneys\\' fees), judgments and "
+"penalties arising out of, resulting from, based upon or incurred as a "
+"consequence of licensee\\'s use of the Software, any results generated by "
+"the Software, or any injury sustained by or death of any patient or client "
+"of licensee. In the event that a claim is made against current_brand_name for which it is "
+"entitled to indemnification pursuant to this subsection 8.1, current_brand_name agrees to "
+"promptly notify licensee thereof and, in the case of a claim by a third "
+"party against current_brand_name or any of its employees, directors, representatives or "
+"assigns, licensee may, at its option, elect to assume the defense of such "
+"claim, provided that current_brand_name shall be entitled to participate therein through "
+"counsel of its choosing at its sole cost and expense."
+msgstr ""
+"<h3>8. Dédommagement</h3>"
+"<strong>8.1</strong> Le titulaire de licence s'engage par la présente à indemniser "
+"Visou et à dégager Visou, ses représentants, ses agents, ses successeurs, ses "
+"ayants droit, ses titulaires de licences, ses dirigeants, ses administrateurs, "
+"ses actionnaires et ses employés des réclamations, des obligations, des "
+"responsabilités, des pertes, des dommages, des frais, des dépenses (y compris "
+"mais non limitativement les honoraires raisonnables des avocats), des jugements "
+"et des pénalités sans exception découlant ou résultant de l'utilisation du Logiciel "
+"que fait le titulaire de licence, fondés sur cette utilisation ou encourus en "
+"conséquence de ladite utilisation, des résultats produits par le Logiciel, des "
+"blessures subies par le patient ou par le client ou de leur décès. Advenant "
+"qu'une réclamation soit déposée contre Visou à l'égard de laquelle Visou a le "
+"droit d’être dédommagée en vertu des dispositions du présent paragraphe 8.1, "
+"Visou s'engage à en aviser sans délai le titulaire de licence et, lorsque la "
+"réclamation est déposée par une tierce partie contre Visou ou contre n'importe "
+"lequel de ses employés, administrateurs, représentants ou ayants droit, il est "
+"loisible au titulaire de licence, à son choix mais sans y être tenu d'aucune "
+"façon, de choisir d'assurer la défense contre cette réclamation, pourvu que "
+"l'on permette à Visou d’y participer par l'entremise du procureur de son choix "
+"entièrement à ses frais."
+
+msgid ""
+"<h3>9. Assignment</h3><strong>9.1</strong> You may not assign this Agreement "
+"(by operation of law or otherwise), grant a security interest in the "
+"Software, or sublicense the Software without the prior written consent of "
+"current_brand_name, which consent may be withheld at current_brand_name\\'s sole and absolute "
+"discretion, and any assignment, grant or sublicense without such consent "
+"shall be null and void.<br><br>"
+msgstr ""
+"<h3>9. Cession</h3>"
+"<strong>9.1</strong> Il ne Vous est pas loisible de céder ou de transporter "
+"la présente Convention (notamment par l’opération de la loi), de concéder "
+"une participation dans le Logiciel, ou d’accorder une sous-licence du Logiciel "
+"sans que Visou, qui peut refuser d'y donner son consentement à son entière "
+"discrétion, y ait préalablement consenti par écrit et en l'absence de ce "
+"consentement, la cession, l'octroi ou la sous-licence est nulle et de nul effet.<br><br>"
+
+msgid ""
+"<h3>10. Survivability</h3><strong>10.1</strong> The terms of Sections herein "
+"entitled \"Title and Protection\", \"Termination\", \"No Warranty\", \"No "
+"Liability\", \"Survivability\", \"General\", and \"Definitions\" shall "
+"survive termination of this Agreement."
+msgstr ""
+"<h3>10. Maintien en vigueur</h3>"
+"<strong>10.1</strong> Les dispositions des articles des présentes, "
+"intitulés \"Propriété et Protection\", \"Résiliation\", \"Aucune garantie\", "
+"\"Aucune responsabilité\", \"Maintien en vigueur\", \"Généralités\", et "
+"\"Interprétation\", demeurent en vigueur nonobstant la résiliation de la "
+"présente Convention."
+
+msgid ""
+"<h3>11. No Restriction</h3><strong>11.1</strong> Nothing contained in this "
+"Agreement shall be interpreted or construed so as to prevent or restrict "
+"current_brand_name from licensing the Software to third parties, including, without "
+"limitation, in the same industry or market as the licensee."
+msgstr ""
+"<h3>11. Aucune restriction</h3>"
+"<strong>11.1</strong> Aucune des dispositions de la présente Convention ne doit "
+"être interprétée de façon à empêcher Visou d'octroyer une licence pour le Logiciel "
+"aux tiers, y compris sans restriction au sein de la même industrie ou du même "
+"marché que le le titulaire de licence, ou à limiter son droit de le faire."
+
+msgid ""
+"<h3>12. Relationship of Parties</h3><strong>12.1</strong> current_brand_name is and will "
+"at all times remain an independent contractor. This Agreement is not "
+"intended to create and shall not be construed or interpreted as creating "
+"between current_brand_name and the licensee a relationship of principal and agent, "
+"employer and employee, joint venturers, partners or any similar "
+"relationship, the existence of each of which is hereby expressly denied, nor "
+"shall either party be considered in any sense an affiliate, subsidiary or "
+"similarly related entity of the other. Neither party hereto shall have the "
+"right or authority to create or assume any obligations in the other party"
+"\\'s name or on the other party\\'s behalf, whether express or implied, or "
+"act or purport to act as the other party\\'s agent or legally empowered "
+"representative for any purpose whatsoever. Neither party shall be liable to "
+"any third party in any way for any engagement, obligation, commitment, "
+"contract, representation, transaction, act or omission to act of the other "
+"party."
+msgstr ""
+"<h3>12. Lien entre les parties</h3>"
+"<strong>12.1</strong> Visou est et demeurera toujours un entrepreneur "
+"indépendant. La présente Convention n'a pas pour but de créer et elle ne "
+"doit pas être interprétée de façon à créer, entre Visou et le titulaire "
+"de licence, de lien de préposition, d'emploi, d'entreprise en coparticipation, "
+"d'association, de société ni de lien similaire, lesquels sont par la présente "
+"réputés ne pas exister. Et ni l'une ni l'autre des parties n'est d'aucune "
+"manière réputée être une filiale, une compagnie associée ou une personne "
+"morale liée à l'autre de façon similaire. Ni l'une ni l'autre des parties "
+"aux présentes n'a le droit ou la compétence explicite ou implicite de créer "
+"ou d'assumer d'obligations au nom ou pour le compte de l'autre partie, ou de "
+"faire office ou de prétendre faire office de mandataire ou de représentant "
+"légalement autorisé de l'autre partie à quelque fin que ce soit. Ni l'une ni "
+"l'autre des parties ne répond d'aucune manière devant les tiers du marché, "
+"de l'obligation, de l'engagement, du contrat, de la déclaration, de la "
+"transaction, de l'acte ou du défaut d'agir de l’autre partie."
+
+msgid ""
+"<h3>13. Privacy Policy / Confidentiality</h3><strong>13.1</strong> current_brand_name "
+"shall not disclose, use, distribute or otherwise make available to third "
+"parties and it shall cause its representatives not to disclose, use, "
+"distribute or otherwise make available to third parties any Confidential "
+"Information (as defined below) with respect to patients or clients of "
+"licensee or to be furnished by licensee and/or any of its designated "
+"representatives to current_brand_name or its representatives in connection herewith at "
+"any time or in any manner. In the event that current_brand_name or any of its "
+"representatives is required (by oral questions, interrogatories, requests "
+"for information or documents in legal proceedings, subpoena, civil "
+"investigative demand or other similar process, or otherwise by law) to make "
+"any disclosure of the Confidential Information, current_brand_name will provide licensee "
+"with prompt written notice so that licensee may seek a protective order or "
+"other appropriate remedy or waive compliance with the provisions of this "
+"Agreement. If, in the absence of a protective order or other remedy or the "
+"receipt of a waiver by licensee, current_brand_name or any of its representatives is "
+"legally compelled to make a disclosure of any of the Confidential "
+"Information, current_brand_name or its representatives may, without liability hereunder, "
+"disclose only that portion of the Confidential Information which current_brand_name or "
+"its representatives is legally required to disclose. For purposes of this "
+"Paragraph, \"Confidential Information\" shall mean, but shall not be limited "
+"to, any personal information regarding any of licensee\\'s patients or "
+"clients, which is not generally known to the public through legitimate "
+"origins, provided that it does not include information which current_brand_name can "
+"demonstrate is or becomes generally available to or known by the public "
+"other than as a result of improper disclosure by current_brand_name.<br><br><strong>13.2</"
+"strong> current_brand_name shall be entitled to disclose or use the Confidential "
+"Information only to its employees who have a specific need to know same in "
+"order to perform current_brand_name\\'s duties and obligations hereunder in accordance "
+"with applicable privacy laws.<br><br>"
+msgstr ""
+"<h3>13. Politique de protection de la vie privée / Confidentialité</h3>"
+"<strong>13.1</strong> Il est interdit à Visou de mettre à la disposition des tiers et "
+"notamment de divulguer, d'utiliser ou de distribuer tout Renseignement Confidentiel "
+"(selon la définition qui en est donnée ci-après) qui se rapporte aux patients ou aux "
+"clients du titulaire de licence ou que le titulaire de licence et/ou n'importe lequel "
+"de ses représentants désignés est tenu de donner à Visou ou à ses représentants dans "
+"la cadre de la présente Convention en tout temps ou de quelque façon que ce soit. "
+"Advenant que Visou ou que n'importe lequel des ses représentants soit légalement "
+"tenu (notamment par voie de question orales, d'interrogatoires, de demandes de "
+"renseignements ou de documents dans le cadre de procédures judiciaires, de "
+"subpoena, de demande de recherche civile ou de tout autre acte de procédure "
+"similaire) de divulguer un tel Renseignement Confidentiel, Visou en avise sans "
+"délai le titulaire de licence par écrit de façon à lui permettre de déposer "
+"une demande en vue d'obtenir le redressement approprié et notamment l'émission "
+"d'une ordonnance préventive ou de renoncer à l'application des dispositions de "
+"la présente Convention. Si, faute d'ordonnance préventive et notamment de redressement "
+"ou de renonciation faite par le titulaire de licence, la loi oblige Visou ou n'importe "
+"lequel des ses représentants à divulguer quelque Renseignement Confidentiel que ce "
+"soit, il est loisible à Visou ou à ses représentants de ne divulguer, sans ainsi "
+"encourir de responsabilité aux termes de la présente Convention, que la partie "
+"du Renseignement Confidentiel que la loi oblige Visou ou ses représentants "
+"à divulguer. Pour l'application du présent Paragraphe, l'expression \"Renseignement "
+"Confidentiel\" désigne, de façon non limitative, tout renseignement de nature peronnelle "
+"se rapportant à n’importe lequel des patients ou des clients du titulaire de licence "
+"et qui est parvenu à la connaissance de l’ensemble du public par des moyens légitimes, "
+"à la condition qu'il ne contienne aucun renseignement dont Visou peut faire la preuve "
+"qu'il a été ou qu'il peut généralement être porté à la connaissance du public autrement "
+"que par suite de la divulgation irrégulière qu’en fait Visou."
+"<br><br><strong>13.2</strong> Visou n'a le droit de divulguer de Renseignement "
+"Confidentiel ni d'en permettre l'usage qu'à ceux de ses employés qui ont un besoin "
+"particulier d'en prendre connaissance dans le but de remplir les fonctions et d'exécuter "
+"les obligations de Visou prévues aux présentes conformément aux dispositions de la "
+"législation applicable en matière protection de la vie privée."
+
+msgid ""
+"<h3>14. General</h3><strong>14.1</strong> All updates, enhancements and "
+"fixes to the Software provided to You by current_brand_name are subject to the terms and "
+"conditions of this Agreement.<br><br><strong>14.2</strong> This Agreement "
+"shall be governed by, interpreted and construed in accordance with the laws "
+"of the Province of Quebec and the federal laws of Canada applicable therein, "
+"without regard to its choice of law principles. Exclusive jurisdiction and "
+"venue of any actions arising out of, or relating to or in any way connected "
+"with this Agreement, its negotiation or termination shall be in the Judicial "
+"District of Montreal, Province of Quebec.<br><br><strong>14.3</strong> The "
+"section headings herein are provided for convenience only and have no "
+"substantive effect on the construction of this Agreement."
+"<br><br><strong>14.4</strong> No document that purports to modify or "
+"supplement this Agreement shall add to or vary the terms of this Agreement. "
+"All proposed variations or additions (whether submitted by current_brand_name or You) are "
+"objected to and deemed material unless otherwise agreed to in writing by "
+"both parties.<br><br><strong>14.5</strong> Except for Your obligation to pay "
+"current_brand_name or to assume its obligations for taxes, duties and customs fees, "
+"neither party shall be liable for any failure to perform due to causes "
+"beyond its reasonable control.<br><br><strong>14.6</strong> If any provision "
+"of this Agreement is held to be unenforceable, this Agreement shall be "
+"construed without such provision.<br><br><strong>14.7</strong> The failure "
+"by a party to exercise or enforce any right hereunder shall not operate as a "
+"waiver of such party's right to exercise or enforce such right or any other "
+"right in the future. current_brand_name reserves the right to audit Your use of the "
+"Software at its discretion, but at current_brand_name\\'s expense. All audits shall be "
+"conducted during regular business hours at Your facilities and shall not "
+"unreasonably interfere with Your business activities.<br><br><strong>14.8</"
+"strong> This Agreement constitutes the entire agreement between the parties "
+"concerning Your use of the Software and may not be modified by custom and "
+"usage.<br><br><strong>14.9</strong> This Agreement replaces and supersedes "
+"any prior verbal or written understandings, communications, and "
+"representations between the parties in connection with the use of the "
+"Software.<br><br><strong>14.10</strong> This Agreement may be amended only "
+"by a written document executed by a duly authorized representative of each "
+"of the parties, unless expressly provided otherwise herein."
+"<br><br><strong>14.11</strong> Facsimile copies are considered documents "
+"equivalent to original documents.<br><br><strong>14.12</strong> All rights, "
+"remedies and recourses set forth herein for the benefit of current_brand_name shall be in "
+"addition and without prejudice to all other rights, remedies and recourses "
+"available to current_brand_name.<br><br><strong>14.13</strong> The parties have agreed "
+"that this Agreement be drafted in English."
+
+msgstr ""
+"<h3>14. Généralités</h3>"
+"<strong>14.1</strong> Toute mise à jour, optimisation et rustine ou réparation "
+"du Logiciel qui Vous est fournie par Visou est régie par les modalités prévues "
+"dans la présente Convention."
+"<br><br><strong>14.2</strong> La présente Convention est régie par les lois de "
+"la province de Québec et les lois fédérales du Canada qui y sont applicables et "
+"qui en déterminent l'interprétation, indépendamment des principes juridiques "
+"qu'on choisit d'y appliquer. Les actions qui résultent de la présente Convention, "
+"de sa négociation ou de sa résiliation, qui s'y rapportent ou qui s’y rattachent "
+"de près ou de loin relèvent de la juridiction exclusive et de la compétence "
+"territoriale des tribunaux du district judiciaire de Montréal, dans la province "
+"de Québec."
+"<br><br><strong>14.3</strong> Les rubriques, les intitulés et les titres "
+"apparaissant dans la présente Convention n'en affectent ni la substance, "
+"ni l'interprétation et n'y sont stipulés que par souci de commodité."
+"<br><br><strong>14.4</strong> Le document censé modifier ou compléter la "
+"présente Convention n'ajoute rien aux modalités de la présente Convention "
+"ni ne les modifie. Les modifications et les ajouts proposés ou projetés "
+"(qu'ils soient soumis par Visou ou par Vous) sont tous contestés et réputés "
+"pertinents, sauf accord écrit contraire des deux parties."
+"<br><br><strong>14.5</strong> Sauf pour ce qui est de Votre obligation de "
+"payer Visou ou d'assumer ses obligations en ce qui a trait aux impôts, aux "
+"droits de douane et aux frais de douane, ni l'une ni l’autre des parties ne "
+"répond du défaut de s’acquitter de ses obligations en raison de circonstances "
+"indépendantes de sa volonté."
+"<br><br><strong>14.6</strong> Si une provision de la présente Convention est "
+"jugée inapplicable, la présente Convention est interprétée sans cette disposition."
+"<br><br><strong>14.7</strong> La partie qui omet d’exercer ou de faire valoir un "
+"droit prévu aux présentes n'est pas sensée renoncer de ce fait à son droit d'exercer "
+"ou de faire valoir ce droit ou tout autre droit à l'avenir. Visou se réserve le "
+"droit de vérifier ou de contrôler à sa discrétion l'utilisation que Vous faites "
+"du Logiciel, mais le tout aux frais de Visou. Toutes les vérifications sont "
+"faites au cours des heures normales d'affaires à Vos locaux et ne doivent pas "
+"perturber Vos activités d’affaires."
+"<br><br><strong>14.8</strong> La présente Convention constitue la totalité de "
+"la Convention intervenue entre les parties en ce qui a trait à Votre utilisation "
+"du Logiciel et elle ne peut être modifiée par la coutume et l’usage."
+"<br><br><strong>14.9</strong> La présente Convention annule et remplace les "
+"ententes, les communications et les représentations orales antérieures entre "
+"les parties ayant trait à l'utilisation du Logiciel."
+"<br><br><strong>14.10</strong> La présente Convention ne peut être modifiée qu'au "
+"moyen d'un document écrit signé par le représentant dûment autorisé de chacune "
+"des parties, sauf indication contraire expressément stipulée dans les présentes."
+"<br><br><strong>14.11</strong> Les fac-similés sont réputés des documents équivalents "
+"aux originaux."
+"<br><br><strong>14.12</strong> Les droits et les recours prévus aux présentes "
+"dans l'intérêt de Visou s'ajoutent aux autres droits et recours en faveur de "
+"Visou et n'ont pas pour effet de porter atteinte aux autres droits et recours "
+"dont Visou dispose."
+"<br><br><strong>14.13</strong> The parties have agreed that this Agreement be "
+"drafted in English. Les parties présentes ont convenu que cette entente soit "
+"rédigée en anglais."
+
+msgid ""
+"<h3>15. Definitions</h3>\"Insolvency\" means (i) Your general failure or "
+"inability to pay Your debts as they become due, (ii) Your cessation of Your "
+"business; (iii) Your admission of insolvency; (iv) the commencement of "
+"proceedings, by or against You, under the Bankruptcy and Insolvency Act or "
+"the Companies' Creditors Arrangement Act (or under any comparable "
+"legislation or comparable proceedings under the laws of any other "
+"jurisdiction, whether, state, provincial or federal); (v) the appointment "
+"of, assignment to, or the taking of possession by, a receiver, trustee, "
+"assignee, custodian, liquidator, sequestrator or other similar agent or "
+"officer of You, of all or a substantial part of Your property or the "
+"property used in conducting Your business, (vi) Your assets, if realized at "
+"a fairly conducted sale, would generate less in the way of proceeds than "
+"Your liabilities; or (vii) any corporate action by You to authorize any of "
+"the actions in clauses (iv) and (v) hereof.<br><br>\"Purchase Order\" means "
+"current_brand_name\\'s standard order form confirming the number of Software licenses "
+"purchased by the licensee, which confirmation shall be binding upon and "
+"constitute an obligation by the licensee to the pay the applicable license "
+"fees and taxes in respect of each such license, the whole subject to the "
+"terms and conditions more fully set forth therein.<br><br>\"Software\" means "
+"Software provided by current_brand_name and all or any portion of the binary computer "
+"software programs and related source code.<br><br>\"Term\" means one (1) "
+"year from the date of acceptance by current_brand_name of the Purchase Order.<br><br>"
+"\"Territory\" means the geographic area in which You may download, access or "
+"otherwise use the Software on servers for use by You, subject to applicable "
+"export laws and regulations.<br><br>\"Third Party Software\" means that "
+"portion of the Software sublicensed by current_brand_name to You, as the case may be, "
+"having a manufacturer other than current_brand_name.<br><br>\"Trade-marks\" means the "
+"trade names, trade-marks and/or applications therefore, as well as "
+"commercial symbols, insignia, labels, slogans and other identification "
+"schemes including, without limitation"
+msgstr ""
+"<h3>15. Interprétation</h3>"
+"\"Insolvabilité\" désigne (i) Votre défaut ou Votre incapacité générale de "
+"payer Vos dettes à leur échéance, (ii) la dissolution par Vous de Votre "
+"entreprise; (iii) Votre reconnaissance d'insolvabilité; (iv) l’introduction "
+"des procédures par Vous ou contre Vous en vertu de la loi sur la faillite "
+"et l'insolvabilité ou de la loi sur les arrangements avec les créanciers des "
+"compagnies (ou en vertu d’une législation comparable ou de procédures "
+"comparables intentées en vertu des dispositions des lois de toute autre "
+"juridiction soit étatique, provinciale ou fédérale); (v) la nomination d'un "
+"receveur, d'un syndic, d'un cessionnaire, d'un fiduciaire, d'un curateur, d'un "
+"liquidateur, d'un séquestre ou d'un autre agent ou officier semblable, la "
+"cession qui lui est faite, ou la prise de possession qu'il fait de Vous, de "
+"la totalité ou d'une partie importante de Vos biens ou des biens utilisés "
+"dans l'exploitation de Votre entreprise, (vi) Votre actif, s'il est réalisé "
+"lors d'une vente menée convenablement, générerait un produit inférieur à Votre "
+"passif; ou (vii) toute action corporative faite par Vous afin d'autoriser "
+"n'importe laquelle des actions visées dans les alinéas (iv) et (v) de la "
+"présente disposition."
+"<br><br>\"Bon de Commande\" désigne le formulaire de commande standard de "
+"Visou qui confirme le nombre de licences de Logiciel achetées par le titulaire "
+"de licence. Cette confirmation lie et oblige le titulaire de licence à "
+"acquitter les frais d'utilisation et les taxes applicables relatives à "
+"chacune de ces licences, le tout sous réserve des conditions plus complètement "
+"énoncées dans la présente Convention."
+"<br><br>\"Logiciel\" désigne le Logiciel fourni par Visou et tout ou partie "
+"des programmes de logiciel informatique binaire et du code source connexe."
+"<br><br>\"Durée\" signifie une (1) année à compter de la date à laquelle "
+"Visou accepte le Bon de Commande."
+"<br><br>\"Territoire\" désigne le territoire géographique à l'intérieur "
+"duquel il Vous est loisible d'utiliser le Logiciel sur les serveurs réservés "
+"à Votre usage et notamment de le télécharger et d'y accéder, le tout sous "
+"réserve des dispositions des lois et de la réglementation régissant les "
+"exportations."
+"<br><br>\"Logiciel de Société Indépendante\" désigne la partie du Logiciel "
+"pour lequel Visou Vous a accordé une sous-licence, le cas échéant, et dont "
+"le manufacturier n'est pas Visou."
+"<br><br>\"Marques de commerce\" désigne les appellations commerciales, les "
+"marques de commerce et/ou leurs applications, de même que les symboles "
+"publicitaires ou commerciaux, les insignes, les labels, les slogans et "
+"les autres systèmes d’identification y compris sans restriction "
+
+msgid "and"
+msgstr "et"
+
+msgid "as may be designated from time to time by current_brand_name for use in connection with the use "
+"of the Software as contemplated by this Agreement."
+msgstr "que Visou peut à l’occasion affecter à une utilisation du Logiciel prévue dans la présente Convention."
+
+#: clone_exercise.ajax.php:441
+msgid "Your exercise was cloned"
+msgstr "Votre exercise a été cloné"
+
+#: default.param.php:96
+msgid "Patients Improve Faster"
+msgstr ""
+
+#: default.param.php:106 default.param.php:107 default.param.php:140
+msgid "Do you really want to quit?"
+msgstr "Voulez-vous vraiment quitter?"
+
+#: default.param.php:115 default.param.php:135
+msgid "Preferences"
+msgstr "Préférences"
+
+#: default.param.php:115 default.param.php:136
+msgid "Help"
+msgstr "Aide"
+
+#: default.param.php:118
+msgid "Customer Services:"
+msgstr "Service à la clientèle:"
+
+#: include.email.php:2 include.email.php:3 include.email.php:4
+msgid "Password request"
+msgstr "Demande de mot de passe"
+
+#: include.email.php:3
+msgid "We understand you'd like to change your password. Please click on the following link and follow the prompts."
+msgstr "Nous comprenons que vous souhaitez changer votre mot de passe. Il suffit de cliquer ici et de suivre les instructions."
+
+#: include.email.php:3 include.email.php:4
+msgid "And don't forget your password is case sensitive."
+msgstr "Et n'oubliez pas que votre mot de passe est à la casse."
+
+#: include.email.php:3
+#, php-format
+msgid ""
+"You did not ask to change your password? Then just ignore this email. And if "
+"you have questions, we're always happy to help. Just call us at %s anytime."
+msgstr ""
+
+#: include.email.php:4
+#, php-format
+msgid "We understand you'd like to change your password. Just <a href=\"%s\">click here</a> and follow the prompts."
+msgstr "Nous comprenons que vous souhaitez changer votre mot de passe. Il suffit de <a href=\"%s\">cliquer ici</a> et de suivre les instructions."
+
+#: include.email.php:4
+#, php-format
+msgid ""
+"You didn't ask to change your password? Then just ignore this email. And if "
+"you have questions, we\\'re always happy to help. Just call us at %s anytime."
+msgstr ""
+"Vous n'avez pas demandé à changer votre mot de passe? Alors simplement ignorer ce email. Si vous "
+"avez des qustions, nous seront toujours heureux de vous aider. Appelez simplement le %s."
+
+#: include.email.php:7
+#, php-format
+msgid "Your exercise program from %s"
+msgstr "Votre programme d'exercices de %s"
+
+#: include.email.php:8
+#, php-format
+msgid "You can access your online report at:\n\n%s\n\nIf the link does not work, make a copy and paste of the link in your browser.\n\nProgram name: %s\n\nUser name:%s\nPassword: %s\n\n%s\n%%clinic_address%%\n\n%s"
+msgstr "Vous pouvez acc&eacute;der &agrave; votre programme en ligne au:\n\n%s\n\nSi le lien ne fonctionne pas, faites un copier-coller de celui-ci dans votre navigateur.\n\nNom du programme: %s\n\nNom d'utilisateur:%s\nMot de passe: %s\n\n%s\n%%clinic_address%%\n\n%s"
+
+#: include.email.php:9
+#, php-format
+msgid "You can access your online report <a target=\"blank\" href=\"%s\">here</a>."
+msgstr "Vous pouvez acc&eacute;der &agrave; votre programme en ligne en cliquant <a target=\"blank\" href=\"%s\">ici</a>."
+
+#: include.email.php:9
+#, php-format
+msgid "Program name: %s"
+msgstr "Nom du programme: %s"
+
+#: include.email.php:9
+#, php-format
+msgid "User name: %s"
+msgstr "Nom d'utilisateur: %s"
+
+#: include.email.php:9
+#, php-format
+msgid "Password: %s"
+msgstr "Mot de passe: %s"
+
+#: include.physiotec.php:899 include.physiotec.php:929
+msgid "Template"
+msgstr "Protocole"
+
+msgid "Templates"
+msgstr "Protocoles"
+
+#: license-agreement.php:53
+msgid ""
+"<h4>Software</h4> This is a license for one or more users of Physiotec\\'s web-"
+"based version of its proprietary PhysiotecTM exercise & education database "
+"software for healthcare professionals (the \"Software\").<h4>Acceptance</h4> "
+"All usage of the software is subject to acceptance by Physiotec. Physiotec\\'s "
+"acceptance shall only be evidenced by confirmation in writing or by actual "
+"performance.<h4>Software License Agreement</h4> All clients are subject to "
+"and conditional upon the terms and conditions of the Software License "
+"Agreement (the \"Agreement\") which governs the use of the Software. "
+"Potential licensees are prompted to accept or decline the terms and "
+"conditions of the Agreement online. No license shall be granted to any "
+"potential licensee that declines to accept the terms and conditions of the "
+"Agreement.<h4>License Fees</h4> The fees for the Software license and any "
+"extension or renewal thereof are those specified in Physiotec\\'s fee list that "
+"is current at the time of Physiotec\\'s acceptance of an order. Fees are subject "
+"to change without notice. Unless otherwise agreed to in writing by Physiotec, "
+"fees shall be exclusive of all applicable taxes, tariffs and duties, as the "
+"case may be.<h4>Term</h4> Subject to the foregoing, the license is granted "
+"for a term of one (1) year from the date of Physiotec\\'s acceptance of this "
+"Purchase Order. Any extension or renewal of the Term shall be subject to "
+"additional fees in accordance with the then current Physiotec fee list."
+"<h4>Payment</h4> Payment by public healthcare institutions shall be due "
+"thirty (30) days after the date of the invoice unless otherwise specified by "
+"Physiotec in writing. In all other cases, the license shall become effective only "
+"upon reception of licensee\\'s payment by Physiotec. Physiotec may invoice each "
+"Software license separately. All late payments shall be charged interest "
+"computed on a daily basis from the due date until paid in full at the rate "
+"of two percent (2%) per month or the maximum rate permitted by law, "
+"whichever is less.<h4>No Liability</h4> Notwithstanding anything contained "
+"herein or in any agreement or other writing between Physiotec and the licensee, "
+"the liability of Physiotec hereunder for all claims shall not exceed the sum of "
+"the licensee\\'s payments for Software licenses which are the subject of "
+"dispute. The entire risk as to the results generated by the use of the "
+"Software is assumed by the licensee without qualification. In no event shall "
+"Physiotec be responsible or liable to the licensee or any agent, representative, "
+"employee or permitted sub-licensee of licensee for any damages of any nature "
+"whatsoever, however arising, whether foreseeable or not. Without limiting "
+"the generality of the foregoing, Physiotec shall not be liable for any death or "
+"injury of any nature whatsoever arising from any act or omission of the "
+"licensee, the use or inability to use the Software or any improper medical "
+"treatment or diagnosis of any patient or client of licensee."
+"<h4>Indemnification</h4> Licensee agrees to indemnify and hold Physiotec harmless "
+"from and against any and all claims, liabilities, losses, damages, costs, "
+"expenses (including reasonable attorneys\\' fees), judgments and penalties "
+"arising out of, resulting from, based upon or incurred as a consequence of "
+"any use or misuse or alteration of the Software by the licensee, its agents, "
+"representatives, employees and permitted sub-licensees.<h4>Return Policy</"
+"h4> The licensee shall advise Physiotec of any defective, malfunctioning or "
+"incompatible Software within seven (7) days of the date on which the "
+"licensee first became aware of such defect, malfunction or incompatibility. "
+"The licensee shall furnish Physiotec with a written description of the claimed "
+"defect, malfunction or incompatibility by facsimile or e-mail transmission "
+"comprehensively describing such defect, malfunction or incompatibility. Physiotec"
+"\\'s exclusive obligation, and the licensee\\'s sole right and remedy, with "
+"respect to Software determined to be defective, malfunctioning or "
+"incompatible with the licensee\\'s computer system shall be, at Physiotec\\'s "
+"sole option: (i) to provide the licensee with replacement Software at no "
+"additional charge to licensee; or (ii) to refund to the licensee the license "
+"fees paid in connection therewith within thirty (30) business days of the "
+"date that licensee provides Physiotec with notice of such defect, malfunction or "
+"incompatibility. Physiotec shall have no obligation to replace the Software or "
+"refund the licensee fees if the Software has been altered, damaged or "
+"modified as a result of: (i) the negligent acts or omissions of the "
+"licensee; (ii) by the licensee\\'s hardware malfunction; (iii) third party "
+"software not licensed through Physiotec; or (iv) any cause outside of Physiotec\\'s "
+"reasonable control.<h4>Governing Law</h4> This Purchase Order shall be "
+"governed by and construed in accordance with the laws of the Province of "
+"Quebec and the federal laws of Canada applicable therein. Jurisdiction and "
+"venue in any action arising hereunder shall be in a court of competent "
+"jurisdiction located in the Judicial District of Montreal.<h4>Language</h4> "
+"The parties have agreed that these conditions be drafted in English."
+msgstr ""
+
+msgid "Select a Country"
+msgstr "Choisissez un Pays"
+
+msgid "Andorra"
+msgstr "Andorre"
+
+msgid "United Arab Emirates"
+msgstr "Émirats arabes unis"
+
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+msgid "Antigua and/or Barbuda"
+msgstr "Antigua et/ou Barbuda"
+
+msgid "Anguilla"
+msgstr "Anguilla"
+
+msgid "Albania"
+msgstr "Albanie"
+
+msgid "Armenia"
+msgstr "Arménie"
+
+msgid "Netherlands Antilles"
+msgstr "Antilles néerlandaises"
+
+msgid "Angola"
+msgstr "Angola"
+
+msgid "Antarctica"
+msgstr "Antarctique"
+
+msgid "Argentina"
+msgstr "Argentine"
+
+msgid "Austria"
+msgstr "Autriche"
+
+msgid "Australia"
+msgstr "Australie"
+
+msgid "Aruba"
+msgstr "Aruba"
+
+msgid "Azerbaijan"
+msgstr "Azerbaïdjan"
+
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnie et Herzégovine"
+
+msgid "Barbados"
+msgstr "Barbade"
+
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+msgid "Belgium"
+msgstr "Belgique"
+
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+msgid "Bulgaria"
+msgstr "Bulgarie"
+
+msgid "Bahrain"
+msgstr "Bahreïn"
+
+msgid "Burundi"
+msgstr "Burundi"
+
+msgid "Benin"
+msgstr "Bénin"
+
+msgid "Bermuda"
+msgstr "Bermudes"
+
+msgid "Brunei Darussalam"
+msgstr "Brunéi Darussalam"
+
+msgid "Bolivia"
+msgstr "Bolivie"
+
+msgid "Brazil"
+msgstr "Brésil"
+
+msgid "Bahamas"
+msgstr "Bahamas"
+
+msgid "Bhutan"
+msgstr "Bhoutan"
+
+msgid "Bouvet Island"
+msgstr "Île Bouvet"
+
+msgid "Botswana"
+msgstr "Botswana"
+
+msgid "Belarus"
+msgstr "Bélarus"
+
+msgid "Belize"
+msgstr "Belize"
+
+msgid "Canada"
+msgstr "Canada"
+
+msgid "Cocos (Keeling) Islands"
+msgstr "îles Cocos (Keeling)"
+
+msgid "Central African Republic"
+msgstr "République centrafricaine"
+
+msgid "Congo"
+msgstr "Congo"
+
+msgid "Switzerland"
+msgstr "Suisse"
+
+msgid "Ivory Coast"
+msgstr "Côte d'Ivoire"
+
+msgid "Cook Islands"
+msgstr "îles Cook"
+
+msgid "Chile"
+msgstr "Chili"
+
+msgid "Cameroon"
+msgstr "Cameroun"
+
+msgid "China"
+msgstr "Chine"
+
+msgid "Colombia"
+msgstr "Colombie"
+
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+msgid "Cuba"
+msgstr "Cuba"
+
+msgid "Cape Verde"
+msgstr "Cap-Vert"
+
+msgid "Christmas Island"
+msgstr "île Christmas"
+
+msgid "Cyprus"
+msgstr "Chypre"
+
+msgid "Czech Republic"
+msgstr "République tchèque"
+
+msgid "Germany"
+msgstr "Allemagne"
+
+msgid "Djibouti"
+msgstr "Djibouti"
+
+msgid "Denmark"
+msgstr "Danemark"
+
+msgid "Dominica"
+msgstr "Dominique"
+
+msgid "Dominican Republic"
+msgstr "République dominicaine"
+
+msgid "American Samoa"
+msgstr "Samoa américaines"
+
+msgid "Algeria"
+msgstr "Algérie"
+
+msgid "Ecuador"
+msgstr "Equateur"
+
+msgid "Estonia"
+msgstr "Estonie"
+
+msgid "Egypt"
+msgstr "Egypte"
+
+msgid "Western Sahara"
+msgstr "Sahara Occidental"
+
+msgid "Eritrea"
+msgstr "Érythrée"
+
+msgid "Spain"
+msgstr "Espagne"
+
+msgid "Ethiopia"
+msgstr "Éthiopie"
+
+msgid "Finland"
+msgstr "Finlande"
+
+msgid "Fiji"
+msgstr "Fidji"
+
+msgid "Falkland Islands (Malvinas)"
+msgstr "Îles Malouines (Malvinas)"
+
+msgid "Federated States of Micronesia"
+msgstr "États fédérés de Micronésie"
+
+msgid "Faroe Islands"
+msgstr "Îles Féroé"
+
+msgid "France"
+msgstr "France"
+
+msgid "Metropolitan France"
+msgstr "France métropolitaine"
+
+msgid "Gabon"
+msgstr "Gabon"
+
+msgid "United Kingdom"
+msgstr "Royaume-Uni"
+
+msgid "Grenada"
+msgstr "Grenade"
+
+msgid "Georgia"
+msgstr "Géorgie"
+
+msgid "French Guiana"
+msgstr "Guyane française"
+
+msgid "Ghana"
+msgstr "Ghana"
+
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+msgid "Greenland"
+msgstr "Groenland"
+
+msgid "Gambia"
+msgstr "Gambie"
+
+msgid "Guinea"
+msgstr "Guinée"
+
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+msgid "Equatorial Guinea"
+msgstr "Guinée équatoriale"
+
+msgid "Greece"
+msgstr "Grèce"
+
+msgid "South Georgia South Sandwich Islands"
+msgstr "Îles Sandwich du Sud Géorgie du Sud"
+
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgid "Guam"
+msgstr "Guam"
+
+msgid "Guinea-Bissau"
+msgstr "Guinée-Bissau"
+
+msgid "Guyana"
+msgstr "Guyana"
+
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgid "Heard and Mc Donald Islands"
+msgstr "Heard et Mc Donald Îles"
+
+msgid "Honduras"
+msgstr "Honduras"
+
+msgid "Croatia (Hrvatska)"
+msgstr "Croatie (Hrvatska)"
+
+msgid "Haiti"
+msgstr "Haïti"
+
+msgid "Hungary"
+msgstr "Hongrie"
+
+msgid "Indonesia"
+msgstr "Indonésie"
+
+msgid "Ireland"
+msgstr "Irlande"
+
+msgid "Israel"
+msgstr "Israël"
+
+msgid "India"
+msgstr "Inde"
+
+msgid "British lndian Ocean Territory"
+msgstr "Territoire britannique de l'océan indien"
+
+msgid "Iraq"
+msgstr "Iraq"
+
+msgid "Iran (Islamic Republic of)"
+msgstr "Iran (République islamique d ')"
+
+msgid "Iceland"
+msgstr "Islande"
+
+msgid "Italy"
+msgstr "Italie"
+
+msgid "Jamaica"
+msgstr "Jamaïque"
+
+msgid "Jordan"
+msgstr "Jordanie"
+
+msgid "Japan"
+msgstr "Japon"
+
+msgid "Kenya"
+msgstr "Kenya"
+
+msgid "Kyrgyzstan"
+msgstr "Kirghizistan"
+
+msgid "Cambodia"
+msgstr "Cambodge"
+
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgid "Comoros"
+msgstr "Comores"
+
+msgid "Saint Kitts and Nevis"
+msgstr "Saint-Kitts-et-Nevis"
+
+msgid "Democratic People's Republic of Korea" 
+msgstr "République populaire démocratique de Corée"
+
+msgid "Republic of Korea"
+msgstr "République de Corée" 
+
+msgid "Kuwait"
+msgstr "Koweït"
+
+msgid "Cayman Islands"
+msgstr "Îles Caïmans"
+
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+msgid "Lao People's Democratic Republic"
+msgstr "République démocratique populaire lao"
+
+msgid "Lebanon"
+msgstr "Liban"
+
+msgid "Saint Lucia"
+msgstr "Sainte-Lucie"
+
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+msgid "Liberia"
+msgstr "Liberia"
+
+msgid "Lesotho"
+msgstr "Lesotho"
+
+msgid "Lithuania"
+msgstr "Lituanie"
+
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+msgid "Latvia"
+msgstr "Lettonie"
+
+msgid "Libyan Arab Jamahiriya"
+msgstr "Jamahiriya arabe libyenne"
+
+msgid "Morocco"
+msgstr "Maroc"
+
+msgid "Monaco"
+msgstr "Monaco"
+
+msgid "Republic of Moldova"
+msgstr "République de Moldova"
+
+msgid "Montenegro"
+msgstr "Monténégro"
+
+msgid "Madagascar"
+msgstr "Madagascar"
+
+msgid "Marshall Islands"
+msgstr "Îles Marshall"
+
+msgid "Macedonia"
+msgstr "Macédoine"
+
+msgid "Mali"
+msgstr "Mali"
+
+msgid "Myanmar"
+msgstr "Myanmar"
+
+msgid "Mongolia"
+msgstr "Mongolia"
+
+msgid "Macau"
+msgstr "Macau"
+
+msgid "Northern Mariana Islands"
+msgstr "Îles Mariannes du Nord"
+
+msgid "Martinique"
+msgstr "Martinique"
+
+msgid "Mauritania"
+msgstr "Mauritanie"
+
+msgid "Montserrat"
+msgstr "Montserrat"
+
+msgid "Malta"
+msgstr "Malte"
+
+msgid "Mauritius"
+msgstr "Ile Maurice"
+
+msgid "Maldives"
+msgstr "Maldives"
+
+msgid "Malawi"
+msgstr "Malawi"
+
+msgid "Mexico"
+msgstr "Mexique"
+
+msgid "Malaysia"
+msgstr "Malaisie"
+
+msgid "Mozambique"
+msgstr "Mozambique"
+
+msgid "Namibia"
+msgstr "Namibie"
+
+msgid "New Caledonia"
+msgstr "Nouvelle-Calédonie"
+
+msgid "Niger"
+msgstr "Niger"
+
+msgid "Norfork Island"
+msgstr "Île Norfork"
+
+msgid "Nigeria"
+msgstr "Nigeria"
+
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+msgid "Netherlands"
+msgstr "Pays-Bas"
+
+msgid "Norway"
+msgstr "Norvège"
+
+msgid "Nepal"
+msgstr "Népal"
+
+msgid "Nauru"
+msgstr "Nauru"
+
+msgid "Niue"
+msgstr "Nioué"
+
+msgid "New Zealand"
+msgstr "Nouvelle-Z&eacute;lande"
+
+msgid "Oman"
+msgstr "Oman"
+
+msgid "Panama"
+msgstr "Panama"
+
+msgid "Peru"
+msgstr "Pérou"
+
+msgid "French Polynesia"
+msgstr "Polynésie française"
+
+msgid "Papua New Guinea"
+msgstr "Papouasie-Nouvelle-Guinée"
+
+msgid "Philippines"
+msgstr "Philippines"
+
+msgid "Pakistan"
+msgstr "Pakistan"
+
+msgid "Poland"
+msgstr "Pologne"
+
+msgid "St. Pierre and Miquelon"
+msgstr "Saint-Pierre et Miquelon"
+
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+msgid "Puerto Rico"
+msgstr "Porto Rico"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Palau"
+msgstr "Palaos"
+
+msgid "Paraguay"
+msgstr "Paraguay"
+
+msgid "Qatar"
+msgstr "Qatar"
+
+msgid "Reunion"
+msgstr "Réunion"
+
+msgid "Romania"
+msgstr "Roumanie"
+
+msgid "Serbia"
+msgstr "Serbie"
+
+msgid "Russian Federation"
+msgstr "Fédération Russe"
+
+msgid "Rwanda"
+msgstr "Rwanda"
+
+msgid "Saudi Arabia"
+msgstr "Arabie Saoudite"
+
+msgid "Solomon Islands"
+msgstr "Îles Salomon"
+
+msgid "Seychelles"
+msgstr "Seychelles"
+
+msgid "Sudan"
+msgstr "Soudan"
+
+msgid "Sweden"
+msgstr "Suède"
+
+msgid "Singapore"
+msgstr "Singapour"
+
+msgid "St. Helena"
+msgstr "Sainte-Hélène"
+
+msgid "Slovenia"
+msgstr "Slovénie"
+
+msgid "Svalbarn and Jan Mayen Islands"
+msgstr "Îles Svalbard et Jan Mayen"
+
+msgid "Slovakia"
+msgstr "Slovaquie"
+
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+msgid "San Marino"
+msgstr "Saint-Marin"
+
+msgid "Senegal"
+msgstr "Sénégal"
+
+msgid "Somalia"
+msgstr "Somalie"
+
+msgid "Suriname"
+msgstr "Suriname"
+
+msgid "Sao Tome and Principe"
+msgstr "Sao Tomé-et-Principe"
+
+msgid "El Salvador"
+msgstr "Salvador"
+
+msgid "Syrian Arab Republic"
+msgstr "République arabe syrienne"
+
+msgid "Swaziland"
+msgstr "Swaziland"
+
+msgid "Turks and Caicos Islands"
+msgstr "Îles Turques et Caïques"
+
+msgid "Chad"
+msgstr "Tchad"
+
+msgid "French Southern Territories"
+msgstr "Terres australes françaises"
+
+msgid "Togo"
+msgstr "Togo"
+
+msgid "Thailand"
+msgstr "Thaïlande"
+
+msgid "Tajikistan"
+msgstr "Tadjikistan"
+
+msgid "Tokelau"
+msgstr "Tokelau"
+
+msgid "Turkmenistan"
+msgstr "Turkménistan"
+
+msgid "Tunisia"
+msgstr "Tunisie"
+
+msgid "Tonga"
+msgstr "Tonga"
+
+msgid "East Timor"
+msgstr "Timor Oriental"
+
+msgid "Turkey"
+msgstr "Turquie"
+
+msgid "Trinidad and Tobago"
+msgstr "Trinité-et-Tobago"
+
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgid "Taiwan"
+msgstr "Taiwan"
+
+msgid "Mayotte"
+msgstr "Mayotte"
+
+msgid "United Republic of Tanzania"
+msgstr "République-Unie de Tanzanie"
+
+msgid "Ukraine"
+msgstr "Ukraine"
+
+msgid "Uganda"
+msgstr "Ouganda"
+
+msgid "United States minor outlying islands"
+msgstr "Îles mineures éloignées des États-Unis"
+
+msgid "United States"
+msgstr "États Unis"
+
+msgid "Uruguay"
+msgstr "Uruguay"
+
+msgid "Uzbekistan"
+msgstr "Ouzbékistan"
+
+msgid "Vatican City State"
+msgstr "Cité du Vatican"
+
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint-Vincent-et-les Grenadines"
+
+msgid "Venezuela"
+msgstr "Venezuela"
+
+msgid "Virgin Islands (British)"
+msgstr "&Icirc;les Vierges (britanniques)"
+
+msgid "Virgin Islands (U.S.)"
+msgstr "&Icirc;les Vierges (&Eacute;tats-Unis)"
+
+msgid "Vietnam"
+msgstr "Vi&ecirc;t-Nam"
+
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgid "Wallis and Futuna Islands"
+msgstr "Îles Wallis et Futuna"
+
+msgid "Samoa"
+msgstr "Samoa"
+
+msgid "Kosovo"
+msgstr "Kosovo"
+
+msgid "Yemen"
+msgstr "Yémen"
+
+msgid "Yugoslavia"
+msgstr "Yougoslavie"
+
+msgid "South Africa"
+msgstr "Afrique du Sud"
+
+msgid "Zambia"
+msgstr "Zambie"
+
+msgid "Zaire"
+msgstr "Zaïre"
+
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+msgid "User saved"
+msgstr "Usager sauvegard&eacute;"
+
+msgid "Settings updated"
+msgstr "Param&egrave;tres sauvegard&eacute;s"
+
+msgid "Select a State/Region/Province"
+msgstr "Sélectionnez un État/Région/Province"
+
+msgid "List All Clients"
+msgstr "Afficher Tous Les Clients"
+
+msgid "Texts updated"
+msgstr "Les textes ont été mis-à-jour"
+
+msgid "Please enter at least one email address!"
+msgstr "Veuillez entrer au moins une adresse e-mail"
+
+msgid "View Program"
+msgstr "Voir le Programme"
+
+msgid "Please enter the confirmation password!"
+msgstr "Veuillez confirmer le mot de passe!"
+
+msgid "Please enter the primary password!"
+msgstr "Veuillez entrer un mot de passe!"
+
+msgid "Add a User"
+msgstr "Ajouter un utilisateur"
+
+msgid "Improper user parameters, please contact your administrator for more details."
+msgstr "Paramètres utilisateur incorrectes, s'il vous plaît contactez votre administrateur pour plus de détails."
+
+msgid "Loading data, please wait...."
+msgstr "Chargement en cours, veuillez patienter..."
+
+msgid "Password Required"
+msgstr "Mot de Passe Requis"
+
+msgid "Please enter the password for this user"
+msgstr "Veuillez entrer le mot de passe pour cet usager"
+
+msgid "You need to enter the password!"
+msgstr "Vous devez entrer le mot de passe!"
+
+msgid "Access"
+msgstr "Accès"
+
+msgid "Admin"
+msgstr "Administrateur"
+
+msgid "Clinics"
+msgstr "Cliniques"
+
+msgid "Addresses"
+msgstr "Adresses"
+
+msgid "Welcome to Physiotec<br>Version 3.0!"
+msgstr "Bienvenu dans Physiotec<br>Version 3.0"
+
+msgid "Your Account has been Updated. Your Protocols, Patients Files and Settings have not changed.<br><br>Contact Customer Support with Questions and<br>Feedback: 1 866 301 3439 (support@...)"
+msgstr "Votre license a été mise à jour. Vos protocoles, vos patients et vos paramètres n'ont pas changés.<br><br>Pour de l'information contacter : 1 866 301 3439 (support@...)"
+
+msgid "Send password by email"
+msgstr "Envoyer le mot de passe par courriel"
+
+msgid "Please select at least one user to be deleted."
+msgstr "S'il vous plaît sélectionner au moins un utilisateur à supprimer."
+
+msgid "The selected users will be marked as deleted."
+msgstr "Les utilisateurs sélectionnés seront marqués comme supprimés."
+
+msgid "User(s) has been deleted with success."
+msgstr "Utilisateur (s) a été supprimé avec succès."
+
+msgid "The user you have chosen does not have access to this clinic or license."
+msgstr "L'utilisateur que vous avez choisi n'a pas accès à cette clinique ou de la licence."
+
+msgid "You reached the maximal quantity of users allowed for your licence (%s)."
+msgstr "Vous avez atteint la quantité maximale d'utilisateurs permise pour cette licence (%s)."
+
+msgid "Please be sure to upload the first image before you submit."
+msgstr "Veuillez vous assurez de télécharger la première image avant de soumettre le formulaire."
+
+msgid "Please be sure to upload the second image before you submit."
+msgstr "Veuillez vous assurez de télécharger la deuxième image avant de soumettre le formulaire."
+
+msgid "Please be sure to upload the first drawing before you submit."
+msgstr "Veuillez vous assurez de télécharger la première dessin avant de soumettre le formulaire."
+
+msgid "Please be sure to upload the second drawing before you submit."
+msgstr "Veuillez vous assurez de télécharger la deuxième dessin avant de soumettre le formulaire."
+
+msgid "Please be sure to upload the video before you submit."
+msgstr "Veuillez vous assurez de télécharger la vidéo avant de soumettre le formulaire."
+
+msgid "The email address you have entered is already used by another user, please choose another email to complete your user registration."
+msgstr "Cette adresse courriel est d&eacute;j&agrave; entr&eacute;e dans notre syst&egrave;me."
+
+msgid "Welcome to our website."
+msgstr "Bienvenue sur notre site internet."
+
+msgid "In order to complete your registration, please click on the following link and follow the prompts."
+msgstr "Pour compléter votre inscription, veuillez cliquer sur le lien suivant et suivre les instructions."
+
+msgid "If you have questions, we're always happy to help. Just call us at %s anytime."
+msgstr "Si vous avez des questions, nous serons heureux de vous aider. Il suffit de nous appeler au moment de%."
+
+msgid "In order to complete your registration, please <a href=\"%s\">click here</a> and  follow the prompts."
+msgstr "Pour compléter votre inscription, veuillez <a href=\"%s\"> cliquez ici </a> et suivre les instructions."
+
+msgid "User created but we could not send him an email in order to complete his registration."
+msgstr "Utilisateur créé, mais nous ne pouvions pas lui envoyer un e-mail afin de compléter son inscription."
+
+msgid "User Created. An email was sent to him in order to complete his registration."
+msgstr "Utilisateur créé. Un courriel lui a été envoyé afin de compléter son inscription."
+
+msgid "Your program was saved"
+msgstr "Votre programme a été sauvegardé"
+
+msgid "Warning"
+msgstr "Attention"
+
+msgid "Our system will be temporarily inaccessible today the %s, in %s due to maintenance."
+msgstr "Notre syst&egrave;me sera temporairement inaccessible aujourd'hui le %s, dans %s pour cause de maintenance."
+
+msgid "Our system is currently inaccessible for %s minutes due to maintenance."
+msgstr "Notre syst&egrave;me est temporairement inaccessible pour %s minutes pour cause de maintenance."
+
+msgid "We apologise for the inconvenience. Please try again in %s minutes."
+msgstr "Nous nous excusons pour les inconv&eacute;niences. Veuillez essayer de nouveau dans %s minutes."
+
+msgid "If you have any questions or concerns, please don't hesitate to contact us."
+msgstr "Si vous avez des questions, n'h&eacute;sitez pas &agrave; nous contacter."
+
+msgid "You can't send an expired program by email."
+msgstr "Vous ne pouvez pas envoyer un programme expiré par email."
+
+msgid "Search by selected module only."
+msgstr "Recherche dans le module s&eacute;lectionn&eacute; seulement"
+
+msgid "User Name already exists, Please try another User Name."
+msgstr "Ce nom d'utilisateur existe d&eacute;j&agrave;."
+
+msgid "Account credentials has been changed!"
+msgstr "Les informations d'identification de compte ont été changées!"
+
+msgid "Prepared By"
+msgstr "Preparé par"
+
+msgid "Prepared By:"
+msgstr "Preparé par"
+
+msgid "Jaw"
+msgstr "Mâchoire"
+
+msgid "Lumbar"
+msgstr "Lombaire"
+
+msgid "Thoracic"
+msgstr "Thoracique"
+
+msgid "Scapula"
+msgstr "Omoplate"
+
+msgid "Crutches"
+msgstr "Béquilles"
+
+msgid "Chest"
+msgstr "Poitrine"
+
+msgid "Upper back"
+msgstr "Haut du dos"
+
+msgid "Lower limbs"
+msgstr "Membres inférieurs"
+
+msgid "Rehab"
+msgstr "Réadaptation"
+
+msgid "Education"
+msgstr "Éducation"
+
+msgid "Heart"
+msgstr "Coeur"
+
+msgid "Trunk"
+msgstr "Tronc"
+
+msgid "Upper extremity"
+msgstr "Membres supérieurs"
+
+msgid "Once your registration is complete, please use the following link to access your account :"
+msgstr "Une fois votre inscription terminée, veuillez utiliser le lien suivant pour accéder à votre compte :"
+
+msgid "* Please note that the link will be no longer valid once it has been clicked."
+msgstr "* S'il vous plaît notez que le lien ne sera plus valide une fois cliqué."
+
+msgid "If you have questions, please don't hesitate to contact us at %s anytime. Our representatives will be happy to help."
+msgstr "Si vous avez des questions, n'hésitez pas à nous contacter au %s en tout temps. Nos représentants seront ravis de vous aider."
+
+msgid "You didn't ask to change your password? Then just ignore this email."
+msgstr "Vous ne voulez pas changer votre mot de passe? Alors ignorez ce message."
+
+msgid "Body general"
+msgstr "Corps général"
+
+msgid "Combined/Transfers"
+msgstr "Combinés/Transferts"
+
+msgid "Face"
+msgstr "Visage"
+
+msgid "Anterior jaw"
+msgstr "Mâchoire antérieure"
+
+msgid "Posterior jaw"
+msgstr "Mâchoire postérieure"
+
+msgid "Cheeks"
+msgstr "Joues"
+
+msgid "Head"
+msgstr "Tête"
+
+msgid "Lip"
+msgstr "Lèvres"
+
+msgid "Teeth"
+msgstr "Dents"
+
+msgid "Tongue Midblade"
+msgstr "Milieu de la langue"
+
+msgid "Tongue tip"
+msgstr "Bout de la langue"
+
+msgid "Opening"
+msgstr "Ouverture"
+
+msgid "Closure"
+msgstr "Fermeture"
+
+msgid "Feeding"
+msgstr "Alimentation"
+
+msgid "Abdominals/Core"
+msgstr "Abdominaux/Tronc"
+
+msgid "Arms"
+msgstr "Bras"
+
+msgid "Calves"
+msgstr "Mollets"
+
+msgid "Pelvic Floor"
+msgstr "Plancher pelvien"
+
+msgid "Pelvis"
+msgstr "Bassin"
+
+msgid "Thigh"
+msgstr "Cuisse"
+
+msgid "Wrist"
+msgstr "Poignet"
+
+msgid "Semi-supine (crook)"
+msgstr "Sur le dos, genoux fléchis"
+
+msgid "1 per page"
+msgstr "1 par page"
+
+msgid "1 per page Big"
+msgstr "1 par page Grand"
+
+msgid "2 per page"
+msgstr "2 par page"
+
+msgid "3 per page"
+msgstr "3 par page"
+
+msgid "5 per page"
+msgstr "5 par page"
+
+msgid "Long text"
+msgstr "Texte long"
+
+msgid "Tracking 3 per page"
+msgstr "Suivi 3 par page"
+
+msgid "Tracking sheet"
+msgstr "Feuille de suivi"
+
+msgid "1 per page/Tracking sheet"
+msgstr "1 par page/Feuille de suivi"
+
+msgid "1 per page Big/Tracking sheet"
+msgstr "1 par page Grand/Feuille de suivi"
+
+msgid "2 per page/Tracking sheet"
+msgstr "2 par page/Feuille de suivi"
+
+msgid "3 per page/Tracking sheet"
+msgstr "3 par page/Feuille de suivi"
+
+msgid "5 per page/Tracking sheet"
+msgstr "5 par page/Feuille de suivi"
+
+msgid "Long text/Tracking sheet"
+msgstr "Texte long/Feuille de suivi"
+
+msgid "1 per page big text"
+msgstr "1 par page - gros caractères"
+
+msgid "1 per page long text"
+msgstr "1 par page - longs textes"
+
+msgid "2 per page long text"
+msgstr "2 par page - long texte"
+
+msgid "3 per page landscape"
+msgstr "3 par page - format paysage"
+
+msgid "3 per page portrait"
+msgstr "3 par page - format portrait"
+
+msgid "4 per page landscape"
+msgstr "4 par page - format paysage"
+
+msgid "8 per page"
+msgstr "8 par page"
+
+msgid "10 per page"
+msgstr "10 par page"
+
+msgid "12 per page"
+msgstr "12 par page"
+
+msgid "1 per page - tracking sheet"
+msgstr "1 par page - feuille de suivi"
+
+msgid "1 per page big text - tracking sheet"
+msgstr "1 par page - gros caractères - feuille de suivi"
+
+msgid "1 per page long text - tracking sheet"
+msgstr "1 par page - longs textes - feuille de suivi"
+
+msgid "2 per page - tracking sheet"
+msgstr "2 par page - feuille de suivi"
+
+msgid "2 per page long text - tracking sheet"
+msgstr "2 par page - longs textes - feuille de suivi"
+
+msgid "3 per page landscape - tracking sheet"
+msgstr "3 par page - format paysage - feuille de suivi"
+
+msgid "3 per page portrait - tracking sheet"
+msgstr "3 par page - format portrait - feuille de suivi"
+
+msgid "4 per page landscape - tracking sheet"
+msgstr "4 par page - format paysage - feuille de suivi"
+
+msgid "5 per page - tracking sheet"
+msgstr "5 par page - feuille de suivi"
+
+msgid "8 per page - tracking sheet"
+msgstr "8 par page - feuille de suivi"
+
+msgid "10 per page - tracking sheet"
+msgstr "10 par page - feuille de suivi"
+
+msgid "12 per page - tracking sheet"
+msgstr "12 par page - feuille de suivi"
+
+msgid "summary"
+msgstr "sommaire"
+
+msgid "summary 2"
+msgstr "sommaire 2"
+
+msgid "tracking sheet"
+msgstr "feuille de suivi"
+
+msgid "tracking sheet 2"
+msgstr "feuille de suivi 2"
+
+msgid "tracking sheet 2 weeks"
+msgstr "feuille de suivi - 2 semaines"
+
+msgid "New Account"
+msgstr "Nouveau compte"
+
+msgid "Hi"
+msgstr "Bonjour"
+
+msgid "Welcome to"
+msgstr "Bienvenue sur"
+
+msgid "Click on the button"
+msgstr "Cliquer sur le bouton"
+
+msgid "to create your username and password."
+msgstr "Pour créer votre nom d'usager et mot de passe."
+
+msgid "If you don't see the button <a href=\"%%url_link%%\">click here</a>."
+msgstr "Si vous ne voyez pas le bouton <a href=\"%%url_link%%\">cliquer ici</a>."
+
+msgid "Our team is ready to support you anytime at :"
+msgstr "Notre équipe se fera un plaisir de vous aider en tout temps :"
+
+msgid "click the following link to create your username and password."
+msgstr "cliquer sur le lien suivant pour créer votre nom d'usager et mot de passe."
+
+msgid "If a link above doesn't work, please copy and paste the URL into a browser."
+msgstr "Si le lien ci-dessus ne fonctionne pas, svp copier et coller le URL dans votre navigateur"
+
+msgid "Updating Credentials"
+msgstr "Mise à jour de vos informations"
+
+msgid "Reset Account"
+msgstr "Réinitialiser votre compte"
+
+msgid "to reset your username and password."
+msgstr "pour réinitialiser votre nom d'usager et mot de passe"
+
+msgid "If you don't see the button  <a href=\"%%url_link%%\">click here</a>."
+msgstr "Si vous ne voyez pas le bouton <a href=\"%%url_link%%\">cliquer ici</a>."
+
+msgid "click the following link to reset your username and password."
+msgstr "cliquer sur le lien suivant pour réinitialiser votre nom d'usager et mot de passe"
+
+msgid "Account Updated"
+msgstr "Le compte est mis à jour"
+
+msgid "access confirmation"
+msgstr "comfirmation d'accès"
+
+msgid "Thank you for setting up your account to %%brand_clinic_name%%."
+msgstr "Merci d'avoir créé un compte chez %%brand_clinic_name%%."
+
+msgid "To login from %%brand_clinic_name%% , click on the button"
+msgstr "Pour se connecter à %%brand_clinic_name%% , cliquer sur le bouton"
+
+msgid "To login from %%brand_clinic_name%%, click the following link."
+msgstr "Pour se connecter à %%brand_clinic_name%% , cliquer sur le lien suivant"
+
+msgid "French"
+msgstr "Français"
+
+msgid "English"
+msgstr "Anglais"
+
+msgid "Spanish"
+msgstr "Espagnol"
+
+msgid "Portuguese"
+msgstr "Portugais"
+
+msgid "Dutch"
+msgstr "Néerlandais"
+
+msgid "Swedish"
+msgstr "Suédois"
+
+msgid "Turkish"
+msgstr "Turc"
+
+msgid "Include at least one numeric and/or special character(s) within this set !, @, #, $, %, * ."
+msgstr ""
+"Inclure au moins un caractère numérique et/ou un des symbole (s) suivant:  !, @, #, $, %, * ."
+
+msgid "Exit"
+msgstr "Sortie"
+
+msgid "Access all clients"
+msgstr "Accéder à tous les clients"
+
+msgid "Access own clients"
+msgstr "Accès propres clients"
+
+msgid "Can create corporate templates"
+msgstr "Peut créer des protocoles d'entreprise"
+
+msgid "Template creation"
+msgstr "Création de protocole"
+
+msgid "Activate"
+msgstr "Activer"
+
+msgid "UserName"
+msgstr "Nom d'utilisateur"
+
+msgid "Please change your Username and/or Password"
+msgstr "Veuillez changer votre nom d'utilisateur et/ou votre mot de passe"
+
+msgid "Invalid Password, Please enter a password with valid character set, Password should be alphanumeric and/or contain special character(s)!"
+msgstr "Le mot de passe est invalide, celui-ci doit contenir des caract&egrave;res alphanum&eacute;riques et/ou des symboles uniquement!"
+
+msgid "You must enter a name for that user!"
+msgstr "Vous devez entrer un nom pour cet usager!"
+
+msgid "Please select an access level for this user!"
+msgstr "Veuillez s&eacute;lectionner un niveau d'acc&egrave;s pour cet usager!"
+
+msgid "Please select a clinic for this user to access!"
+msgstr "Svp s&eacute;lectionnez une clinique &agrave; laquelle l'usager peut acc&eacute;der!"
+
+msgid "Invalid Password, Your password includes an invalid/bad character(s). Please remove it, Ex: %, +, /, \\, =, ^, `, {, |, }, ~, (, ), ,, <, >, & and white space."
+msgstr "Mot de passe invalide. Les caract&egrave;res suivants ne sont pas accept&eacute;s: %, +, /, \\, =, ^, `, {, |, }, ~, (, ), ,, <, >, & et espace vide"
+
+msgid "Invalid UserName, Your username includes an invalid/bad character(s). Please remove it, Ex: %, +, /, \\, =, ^, `, {, |, }, ~, (, ), <, >, &."
+msgstr "Nom d'usager invalide. Les caract&egrave;res suivants ne sont pas accept&eacute;s: %, +, /, \\, =, ^, `, {, |, }, ~, (, ), ,, <, >, & et espace vide"
+
+msgid "client"
+msgstr "client"
+
+msgid "Page"
+msgstr "Page"
+
+msgid "Note"
+msgstr "Note"
+
+msgid "All rights reserved."
+msgstr "Tous droits r&eacute;serv&eacute;s"
+
+msgid "Prepared on"
+msgstr "Pr&eacute;par&eacute; le"
+
+msgid "View Tracking sheet"
+msgstr "Voir la grille de suivi"
+
+msgid "Duration"
+msgstr "Dur&eacute;e"
+
+msgid "Save a copy"
+msgstr "Sauvegarder une copie"
+
+msgid "This action will delete all parameters from the program you are currently building."
+msgstr "Cette action supprimera tous les param&egrave;tres du programme sur lequel vous travaillez pr&eacute;sentement."
+
+msgid "Don't ask again"
+msgstr "Ne plus me poser la question"
+
+msgid "You must enter a title for your template."
+msgstr "Vous devez donner un titre au protocole."
+
+msgid "This template already exists. Do you want to replace it?"
+msgstr "Ce protocole existe d&eacute;j&agrave;. Voulez-vous le remplacer?"
+
+msgid "You must enter a title!"
+msgstr "Vous devez donner un titre!"
+
+msgid "This title already exist!"
+msgstr "Ce titre existe d&eacute;j&agrave;!"
+
+msgid "Template updated"
+msgstr "Le protocole a &eacute;t&eacute; mis &agrave; jour"
+
+msgid "Template saved"
+msgstr "Le protocole a &eacute;t&eacute; sauvegard&eacute;"
+
+msgid "You must Enter a program title!"
+msgstr "Vous devez donner un titre au programme!"
+
+msgid "Unable to find client!"
+msgstr "Impossible de trouver le client!"
+
+msgid "Client inactive or deleted!"
+msgstr "Client inactif ou supprim&eacute;!"
+
+msgid "No language associated with your license!"
+msgstr "Aucune langue n'est associ&eacute;e &agrave; votre licence!"
+
+msgid "This client already has a program with the same title"
+msgstr "Ce client poss&egrave;de d&eacute;j&agrave; un programme avec ce titre"
+
+msgid "You modified a program created by someone else.<br>Please save your modification before sending the email."
+msgstr "Vous avez modifi&eacute; un programme cr&eacute;&eacute; par un autre usager.<br>Veuillez le sauvegarder avant d'envoyer un email."
+
+msgid "Search favorites only"
+msgstr "Rechercher les favoris"
+
+msgid "Exercise(s) added to favorites"
+msgstr "Les exercices ont été ajoutér à vos favoris."
+
+msgid "Access to your exercise program has now expired. Please contact your healthcare professional. Thank You!"
+msgstr "L'accès à votre programme d'exercices est expiré. Veuillez contacter votre thérapeute. Merci!"
+
+msgid "Favorite"
+msgstr "Favoris"
+
+msgid "Favorites"
+msgstr "Favoris"
+
+msgid "Add Favorite"
+msgstr "Ajouter aux Favoris"
+
+msgid "Remove Favorite"
+msgstr "Retirer des Favoris"
+
+msgid "Favorites List"
+msgstr "Liste des Favoris"
+
+msgid "Back "
+msgstr "Retour "
+
+msgid "Modifications"
+msgstr "Modifications"
+
+msgid "Author"
+msgstr "Auteur"
+
+msgid "Date/time"
+msgstr "Date/heure"

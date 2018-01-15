@@ -1,0 +1,145 @@
+
+FICHIER MODIFICATION A UPLOADER
+
+--------------------------------------------------------
+
+24-11-2016
+
+
+cp 
+
+=PHP================ 
+
+	/define.php{
+		1.	le path de PATH_PRINT
+		}
+	/class/events.php{
+		1. 	creation de la classe
+		}	
+	/class/user.php{
+		1. 	modif "savePrintParameters()" qui retourne 1 au lieu d'un path
+		2. 	modif "getPrintParameters()" qui va changer le retour en envoyant 
+			des params au lieu d'un nom de fichier *.pdf
+		3. 	insertion des events lors du login:
+			$this->reg->get('events')->add(array(
+				'event' => 'login',
+				'detail' => 'do-login', 'detail' => 'auto-login', 'detail' => 'reload-login', 
+				));	
+		}
+	/inc/required.php{
+		1.	rajout de la classe "events.php"
+		2.	$oReg->set('events', new Events($oReg));
+		}
+		
+	
+=JAVASCRIPT=========
+
+	/js/jappz.js{
+		1.	modif fonction "savePrintParametersReturnFromServer()" qui ne gere plus le retour 
+			du lien cree en php,  mais plutot une gestion d'erreur si il y a lors du save
+		2.	modif fonction "buildPrintPdfLink()" qui creer le lien "strLink" de facon differente
+			en ne callant plus un nom de fichier mais en rajoutant un argument "params=" dans
+			le call du pdf, maintenant le fichier "pdf" est un fichier static
+		}
+	
+
+=CSS===============
+
+	
+
+--------------------------------------------------------
+
+24-10-2016
+
+=PHP================
+
+	/class/search.php{
+		1. remplacement dans la fonction par l'objet KwSearch qui s'occupe maintenant du autocomplete
+		2. remplacement dans la fonction par l'objet ExSearch qui s'occupe maintenant de la recherche
+		}
+	/class/kwsearch.php{
+		1. rajout de la classe
+		}
+	/class/exsearch.php{
+		1. rajout de la classe
+		}		
+	/class/utility.php{
+		1. add the method getClinicOptionTitle to retrieve the title of the clinic title
+		2. add the method getLicenceOptionTitle to retrieve the title of the licence
+		}		
+
+	
+=JAVASCRIPT=========
+
+	/js/jappz.js{
+		1. search-select-template-PAR NOM genre Physiotec Enr.
+		}
+	/js/jautocomplete.js{
+		1. le changement de la function de bolder des retours pour les keyword et client
+		}	
+
+
+=CSS===============
+
+	/css/global.css{
+		UL.navbar > LI
+		UL.navbar > LI > A
+		}		
+
+
+--------------------------------------------------------
+
+02-04-2016
+
+=PHP================
+
+	/class/search.php {
+		- remove things
+		}
+
+	/class/client.php {
+		- mb_strtolower des noms
+		- remove things
+		}
+
+	/class/utility.php {
+		- remove inutile properties
+		}
+
+	/class/user.php {
+		- change acces rights =0 no acces =1 all access =2 than put it at =0
+		}
+
+	/inc/helpers.php {
+		- clean string
+		}
+
+	
+
+=JAVASCRIPT=========
+
+	/js/jautocomplete.js {
+		- ucfirst
+		}
+
+	/js/jutils.js {
+		- rajout de ucfirst
+		}
+
+	/js/jclient.js {
+		- rajout de ucfirst
+		}
+
+
+
+	
+
+=CSS===============
+
+
+
+
+
+
+
+--------------------------------------------------------

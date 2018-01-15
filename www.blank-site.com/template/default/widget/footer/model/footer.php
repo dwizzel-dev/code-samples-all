@@ -1,0 +1,63 @@
+<?php
+/**
+@auth:	Dwizzel
+@date:	00-00-0000
+@info:	Footer model
+
+*/
+
+
+
+class widgetFooterModel{
+	
+	//vars
+	private $reg;
+	private $glob;	
+	private $wname;
+
+	//construct
+	public function __construct(&$reg, &$glob, $wname){
+		$this->reg = $reg;
+		$this->glob = $glob;	
+		$this->wname = $wname;
+		}
+	
+	//get the carousel data	
+	public function getData(){
+		//vars
+		$lang = $this->glob->get('lang');
+		//cache
+		$widgetFileName = 'widget.'.$this->wname.'.'.$lang;
+		$bFileExist = false;
+		$arrData = $this->reg->get('cache')->cacheRead($widgetFileName);	
+		if(is_array($arrData)){
+			return $arrData;
+		}else{
+			//on va chercher dans la DB
+			$query = 'SELECT '.DB_PREFIX.'widget.data AS "data" FROM '.DB_PREFIX.'widget INNER JOIN '.DB_PREFIX.'languages ON '.DB_PREFIX.'languages.id = '.DB_PREFIX.'widget.language_id WHERE '.DB_PREFIX.'widget.status = "1" AND '.DB_PREFIX.'widget.alias = "'.$this->wname.'" AND '.DB_PREFIX.'languages.code = "'.$lang.'" LIMIT 0,1;';
+			$rs = $this->reg->get('db')->query($query);
+			if($rs->num_rows){
+				$arrData = unserializeFromDbData($rs->rows[0]['data']);
+				array_walk_recursive($arrData,'formatSerializeRev');
+				if(count($arrData)){
+					//cache
+					$this->reg->get('cache')->cacheWrite($widgetFileName, $arrData);
+					return $arrData;
+					}
+				}
+			}
+		return false;
+		}	
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+//END	
+	
+	
+	

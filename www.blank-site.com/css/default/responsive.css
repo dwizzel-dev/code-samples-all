@@ -1,0 +1,905 @@
+﻿@charset "UTF-8";
+
+/*
+
+ NOTES:
+ 
+ regex for changes
+ 
+ width:
+	768px
+ colors: 
+	#EBF2F6
+	#2668A9
+	#FF9300
+	#009EFF
+	#2668A9
+	#FF00FF
+	#1076BB
+	#F1F8FC
+	#FFF
+	#000
+	#333
+
+*/
+
+.hide{
+	display:initial;
+	}
+.show{
+	display:none;
+	}
+
+/*----------- MEDIA ---------------*/
+
+
+/*	
+@media(max-width:375px){
+	BODY{
+		background-color: #888;
+		}
+	h1, .h1 {
+		font-size: 180%;
+		}
+	p {
+		line-height: 150%;
+		font-size: 90%;
+		}	
+	.section-block H1, .section-block H2 {
+		font-size: 180%;
+		}
+	.footer .footer-infos .infos-inner {
+		width:100%;
+		}
+	}	
+*/	
+
+	
+@media(max-width:767px){
+	.main-container{
+		width:100%;
+		}
+	h1, .h1 {
+		font-size: 200%;
+		}
+	p {
+		line-height: 150%;
+		font-size: 100%;
+		}
+	#menu-up,	
+	#scroller-up {
+		width:64px;
+		}
+	#menu-up.showing,	
+	#scroller-up.showing {
+		bottom: 20px;
+		}	
+	.hide{
+		display:none;
+		}
+	.show{
+		display:block;	
+		}
+	.header {
+		padding-bottom: 20px;
+		}	
+	.cols.c2,
+	.cols.c3,		
+	.cols.c4,
+	.cols.c5,
+	.cols.c6,
+	.cols.c7,
+	.cols.c8,
+	.cols.c9,
+	.cols.c10,
+	.cols.c11,
+	.cols.c12{	
+	    width: 100%;	
+		}
+	.frontpage-inner.arrowed-try-it-free .ctitle{
+		/*width:83.33%;*/
+		}
+	.frontpage-inner.arrowed-try-it-free .carrow{
+		display:none;
+		}	
+	.frontpage-block H3 {
+		font-size: 240%;
+		}
+	.section-block {
+		padding: 30px 8.333% 60px;
+		}	
+	.section-block H1, .section-block H2 {
+		font-size: 200%;
+		}
+	.section-block DIV.cbutton {
+		width: 100%;
+		margin: 20px 0 0;
+		min-width:initial;
+		}
+	.section-block DIV.cbutton.second {
+		margin: 20px 0 0 0;
+		}
+	.section-block DIV.cbutton A {
+		font-size:70%;
+		}
+	.section-block P.smaller1 {
+		margin-bottom: 30px;
+		}	
+	.section .tuile-3 .block-1 {
+		padding-top: 0px;
+		}
+	.section .tuile-3 .block-1 .title {
+		font-size:120%;
+		padding-top: 30px;
+		}
+	.section .tuile-3 .block-1 .img.tablet {
+		padding: 20px 0 0;
+		}
+	.section .tuile-3 .block-2 {
+		padding-top: 40px;
+		}
+	.section .tuile-3 .block-3 {
+		padding-top: 30px;
+		}
+	.section .tuile-4 .block-2 H3 {
+		font-size: 150%;
+		}
+	.section .tuile-4 .block-2-aa-1{
+		padding:0;	
+		}
+	.section .tuile-4 .block-2-aa-1 .cols.c2{
+		width:33%;
+		padding:5px;
+		}
+	.section .tuile-4 .block-2-aa .img{
+		padding: 10px;
+		min-height: 140px;
+		}
+	.section .tuile-4 .block-2-a {
+		margin-top: 30px;
+		}	
+	.section .tuile-4 .block-2-a .img,	
+	.section .tuile-4 .block-2-b .img{
+		width: 20%;	
+		}
+	.section .tuile-4 .block-2-a .title,
+	.section .tuile-4 .block-2-b .title	{
+		font-size:140%;	
+		width: 80%;	
+		padding-left: 20px;
+		}
+	.module-inner{
+		min-height:initial;
+		}
+	.module .r-0 .c-0,
+	.module .r-1 .c-0{
+		background-color:#2668A9;		
+		color:#FFF;
+		}
+	.module .r-0 .c-1,
+	.module .r-1 .c-1{
+		background-color:#F1F8FC;	
+		color:#000;
+		}	
+	.footer .infos-socialmedia {
+		float: left;
+		clear: both;
+		}
+	.footer UL.social-media > li.footer-mediaicons{
+		margin-left: 0;
+		margin-right:5px;
+		}
+	.footer UL.footer-menu {
+		padding-top: 0;
+		font-size:100%;
+		}
+	.footer .footer-infos .infos-inner{
+		width:50%;
+		padding-right:0;
+		padding-bottom: 40px;
+		}
+	.footer .footer-infos .infos-inner P {
+		font-size: 85%;
+		margin-bottom: 10px;
+		}	
+	.footer UL.footer-menu LI.column {
+		display: block;
+		padding-left: 0;
+		margin-left: 0;
+		border-left: 0;
+		width: 100%;
+		padding-top: 30px;
+		}	
+	.footer UL.sub-footer-menu {
+		padding-bottom: 10px;
+		}
+	.footer .copyright {
+		float: left;
+		}	
+	BODY.patient .block-1-b {
+		padding-top: 60px;
+		}
+	BODY.patient .block-6 {
+		padding-bottom: 0;	
+		}
+	BODY.patient .block-6-a-1 {
+    	padding-top: 30px;
+		}	
+	BODY.patient .block-6-a-1 H2 {
+		font-size: 200%;
+		}
+	BODY.patient .block-6-a-2 {
+		padding-top: 0;
+		}
+	BODY.patient .block-6-a-2 .img {
+		padding: 0;
+		}	
+	BODY.patient .block-6-a-2 .bulle-cols-l {
+		padding-right: 0;
+		}
+	BODY.patient .block-6-a-2 .bulle-cols-r {
+		padding-left:0;
+		}	
+	BODY.patient .block-6-a-3 {
+		text-align: left;
+		}
+	BODY.patient .block-7 {
+		padding-bottom: 40px;
+		}	
+	BODY.patient .block-7-a {
+		padding-bottom: 40px;
+		}	
+	BODY.patient .block-7-b-1-a {
+		width: 50%;
+		}
+	BODY.physio .block-3 .img {
+		padding: 0;
+		}
+	BODY.physio .block-3 .img.screen {
+		padding: 0;
+		}	
+	BODY.physio H2 {
+		font-size: 200%;
+		}
+	BODY.physio .block-4 {
+		padding-top: 30px;
+		}
+	BODY.physio .block-4-a, 
+	BODY.physio .block-4-b {
+		/*width: 50%;*/
+		padding-top:0px;
+		text-align: center;
+		}
+	BODY.physio .block-4-a .cols, 
+	BODY.physio .block-4-b .cols {
+		display: block;
+		}
+	BODY.physio .block-4-a .img IMG, 
+	BODY.physio .block-4-b .img IMG{
+		max-width:70%;
+		}
+	BODY.physio .block-4-c-1 .c3{
+		width:20%
+		}
+	BODY.physio .block-4-c-1 .c1{
+		width:0%
+		}	
+	BODY.physio .block-4-c-1 .c7{
+		width:80%;
+		padding-left: 20px;
+		}	
+	BODY.physio .block-4-c H3 {
+		padding-top: 0px;
+		}
+	BODY.physio .block-4-c-2 {
+		margin-top: 30px;
+		}	
+	BODY.physio2 .block-5,
+	BODY.physio .block-5{ 
+		padding-top: 30px;
+		padding-bottom: 60px;
+		}
+	BODY.physio2 .block-5 .img,
+	BODY.physio .block-5 .img {
+		padding: 0 50px;
+		}
+	BODY.physio2 .block-5-a .img.tablet,
+	BODY.physio .block-5-a .img.tablet{
+		padding: 60px 0 0;
+		}
+	BODY.physio .block-6 {
+		padding-top: 30px;
+		padding-bottom: 40px;
+		}	
+	BODY.physio .block-6-a .img {
+		width: 20%;
+		}	
+	BODY.physio .block-6-a .title {
+		padding: 0px 0px 20px 20px;
+		width: 80%;
+		}	
+	BODY.physio .block-6-a .title H3 {
+		font-size: 140%;
+		}
+	BODY.physio .block-7 {
+		padding-top: 30px;
+		}
+	BODY.physio .block-7-a .img {
+		width: 20%;
+		}	
+	BODY.physio .block-7-a .title {
+		padding: 0px 0px 20px 20px;
+		width: 80%;
+		}	
+	BODY.physio .block-7-a .title H3 {
+		font-size: 140%;
+		}
+	BODY.physio-integrate .rinfos .img {
+		padding: 30px 80px;
+    	}
+	BODY.library DIV.ul-container UL {
+		padding-left: 20px;	
+		}
+	BODY.library DIV.ul-container UL:first-child {
+		padding-left: 20px; 
+		border-left: 1px solid #FF9300;
+		}
+		
+	BODY.details .content H1 {
+		font-size: 200%;
+		}	
+	BODY.standard .pagination UL > LI {
+		min-width: 16%;
+		}
+	BODY.standard .content H2 {
+		font-size: 125%;
+		}	
+	.exercise-exercises-result OL, 
+	.exercise-filters-result OL, 
+	.exercise-categories-result OL {
+		padding: 0;
+		}
+	.exercises-library .cols.exercise {
+		padding-right: 0;
+		padding-bottom: 20px;
+		}
+	.exercises-library .cols.exercise .title {
+		padding-top:10px;
+		font-size: 100%;
+		}
+	.exercises-library-2 h2 {
+		font-size: 100%;
+		}
+	.exercise-details-result DIV.ex-images{
+		padding-top:0px;
+		}		
+	.exercise-details-result DIV.ex-images .cols:first-child {
+		margin-right: 0;
+		}
+	.exercise-details-result DIV.ex-images .img {
+		margin-top: 20px;
+		}
+	.exercise-details-result DIV.ex-settings input[type="text"] {
+		width: 100%;
+		font-size:100%;
+		padding:5px;
+		}
+	.exercise-details-result DIV.ex-settings h4{
+		font-weight:600;
+		}
+	.exercise-details-result UL.categories2 H4, 
+	.exercise-details-result UL.categories H4 {
+		margin-top: 30px;
+		}	
+	.exercise-details-result DIV.ex-settings P {
+		margin-bottom: 20px;
+		}
+	.exercise-listing-result DIV.image{
+		max-width: 135px;
+		}	
+	.exercise-listing-result DIV.text {
+		padding-left: 0;
+		padding-top: 20px;
+		}
+	.saved-exercises-listing .title{
+		padding-left: 0px;
+		padding-top: 20px;
+		}	
+	.saved-exercises-listing UL {
+		padding: 0;
+		}	
+	BUTTON.btn{
+		padding:10px 20px;
+		}
+	DIV.sidebar {
+		padding:50px 0 0;	
+		font-size:100%;
+		}
+	.exercises-library .rows.categories .carousel .innered {
+		width: 80%;
+		}
+	.exercises-library .rows.categories .carousel .cright-arrow,
+	.exercises-library .rows.categories .carousel .cleft-arrow{	
+		width: 10%;
+		}	
+	.exercises-library .rows.categories .carousel .container .block{
+		width: 240px;
+		padding: 0px 5px;
+		}	
+	.exercises-library .rows.categories .carousel .cleft-arrow IMG, 
+	.exercises-library .rows.categories .carousel .cright-arrow IMG{
+		width: 24px;
+		}
+		
+	/* 	ANIMATION */
+	
+	.frontpage .real-software-orange .frontpage-inner,
+	.frontpage .real-software-bleu .frontpage-inner{
+		background-position-x: -450px;
+		}
+	
+	.frontpage .real-software-orange .frontpage-inner.bg-anim,
+	.frontpage .real-software-bleu .frontpage-inner.bg-anim{
+		background-position-x:-150px;
+		}	
+	
+		
+	
+	}
+
+	
+	
+@media(min-width:1024px) and (max-width:1279px){
+	BODY{
+		/*background-color: #ff00ff;*/
+		}
+	h1, .h1{
+		font-size:410%;
+		}
+	h2, .h2 {
+		font-size: 220%;
+		}
+	P, .P{
+		font-size:100%;
+		}	
+	.main-container{
+		width:1024px;
+		}	
+	DIV.top-menu{
+		padding: 20px 0 0 0;
+		}
+	DIV.top-menu UL.menu {
+		font-size: 89%;
+		}
+	.header {
+		padding-bottom: 20px;
+		}
+	.section-block {
+		padding: 60px 8.333% 110px;
+		}
+	.section-block H1, .section-block H2 {
+		font-size: 410%;
+		}
+	.section-block H1.mb2, .section-block H2.mb2 {
+		margin-bottom: 50px;
+		}	
+	.section-block DIV.cbutton {
+		margin-top: 30px;
+		min-width: 200px;
+		}
+	.section-block DIV.cbutton A {
+		font-size: 100%;
+		}		
+	.section-block DIV.mt1 {
+		margin-top: 50px;
+		}
+	.section-block P.smaller1 {
+		font-size: 120%;
+    	}
+	.section .tuile-3 .block-1 .img.tablet {
+		padding: 20px 30px 0;
+		}
+	.section .tuile-3 .block-1 .title {
+		font-size: 100%;
+    	}
+	.section .tuile-4 .block-2-b .title {
+		font-size: 140%;
+    	}
+	.section .tuile-4 .block-1 {
+		padding: 60px 10px;	
+		}	
+	.section .tuile-4 .block-1 .title {
+		font-size: 280%;		
+		}
+	.section .tuile-4 .block-2 H3 {
+		font-size: 260%;
+		}
+	.section .tuile-4 .square-arrowdown {
+		width: 60px;
+		height: 60px;
+    	}	
+	.section .tuile-4 .block-2-aa .img{
+		padding: 10px;
+		min-height: 100px;
+		}	
+	.module-block DIV.cbutton{
+		width: 75%;
+		float:initial;
+		margin: 50px auto;
+		}
+	.frontpage-block H3{
+		font-size:410%;
+		}
+	.footer .footer-infos .infos-inner{
+		width:25%;
+		}
+	.footer UL.footer-menu {
+		font-size: 85%;
+		}	
+	BODY.patient .block-1-a .img {
+		padding: 0 35px;
+		}	
+	BODY.physio .block-4-c H3{
+		font-size: 180%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		}	
+	UL.breadcrumb {
+		font-size: 100%;
+		}	
+	DIV.breadcrumb {
+		padding-top: 16px;
+		}
+	.frontpage-block {
+		padding: 40px 8.333%;
+		}
+	BODY.patient .block-6-a-1 H2 {
+		font-size:410%;
+		}
+	BODY.physio H2 {
+		font-size:410%;
+		}
+	BODY.physio .block-6-a .title H3 {
+		font-size: 130%;
+    	}
+	BODY.physio .block-7-a .title H3{
+		font-size: 130%;	
+		}	
+	BODY.details .content H1 {
+		font-size: 260%;
+		}
+	P.superbig-text{
+		font-size:460% !important;
+		}	
+	P.med-text{
+		font-size:190% !important;
+		}	
+	}
+
+
+
+@media(min-width:1280px){
+	BODY{
+		/*background-color: #eee;*/
+		}
+	.pad.pall{
+		padding-top:30px;
+		}	
+	.pad.pt{
+		padding-top:30px;
+		}
+	.pad.pbt{
+		padding-top:30px;
+		}	
+	.main-container{
+		width:1280px;
+		}
+	.header{
+		padding-bottom: 20px;
+		}	
+	.header .logo{
+		padding-top:15px;
+		}
+	.header .top-menu {
+		float: right;
+		padding: 33px 0 0 0;
+		}	
+	.header .top-menu UL.menu{
+		font-size: 87%;
+		}
+	.header .top-menu UL.menu LI{
+		padding: 0 24px 0 0;	
+		}
+	.header .top-slogan {
+		float: right;
+		clear: none;
+		padding-top:0;
+		padding-right:30px;
+		}		
+	.section-block H1, 
+	.section-block H2 {
+		font-size:500%;
+		}
+	.section-block{
+		padding: 90px 8.333%;
+		}
+	.section-block DIV.cbutton A {
+		font-size: 130%;
+		}	
+	.section-block DIV.cbutton {
+		min-width: 280px;
+		padding:14px;
+		margin-top: 50px;
+		}
+	.section .tuile-1 .section-block{
+		padding: 90px 8.333% 140px;
+		}	
+	.section-block H1.mb2, 
+	.section-block H2.mb2{
+		margin-bottom: 60px;
+		}
+	.section-block DIV.mt1 {
+		margin-top: 60px;
+		}
+	.section-block P.smaller1 {
+		font-size: 130%;
+		line-height: 200%;
+		}	
+	.section .tuile-3 .section-block P.small{
+		font-size: 240%;
+		line-height: 240%;
+		}
+	.section .tuile-3 .block-1 .title {
+		font-size: 140%;
+		}
+	.section .tuile-3 .block-1{
+		padding-top: 160px;
+		
+		}
+	.section .tuile-3 .block-1 .img.mobile{
+		}
+	.section .tuile-3 .block-1 .img.tablet{
+		padding:20px 40px;
+		}		
+	.section .tuile-3 .block-1 .img.desktop{
+		padding: 20px 10px;
+		}
+	.section .tuile-4 .block-1{
+		padding: 70px 10px;
+		}
+	.section .tuile-4 .block-1 .title {
+		font-size: 360%;
+		}	
+	.section .tuile-4 .block-1 .square {
+		width: 70px;
+		height: 70px;
+		border-width: 2px;
+		}	
+	.section .tuile-4 .square-arrowdown {
+		width: 70px;
+		height: 70px;
+    	}	
+	.section .tuile-4 .block-2 {
+		margin-top: 15px;	
+		}
+	.section .tuile-4 .block-2 H3 {
+		font-size: 340%;
+		}
+	.section .tuile-4 .block-2-aa .img {
+		padding:10px;
+		min-height: 120px;
+		}
+	.section .tuile-4 .block-2-aa {
+		padding-bottom: 40px;
+		}
+	.section .tuile-4 .block-2-a H4 {
+		font-weight: 800;
+		font-size: 230%;
+		}	
+	.section .tuile-4 .block-2-b .img IMG{	
+		width:66px;
+		}
+	.section .tuile-4 .block-2-b .title {
+    	font-size: 210%;
+		}
+	.module-inner{
+		min-height:500px;
+		padding-top:30px;
+		}
+	.module-item {
+		text-align: left;
+		}
+	.module-item .img{	
+		position:relative;
+		padding:0;
+		width: 50%;
+		}	
+	.module-item .title {
+		clear: none;
+		padding-top:30px;
+		width: 50%;
+		}	
+	.module-caption {
+		text-align: left;
+		}
+	.module-block P {
+		font-size: 100%;
+		}
+	.module-block DIV.cbutton{
+		min-width: 280px;
+		padding: 14px;
+		margin-top: 50px;
+		font-size: 130%;
+		width:initial;
+		float:left;
+		}
+	.frontpage-inner.arrowed-try-it-free .carrow .img{
+		/*width: 80%;*/
+		}	
+	.frontpage-block {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		}
+	.frontpage-block P {
+		font-size: 100%;
+		}	
+	.frontpage-block H3{
+		font-size:500%;
+		}
+	.footer .footer-infos .infos-inner{
+		width: 20%;
+		}	
+	.footer UL.footer-menu {
+		font-size: 90%;
+		}
+	h1, .h1{
+		font-size:500%;
+		}
+	h2, .h2 {
+		font-size: 220%;
+		}
+	P, .P{
+		font-size:100%;
+		}
+	UL.breadcrumb {
+		font-size: 120%;
+		}
+	BODY.patient .block-2,
+	BODY.patient .block-3,
+	BODY.patient .block-4,
+	BODY.patient .block-5{
+		padding-top:90px;
+		}			
+	BODY.patient .block-1-a .img {
+		padding: 0 60px;
+		}
+	BODY.patient .block-1-b .img {
+		padding: 0 20px;
+		}	
+	BODY.patient .block-6-a-1 H2{
+		font-size:500%;
+		}	
+	BODY.patient .block-6-a-1 {
+        padding-top: 90px;
+		}
+	BODY.patient .block-6-a-2 H4 {
+		font-size: 160%;
+		font-weight: 600;
+		}
+	BODY.patient .block-7{
+		padding-top:70px;
+		padding-bottom:150px;
+		}		
+	BODY.patient .block-7 H3 {
+		font-size: 220%;
+		}	
+	BODY.library DIV.ul-container {
+    	font-size: 140%;
+		}
+	.exercises-library .rows.categories {
+		padding-bottom: 80px;
+		padding-top: 60px;
+		}	
+	.exercises-library .loupe {
+		width: 52px;
+		}
+	.exercises-library .cols.exercise .title {
+		font-size: 110%;
+		font-weight: 700;	
+		}
+	.exercises-library-2 h2{
+		font-size:220%;
+		}	
+	BODY.physio H2 {
+		font-size: 500%;	
+		}
+	BODY.physio .block-3{
+		padding-top:30px;
+		padding-bottom:90px;
+		}	
+	BODY.physio .block-4{
+		padding-top: 90px;
+		padding-bottom: 120px;
+		}
+	/*	
+	BODY.physio .block-4-a .cols, 
+	BODY.physio .block-4-b .cols {
+		padding: 28px;
+		}	
+	*/
+	BODY.physio .block-4-a .img IMG, 
+	BODY.physio .block-4-b .img IMG{
+		padding:30px;
+		}
+	BODY.physio .block-4-c H3 {
+		font-size: 240%;
+		padding-top: 40px;
+		padding-bottom: 30px;
+		}
+	BODY.physio .block-5 {
+		padding-top: 90px;
+		padding-bottom: 120px;
+		}	
+	BODY.physio .block-5-a .img.tablet{
+		padding-left: 80px;
+		padding-top: 270px;	
+		}
+	BODY.physio .block-6{
+		padding-top: 90px;
+		padding-bottom: 120px;
+		}	
+	BODY.physio .block-6-a{
+		padding-top: 70px;
+		}
+	BODY.physio .block-6-a .title H3 {
+		font-size: 200%;
+		}
+	BODY.physio .block-6-a .title P {
+		font-size: 100%;
+		}
+	BODY.physio .block-7{
+		padding-top: 90px;
+		padding-bottom: 90px;
+		}
+	BODY.physio .block-7 H2 {
+		margin-bottom: 50px;
+		}
+	BODY.physio .block-7-a {
+		padding-top: 60px;
+		}	
+	BODY.physio .block-7-a .title H3 {
+		font-size: 200%;
+		}	
+	BODY.physio .block-7-a .title P {
+		font-size: 100%;
+		}	
+	BODY.details .content H1 {
+		font-size: 320%;
+		}	
+	DIV.exercise-details-result UL.exercises LI, 
+	DIV.exercise-details-result UL.filters LI{
+		font-size:100%;
+		}
+	P.superbig-text{
+		font-size:520% !important;
+		}
+	P.med-text{
+		font-size:220% !important;
+		}	
+	
+	}
+	
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	

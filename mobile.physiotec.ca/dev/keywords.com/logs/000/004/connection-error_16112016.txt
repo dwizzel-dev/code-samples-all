@@ -1,0 +1,24 @@
+09:20:56	physiotec_dev[0]Error: Unknown database 'physiotec_dev' Error No: 1049
+
+09:21:00	physiotec_dev[0]Error: Unknown database 'physiotec_dev' Error No: 1049
+
+09:21:07	physiotec_dev[0]Error: Unknown database 'physiotec_dev' Error No: 1049
+
+09:21:10	physiotec_dev[0]Error: Unknown database 'physiotec_dev' Error No: 1049
+
+09:21:12	physiotec_dev[0]Error: Unknown database 'physiotec_dev' Error No: 1049
+
+09:21:13	physiotec_dev[0]Error: Unknown database 'physiotec_dev' Error No: 1049
+
+09:21:14	physiotec_dev[0]Error: Unknown database 'physiotec_dev' Error No: 1049
+
+09:21:17	physiotec_dev[0]Error: Unknown database 'physiotec_dev' Error No: 1049
+
+09:21:17	physiotec_dev[0]Error: Unknown database 'physiotec_dev' Error No: 1049
+
+09:21:19	physiotec_dev[0]Error: Unknown database 'physiotec_dev' Error No: 1049
+
+09:21:34	physiotec_dev[0]Error: Unknown database 'physiotec_dev' Error No: 1049
+
+09:21:44	physiotec_dev[0]Error: Unknown database 'physiotec_dev' Error No: 1049
+

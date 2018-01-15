@@ -1,0 +1,103 @@
+﻿@charset "UTF-8";
+
+/*----------- OVERWRITE FOR EDITOR ----------*/
+
+.directphp {
+    font-size: 14px !important;
+    border: 1px dotted #000 !important;
+    padding: 10px !important;
+    margin: 10px 0 !important;
+    color: #000 !important;
+	}
+
+/*DIV.frontpage-block P{*/
+P{
+	font-size: 200%;
+	line-height: 100%;
+	color: #aaa;
+	margin-bottom: 0;
+}
+P.big{
+	font-size: 240%;
+	line-height: 100%;
+	margin-bottom: 0;
+	}	
+P.bigger{
+	font-size: 300%;
+	line-height: 100%;
+	margin-bottom: 0;
+	text-transform: uppercase;	
+	}	
+.cblack{
+    color: #000 !important;
+	}
+.corange{
+	color:#ff6600 !important;
+	}
+/*DIV.frontpage-block DIV.cbutton {*/
+DIV.cbutton{
+    font-size: 100%;
+    line-height: 100%;
+    color: #999;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    border: 2px solid #999;
+    float: left;
+    padding: 10px 20px;
+    margin-top: 20px;
+	}
+/*DIV.frontpage-block DIV.cbutton A {*/
+DIV.cbutton A {
+    color: #999;
+	}
+/*DIV.frontpage-block DIV.cbutton A:hover {*/
+DIV.cbutton A:hover {
+    text-decoration: none;
+    color: #333;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
